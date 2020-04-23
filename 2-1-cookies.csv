@@ -284,12 +284,6 @@ visit_id,record_type,change_cause,host,name,value,time_stamp
 1,added-or-changed,explicit,.adnxs.com,uuid2,9214135878186828430,2020-04-23T01:51:27.165Z
 1,deleted,overwrite,i.liadm.com,_li_ss,MgUIBhC1DDIFCAoQtQwyBQh6ELQMMgYIiwEQtQwyBQgLELUMMgUICxC1DDIFCHkQtAwyBgiSARC1DDIGCIEBELQMMgYIkAEQtAwyBQgJELUMMgUIexC0DDIGCIgBELUMMgYIhgEQtAwyBQgNEKcM,2020-04-23T01:51:29.155Z
 1,added-or-changed,explicit,i.liadm.com,_li_ss,MgUIBhC1DDIFCAoQtQwyBQh6ELQMMgYIiwEQtQwyBQgLELUMMgUICxC1DDIFCHkQtAwyBgiSARC1DDIGCIEBELQMMgYIkAEQtAwyBQgJELUMMgUIexC0DDIGCIgBELUMMgYIhgEQtAwyBQgNEKcM,2020-04-23T01:51:29.156Z
-1,added-or-changed,explicit,survey.o.webmd.com,AWSALB,FrteHNVMfkBdlj2d5gU1iC/7wBrphBuqFqc4S1T0mfR6lvrpMFNAToJwk8yLe5FbXLJy31MpeIhzcbm0nnWFNzrM2te7dVHT0rd7AabZ0e3oZFEVWh5za4xoHENl,2020-04-23T01:51:32.194Z
-1,added-or-changed,explicit,survey.o.webmd.com,AWSALBCORS,FrteHNVMfkBdlj2d5gU1iC/7wBrphBuqFqc4S1T0mfR6lvrpMFNAToJwk8yLe5FbXLJy31MpeIhzcbm0nnWFNzrM2te7dVHT0rd7AabZ0e3oZFEVWh5za4xoHENl,2020-04-23T01:51:32.194Z
-1,deleted,overwrite,survey.o.webmd.com,AWSALB,0aiG/qfHitN9Cy7q/I225+R+t3kwEUDG88KT1fervjEGj6MkTJQ6cMZ0vBirGLsqICYhXnuHVhEQQZQ5tKYoboPCqWHTpK/wrX/Y+SY7zeL7FQHfptxu5Zx6av2F,2020-04-23T01:51:32.242Z
-1,added-or-changed,explicit,survey.o.webmd.com,AWSALB,0aiG/qfHitN9Cy7q/I225+R+t3kwEUDG88KT1fervjEGj6MkTJQ6cMZ0vBirGLsqICYhXnuHVhEQQZQ5tKYoboPCqWHTpK/wrX/Y+SY7zeL7FQHfptxu5Zx6av2F,2020-04-23T01:51:32.244Z
-1,deleted,overwrite,survey.o.webmd.com,AWSALBCORS,0aiG/qfHitN9Cy7q/I225+R+t3kwEUDG88KT1fervjEGj6MkTJQ6cMZ0vBirGLsqICYhXnuHVhEQQZQ5tKYoboPCqWHTpK/wrX/Y+SY7zeL7FQHfptxu5Zx6av2F,2020-04-23T01:51:32.245Z
-1,added-or-changed,explicit,survey.o.webmd.com,AWSALBCORS,0aiG/qfHitN9Cy7q/I225+R+t3kwEUDG88KT1fervjEGj6MkTJQ6cMZ0vBirGLsqICYhXnuHVhEQQZQ5tKYoboPCqWHTpK/wrX/Y+SY7zeL7FQHfptxu5Zx6av2F,2020-04-23T01:51:32.246Z
 1,added-or-changed,explicit,www.surveywriter.net,AWSALB,AcltzHdkZi3wogV+107kQwKodBvcJYeY3aLDIY6EuKgM7gXurq4DGTlSBsCxpHi9q/O3AwTVZPbiwP1S1Z+j9PjHUorukZZEaNE2qKEyeo6uY9axSSwcz5sfOvhr,2020-04-23T01:51:53.929Z
 1,added-or-changed,explicit,www.surveywriter.net,AWSALBCORS,AcltzHdkZi3wogV+107kQwKodBvcJYeY3aLDIY6EuKgM7gXurq4DGTlSBsCxpHi9q/O3AwTVZPbiwP1S1Z+j9PjHUorukZZEaNE2qKEyeo6uY9axSSwcz5sfOvhr,2020-04-23T01:51:53.932Z
 1,deleted,overwrite,www.surveywriter.net,AWSALB,XowHms93GWZYvciCw0S7I2tjE3s39h8pXvggHV8Ilbj4JQ3AaiRsk128QJ6D+S7B7XbaslebDHx5zFhWGJRi8H5HOe/jbdGBRbuIFNki9MeRwpYl/Si5vUe3ScKI,2020-04-23T01:51:53.945Z
