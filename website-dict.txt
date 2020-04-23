@@ -1,0 +1,32 @@
+cookies_dict = {
+  "nytimes": ['.nytimes.com', '.et.nytimes.com', 'www.nytimes.com', '.a.nytimes.com', 'static01.nyt.com'],
+  "webmd": ['.www.webmd.com', '.webmd.com', '.css.webmd.com', '.js.webmd.com','.img.webmd.com', 'www.webmd.com', 'survey.o.webmd.com', '.staging.webmd.com'],
+  "berkeley": ['.berkeley.edu', '.www.berkeley.edu', 'www.berkeley.edu', 'matrix.berkeley.edu', \
+               'give.berkeley.edu', 'news.berkeley.edu', '.news.berkeley.edu', 'bconnected.berkeley.edu',\
+               '.publichealth.berkeley.edu', 'greatergood.berkeley.edu']
+}
+
+
+js_dict = {
+  "nytimes": ['https://static01.nyt.com', 'https://www.nytimes.com', 'https://myaccount.nytimes.com'],
+  "webmd": ['https://js.webmd.com', 'https://www.webmd.com', 'https://img.webmd.com', \
+            'https://survey.o.webmd.com', 'https://js.staging.webmd.com'],
+  "berkeley": ['https://www.berkeley.edu', 'https://bconnected.berkeley.edu', 'https://give.berkeley.edu', \
+               'https://news.berkeley.edu', 'https://greatergood.berkeley.edu', 'https://matrix.berkeley.edu', \
+               'https://irle.berkeley.edu', 'https://publichealth.berkeley.edu',  'https://calparents.berkeley.edu',\
+               'https://vcue.berkeley.edu']
+}
+
+
+
+http_dict = {
+  "nytimes": ['https://www.nytimes.com', 'https://nytimes.com', 'https://a.et.nytimes', 'https://et.nytimes.com','https://static01.nyt.com', \
+              'https://a.nytimes.com' ,'https://g1.nyt.com', 'https://als-svc.nytimes.com', 'https://content.api.nytimes.com', 'https://purr.nytimes.com',\
+              'https://samizdat-graphql.nytimes.com',  'https://meter-svc.nytimes.com',  'https://mwcm.nytimes.com',  'https://myaccount.nytimes.com'],
+  "webmd": ['https://www.webmd.com', 'https://css.webmd.com', 'https://js.webmd.com','https://img.webmd.com',  'http://img.webmd.com',\
+            'https://ssl.o.webmd.com' , 'https://survey.o.webmd.com', 'https://js.staging.webmd.com', 'https://css.staging.webmd.com'],
+  "berkeley": ['https://www.berkeley.edu', 'https://news.berkeley.edu', 'https://matrix.berkeley.edu', 'http://give.berkeley.edu', \
+               'http://bconnected.berkeley.edu', 'https://bconnected.berkeley.edu', 'https://greatergood.berkeley.edu', \
+               'https://irle.berkeley.edu',  'https://publichealth.berkeley.edu', 'https://calparents.berkeley.edu',  \
+               'http://vcue.berkeley.edu','https://vcue.berkeley.edu', 'http://events.berkeley.edu','https://events.berkeley.edu']
+}
