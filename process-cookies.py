@@ -83,15 +83,15 @@ def merge_cookies(jsc_cookies, js_cookies, http_cookies):
     return bigcookies
 
 if __name__ == '__main__':
-    experiment_num = sys.argv[0] #1
-    web_nums = sys.argv[1] #3
+    experiment_num = sys.argv[1] #1
+    web_nums = sys.argv[2] #3
 
     # cookies (set/change httpresponce, js)
     bigcookies = []
 
     # experiment_num = 2
     # web_nums = 3
-    for i in range(1, web_nums + 1):
+    for i in range(1, int(web_nums) + 1):
         cookies = pd.read_csv("./tables/{}-{}-ThirdCookies.csv".format(experiment_num, i))
         jscookiesc = extract_from_jscookies(cookies)
         httprequests = pd.read_csv("./tables/{}-{}-httprequest.csv".format(experiment_num, i))
