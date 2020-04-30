@@ -1,8 +1,4 @@
 visit_id,record_type,change_cause,host,name,value,time_stamp,context_id
-11,deleted,overwrite,.nytimes.com,nyt-a,MXDVJcjDLfHADnpP7m05NV,2020-04-30T00:22:25.593Z,3
-11,added-or-changed,explicit,.nytimes.com,nyt-a,MXDVJcjDLfHADnpP7m05NV,2020-04-30T00:22:25.593Z,3
-11,deleted,overwrite,.et.nytimes.com,sessionActive,true,2020-04-30T00:22:25.594Z,3
-11,added-or-changed,explicit,.et.nytimes.com,sessionActive,true,2020-04-30T00:22:25.595Z,3
 11,added-or-changed,explicit,8343.global.siteimproveanalytics.io,siteimproveses,4423a037-fac0-49c6-8ee5-046e9beb5513,2020-04-30T00:22:28.587Z,3
 11,added-or-changed,explicit,8343.global.siteimproveanalytics.io,AWSELB,79A3199D10510369DCF60AC124D33FFF1556358922D532C699298AD4B7108439BF2B756C7E2E7146350DD4707687EC4E4DE5C2E387B9D4E2F3A0BF9D41CFC7475FA49B6418D47B4CE92325B2FA66904372E4FFAC03,2020-04-30T00:22:28.587Z,3
 13,added-or-changed,explicit,.youtube.com,VISITOR_INFO1_LIVE,6IO4-oFVfiE,2020-04-30T00:23:23.801Z,3

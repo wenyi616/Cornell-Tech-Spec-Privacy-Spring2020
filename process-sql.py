@@ -19,6 +19,12 @@ def get_cookies_from_headers(x):
             return ta[-1]
     return ''
 
+def findIdx(df, colname, keyword):
+    for i, web in enumerate(df[colname].tolist()):
+        if web.rfind(keyword) != -1:
+            return i
+
+
 
 for exp_number in range(1, 4):
     exp_path = "./raw-data/exp" + str(exp_number) + "/crawl-data.sqlite"
@@ -44,34 +50,44 @@ for exp_number in range(1, 4):
         "berkeley": 'berkeley'
     }
 
-    for context_number in range(0, 3):
-        ############################# cookies #############################
-        js_cookies = javascript_cookies[
-            javascript_cookies.visit_id.isin(range(context_number * 5 + 1, context_number * 5 + 6))]
+    indx1 = findIdx(javascript_cookies, 'host', websites[1])
+    indx2 = findIdx(javascript_cookies, 'host', websites[2])
+    javascript_cookies["context_id"] = [1] * (indx1)  + [2] * (indx2 - indx1) + [3] * (javascript_cookies.shape[0] - indx2)
 
+    indx1 = findIdx(http_requests, 'url', websites[1])
+    indx2 = findIdx(http_requests,'url', websites[2])
+    http_requests["context_id"] = [1] * (indx1)  + [2] * (indx2 - indx1) + [3] * (http_requests.shape[0] - indx2)
+
+    indx1 = findIdx(javascript, 'script_url', websites[1])
+    indx2 = findIdx(javascript, 'script_url', websites[2])
+    javascript["context_id"] = [1] * (indx1)  + [2] * (indx2 - indx1) + [3] * (javascript.shape[0] - indx2)
+
+    for context_number in range(1,4):
+        
+        ############################# cookies #############################
+        js_cookies = javascript_cookies[javascript_cookies.context_id == context_number]
+    
         # first party cookies (filter by host)
-        js_cookies_first = js_cookies[js_cookies.host.str.contains(web_dict.get(websites[context_number]))]
+        js_cookies_first = js_cookies[js_cookies.host.str.contains(web_dict.get(websites[context_number-1]))]
 
         # third party cookies (filter by host)
-        js_cookies_third = js_cookies[~js_cookies.host.str.contains(web_dict.get(websites[context_number]))]
+        js_cookies_third = js_cookies[~js_cookies.host.str.contains(web_dict.get(websites[context_number-1]))]
 
-        # js_cookies_first.to_csv('1-'+str(context_number+1)+'-FirstCookies.csv', index=False)
-
-        js_cookies_third['context_id'] = context_number + 1
-        js_cookies_third.to_csv('tables/' + str(exp_number) + '-' + str(context_number + 1) + '-ThirdCookies.csv', index=False)
-
+        js_cookies_third.to_csv('tables/' + str(exp_number)+'-'+str(context_number)+'-ThirdCookies.csv', index=False)
+        
+        
         ############################# JS #############################
-        js = javascript[javascript.visit_id.isin(range(context_number * 5 + 1, context_number * 5 + 6))]
-
+        js = javascript[javascript.context_id == context_number]
+        
         # filter by script_url (get domain from script_url)
-        temp = list(map(lambda x: x[1], js['script_url'].str.split(".")))
+        temp = list(map(lambda x:x[1], js['script_url'].str.split(".")))
         js['temp'] = temp
+        
+        js_third = js[~js.script_url.str.contains(web_dict.get(websites[context_number-1]))]
 
-        js_third = js[~js.script_url.str.contains(web_dict.get(websites[context_number]))]
-
-        js_third['context_id'] = context_number + 1
-        js_third.to_csv('tables/' + str(exp_number) + '-' + str(context_number + 1) + '-js.csv', index=False)
-
+        js_third.to_csv('tables/' + str(exp_number)+'-'+str(context_number)+'-js.csv', index=False)
+        
+        
         ############################# HTTP REQUEST #############################
         temp = list(map(lambda x: get_host_from_headers(x), http_requests.headers.tolist()))
         http_requests["host"] = temp
@@ -80,15 +96,13 @@ for exp_number in range(1, 4):
         http_requests["cookies"] = http_req_cookies
 
         # get domain from host (eg. "ade.googlesyndication.com" -> "googlesyndication")
-        hr = http_requests[http_requests.visit_id.isin(range(context_number * 5 + 1, context_number * 5 + 6))]
+        hr = http_requests[http_requests.context_id == context_number]
 
-        temp = list(map(lambda x: x[-2], hr['host'].str.split(".")))
+        temp = list(map(lambda x:x[-2], hr['host'].str.split(".")))
         hr['temp'] = temp
+        
+        hr_third = hr[~hr.temp.str.contains(web_dict.get(websites[context_number-1]))]
 
-        hr_third = hr[~hr.temp.str.contains(web_dict.get(websites[context_number]))]
-
-        hr_third['context_id'] = context_number + 1
-        hr_third.to_csv('tables/' + str(exp_number) + '-' + str(context_number + 1) + '-httprequest.csv', index=False)
-
+        hr_third.to_csv('tables/' + str(exp_number)+'-'+str(context_number)+'-httprequest.csv', index=False)
 
 

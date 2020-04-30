@@ -1,8 +1,4 @@
 visit_id,record_type,change_cause,host,name,value,time_stamp,context_id
-11,deleted,overwrite,.nytimes.com,nyt-a,YGHzp1bHAX21wRynfBPfzE,2020-04-30T00:37:12.697Z,3
-11,added-or-changed,explicit,.nytimes.com,nyt-a,YGHzp1bHAX21wRynfBPfzE,2020-04-30T00:37:12.698Z,3
-11,deleted,overwrite,.et.nytimes.com,sessionActive,true,2020-04-30T00:37:12.698Z,3
-11,added-or-changed,explicit,.et.nytimes.com,sessionActive,true,2020-04-30T00:37:12.698Z,3
 11,added-or-changed,explicit,.demdex.net,demdex,51809566711544078382024899687046499021,2020-04-30T00:37:17.166Z,3
 11,deleted,overwrite,.demdex.net,demdex,51809566711544078382024899687046499021,2020-04-30T00:37:19.142Z,3
 11,added-or-changed,explicit,.demdex.net,demdex,51809566711544078382024899687046499021,2020-04-30T00:37:19.142Z,3
