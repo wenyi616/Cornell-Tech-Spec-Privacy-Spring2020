@@ -24,8 +24,6 @@ def findIdx(df, colname, keyword):
         if web.rfind(keyword) != -1:
             return i
 
-
-
 for exp_number in range(1, 4):
     exp_path = "./raw-data/exp" + str(exp_number) + "/crawl-data.sqlite"
 
@@ -36,7 +34,7 @@ for exp_number in range(1, 4):
         "select visit_id, url, method, headers, time_stamp from http_responses where response_status == 200;", conn)
     http_requests = pd.read_sql_query("select visit_id, headers, referrer, Url, time_stamp from http_requests;", conn)
     javascript = pd.read_sql_query(
-        "select visit_id, script_url, symbol, operation, value, arguments, time_stamp from javascript;", conn)
+        "select visit_id, script_url, top_level_url, symbol, operation, value, arguments, time_stamp from javascript;", conn)
     site_visits = pd.read_sql_query("select visit_id, site_url from site_visits;", conn)
 
     conn.close()
@@ -58,10 +56,9 @@ for exp_number in range(1, 4):
     indx2 = findIdx(http_requests,'url', websites[2])
     http_requests["context_id"] = [1] * (indx1)  + [2] * (indx2 - indx1) + [3] * (http_requests.shape[0] - indx2)
 
-    indx1 = findIdx(javascript, 'script_url', websites[1])
-    indx2 = findIdx(javascript, 'script_url', websites[2])
+    indx1 = findIdx(javascript, 'top_level_url', websites[1])
+    indx2 = findIdx(javascript, 'top_level_url', websites[2])
     javascript["context_id"] = [1] * (indx1)  + [2] * (indx2 - indx1) + [3] * (javascript.shape[0] - indx2)
-
     for context_number in range(1,4):
         
         ############################# cookies #############################
