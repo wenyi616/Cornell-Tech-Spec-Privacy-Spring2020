@@ -25,7 +25,7 @@ def findIdx(df, colname, keyword):
             return i
 
 
-for exp_number in range(1,2):
+for exp_number in range(1, int(sys.argv[1]) + 1):
     exp_path = "./raw-data/exp"+str(exp_number)+"/crawl-data.sqlite"
     
     conn = sqlite3.connect(exp_path)
@@ -131,3 +131,5 @@ for exp_number in range(1,2):
         hr_third = hr[~hr.host_domain.str.contains(firstparty_dict[context_number])]
 
         hr_third.to_csv('tables/' + str(exp_number) + '-' + str(context_number) + '-httprequest.csv', index=False)
+
+        print('context-'+str(context_number)+ "[done]")

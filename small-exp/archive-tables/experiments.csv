@@ -1,0 +1,5 @@
+Exp,Websites
+1,"['nytimes', 'webmd', 'berkeley']"
+2,"['webmd', 'nytimes', 'berkeley']"
+3,"['webmd', 'berkeley', 'nytimes']"
+4,"['berkeley', 'webmd', 'nytimes']"
