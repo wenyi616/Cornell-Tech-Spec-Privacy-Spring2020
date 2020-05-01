@@ -84,7 +84,7 @@ def merge_cookies(jsc_cookies, js_cookies, http_cookies):
 
 if __name__ == '__main__':
     experiment_num = sys.argv[1] #1
-    web_nums = sys.argv[2] #3
+    web_nums = 3 #sys.argv[2] #3
 
     # cookies (set/change httpresponce, js)
     bigcookies = []
