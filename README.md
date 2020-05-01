@@ -1,6 +1,5 @@
-## Tracking across contexts experiments
+# Tracking across contexts experiments
 
-------
 
 #### Step 1: process-sql
 From openWPM to data tables (cookies, js, httprequest)
@@ -14,13 +13,13 @@ From openWPM to data tables (cookies, js, httprequest)
 #### Step 2: process-cookies
 Extract cookies-related information from all three tables (cookies, js, httprequest), and concatnate into a hugecookie table. 
 
-> python process-cookies.py [exp-num] [contexts-num]
+> python process-cookies.py [exp-num]
 <br>
-> python process-cookies.py 1 3
+> python process-cookies.py 1
 <br>
-> python process-cookies.py 2 3
+> python process-cookies.py 2
 <br>
-> python process-cookies.py 3 3
+> python process-cookies.py 3
 
 
 ------
@@ -40,17 +39,17 @@ Results are in the table unique-namevalue-1/2/3.csv, in which the namevalue colu
 
 
 
-#### ------ Incomplete readme notes ------
+#### ------ Some random notes ------
 Context_id
-<br>
+
 1 | news
-<br>
+
 2 | health
-<br>
+
 3 | education
 
+//
 
-<br>
-<br>
-#### Go scale 
-Each exp runs too long (1hr)
+Go scale: each exp runs too long (1hr) -> change to 5s (instead of 20s) for each page
+
+//
