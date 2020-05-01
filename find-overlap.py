@@ -16,7 +16,8 @@ temp = unique_huge.groupby(["namevalue", "context_id"], as_index = False)['time_
 byhost = pd.DataFrame(unique_huge.groupby(["namevalue", "context_id"], as_index = False)['host'].apply(list))
 byhost.to_csv("temp.csv")
 
-temp['host_list'] = pd.read_csv("temp.csv")['0'].tolist()
+ls = pd.read_csv("temp.csv", converters={'0': eval})['0']
+temp['host_list'] = list(map(lambda x: list(set(x)), ls))
 temp.rename(columns={"time_stamp":"count"}, inplace=True)
 
 if os.path.exists("temp.csv"):
