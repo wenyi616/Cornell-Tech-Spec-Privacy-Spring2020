@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import sqlite3
 import sys
+import os
 
 def get_host_from_headers(x):
     temp = x.replace('"','').split('],[')
@@ -28,6 +29,8 @@ def findIdx(df, colname, keyword):
 for exp_number in range(1, int(sys.argv[1]) + 1):
     exp_path = "./raw-data/exp"+str(exp_number)+"/crawl-data.sqlite"
     
+    if not os.path.exists(exp_path):
+        continue
     conn = sqlite3.connect(exp_path)
     javascript_cookies = pd.read_sql_query("select visit_id, record_type, change_cause, host, name, value, time_stamp from javascript_cookies;", conn)
     http_requests = pd.read_sql_query("select visit_id, headers, referrer, Url, time_stamp from http_requests;", conn)
