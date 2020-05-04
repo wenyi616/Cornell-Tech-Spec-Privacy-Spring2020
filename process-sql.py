@@ -33,7 +33,7 @@ for exp_number in range(1, int(sys.argv[1]) + 1):
         continue
     conn = sqlite3.connect(exp_path)
     javascript_cookies = pd.read_sql_query("select visit_id, record_type, change_cause, host, name, value, time_stamp from javascript_cookies;", conn)
-    http_requests = pd.read_sql_query("select visit_id, headers, referrer, Url, time_stamp from http_requests;", conn)
+    http_requests = pd.read_sql_query("select visit_id, headers, referrer, Url, top_level_url, time_stamp from http_requests;", conn)
     javascript = pd.read_sql_query("select visit_id, script_url, top_level_url, symbol, operation, value, arguments, time_stamp from javascript;", conn)
     site_visits = pd.read_sql_query("select visit_id, site_url from site_visits;", conn)
     
@@ -78,8 +78,8 @@ for exp_number in range(1, int(sys.argv[1]) + 1):
     indx2 = findIdx(javascript_cookies, 'host', first_context[2])
     javascript_cookies["context_id"] = [context_dict[first_context[0]]] * (indx1) + [context_dict[first_context[1]]] * (indx2 - indx1) + [context_dict[first_context[2]]] * (javascript_cookies.shape[0] - indx2)
 
-    indx1 = findIdx(http_requests, 'url', first_context[1])
-    indx2 = findIdx(http_requests,'url', first_context[2])
+    indx1 = findIdx(http_requests, 'top_level_url', first_context[1])
+    indx2 = findIdx(http_requests,'top_level_url', first_context[2])
     http_requests["context_id"] = [context_dict[first_context[0]]] * (indx1) + [context_dict[first_context[1]]] * (indx2 - indx1) + [context_dict[first_context[2]]] * (http_requests.shape[0] - indx2)
 
     indx1 = findIdx(javascript, 'top_level_url', first_context[1])
