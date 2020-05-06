@@ -5,7 +5,7 @@
 From openWPM to data tables (cookies, js, httprequest)
 
 > python process-sql.py [exp-num] 
-<br>
+
 > python process-sql.py 1
 
 ------
@@ -14,11 +14,11 @@ From openWPM to data tables (cookies, js, httprequest)
 Extract cookies-related information from all three tables (cookies, js, httprequest), and concatnate into a hugecookie table. 
 
 > python process-cookies.py [exp-num]
-<br>
+
 > python process-cookies.py 1
-<br>
+
 > python process-cookies.py 2
-<br>
+
 > python process-cookies.py 3
 
 
@@ -29,7 +29,7 @@ Looking for all unique combinations of (cookie name, cookie value) across contex
 Results are in the table unique-namevalue-1/2/3.csv, in which the namevalue column describes a tuple of (cookie name, cookie value), time_stamp column describes how many counts this combination appears. These tables are pretty concise, and please refer to raw tables if needed. 
 
 > python find-overlap.py [exp-num]
-<br>
+
 > python find-overlap.py 1
 <br>
 <br>
