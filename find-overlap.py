@@ -10,33 +10,35 @@ unique_huge = pd.read_csv("./hugecookies/hugecookies-{}.csv".format(exp_num))
 # drop nan
 unique_huge.dropna(inplace=True)
 
-# drop insignificant cookies
+# ad the paper suggest, find important cookies
+unique_huge = unique_huge[unique_huge['value'].str.len() >= 8]
+
+# drop more cookies using some criteria
 unique_huge.drop(unique_huge[unique_huge.name.str.contains('Test|test|lang|SameSite|Samesite|sameSite|samesite|expires|Path|path|domain|Expires|max-age')].index, inplace=True)
 unique_huge.drop(unique_huge[unique_huge.value.isin(['1','0','2','true','yes','YES','ok','nan','none','None','NO_DATA','null','setstatuscode~~1'])].index, inplace=True)
 
 # groupby 
 unique_huge['namevalue'] = list(map(lambda a, b: (a, b), unique_huge["name"].astype(str), unique_huge["value"].astype(str)))
-temp = unique_huge.groupby(["namevalue", "context_id"], as_index = False)['time_stamp'].count()
+byoccur = unique_huge.groupby(["namevalue", "context_id"], as_index = False)['time_stamp'].count()
 
-# concat host
-byhost = pd.DataFrame(unique_huge.groupby(["namevalue", "context_id"], as_index = False)['host'].apply(list))
-byhost.to_csv("temp.csv")
+# clean host domain 
+temp = list(map(lambda x:".".join(x.split(".")[:2]).replace('https://','').replace('www',''), unique_huge['host'].tolist()))                    
+unique_huge['host_clean'] = temp
 
-ls = pd.read_csv("temp.csv", converters={'0': eval})['0']
-temp['host_list'] = list(map(lambda x: list(set(x)), ls))
-temp.rename(columns={"time_stamp":"count"}, inplace=True)
+byhost = pd.DataFrame(unique_huge.groupby(["namevalue", "context_id"], as_index = False)['host_clean'].apply(set).reset_index(name='byhost'))
 
-if os.path.exists("temp.csv"):
-    os.remove("temp.csv")
-    
+# constrcut highlight table
+highlight = pd.merge(byoccur, byhost, on=['namevalue',  'context_id'])
+
+
+# select only across contexts
 ltd = []
-Counter = collections.Counter(temp.namevalue.tolist())
+Counter = collections.Counter(highlight.namevalue.tolist())
 for key, value in Counter.items():
     if value == 1:
         ltd.append(key)
 
-indtd = temp[temp['namevalue'].isin(ltd)].index
-temp.drop(indtd, inplace=True)
+indtd = highlight[highlight['namevalue'].isin(ltd)].index
+highlight.drop(indtd, inplace=True)
 
-temp.to_csv("./overlap-cookies/unique_namevalue-{}.csv".format(exp_num), index=False)
-print("save experiment{} table done!".format(exp_num))
+highlight.to_csv("./overlap-cookies/unique_namevalue-{}.csv".format(exp_num), index=False)
