@@ -27,7 +27,7 @@ def findIdx(df, colname, keyword):
 
 
 for exp_number in range(1, int(sys.argv[1]) + 1):
-    exp_path = "./raw-data/exp"+str(exp_number)+"/crawl-data.sqlite"
+    exp_path = "./raw-data/5-1-exp"+str(exp_number)+"/crawl-data.sqlite"
     
     if not os.path.exists(exp_path):
         continue
