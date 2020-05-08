@@ -73,7 +73,7 @@ for exp_number in range(1, int(sys.argv[1]) + 1):
         "jhu": 3
     }
 
-    # fix overlap (context_id)
+    # fix leftover issue (context_id)
     indx1 = findIdx(javascript_cookies, 'host', first_context[1])
     indx2 = findIdx(javascript_cookies, 'host', first_context[2])
     javascript_cookies["context_id"] = [context_dict[first_context[0]]] * (indx1) + [context_dict[first_context[1]]] * (indx2 - indx1) + [context_dict[first_context[2]]] * (javascript_cookies.shape[0] - indx2)

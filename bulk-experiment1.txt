@@ -1,0 +1,122 @@
+
+cnn
+nytimes
+theguardian
+washingtonpost
+forbes
+
+webmd
+mayoclinic
+myfitnesspal
+medscape
+verywellhealth
+
+jhu
+mit
+edx
+harvard
+collegeboard
+
+
+
+
+
+--------------------
+actors 
+--------------------
+deepintent
+yahoo
+advertising
+ib-ibi
+mookie1
+atdmt
+casalemedia
+exelator
+bttrack
+doubleclick
+contextweb
+nr-data
+pubmatic
+bing
+adsrvr
+tapad
+adsymptotic
+scorecardresearch
+crwdcntrl
+districtm
+krxd
+1rx
+agkn
+amazon-adsystem
+adentifi
+adnxs
+spotxchange
+rubiconproject
+bidr
+bluekai
+dnacdn
+bidswitch
+myvisualiq
+ipredictive
+quantserve
+media.net
+demdex
+everesttech
+extend.tv
+facebook
+openx
+mathtag
+mxptint
+twitter
+rlcdn
+rkdms
+owneriq
+sitescout
+sharethrough
+simpli
+taboola
+3lift
+myvisualiq
+turn.com
+adform
+w55c
+zemanta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cnn		1-5
+nytimes		6-10
+theguardian	11-15
+washingtonpost	16-20
+forbes		21-25
+
+webmd		26-30
+mayoclinic	31-35
+myfitnesspal	36-40
+medscape	41-45
+verywellhealth	46-50
+
+jhu		51-55
+mit		56-60
+edx		61-65
+harvard		66-70
+collegeboard	71-75
+
+
