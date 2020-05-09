@@ -146,262 +146,245 @@ yieldmo
 -----------------------
 Exp 1
 -----------------------
-	('theguardian', 'medscape'): 1,
-             ('forbes', 'webmd'): 49,
-             ('forbes', 'myfitnesspal'): 17,
-             ('forbes', 'mayoclinic'): 5,
-             ('forbes', 'medscape'): 2,
-             ('forbes', 'verywellhealth'): 1,
-             ('nytimes', 'medscape'): 2,
-             ('nytimes', 'verywellhealth'): 1,
-             ('nytimes', 'webmd'): 1,
-             ('nytimes', 'mayoclinic'): 1,
-             ('nytimes', 'myfitnesspal'): 1,
-             ('washingtonpost', 'webmd'): 17,
-             ('washingtonpost', 'medscape'): 1,
-             ('washingtonpost', 'myfitnesspal'): 8,
-             ('washingtonpost', 'mayoclinic'): 4,
-             ('washingtonpost', 'verywellhealth'): 1,
-             ('myfitnesspal', 'harvard'): 1,
-             ('myfitnesspal', 'colledgeboard'): 3,
-             ('myfitnesspal', 'edx'): 1,
-             ('myfitnesspal', 'jhu'): 1,
-             ('myfitnesspal', 'mit'): 1,
-             ('medscape', 'edx'): 4,
-             ('medscape', 'harvard'): 3,
-             ('medscape', 'colledgeboard'): 6,
-             ('medscape', 'jhu'): 2,
-             ('medscape', 'mit'): 1,
-             ('verywellhealth', 'harvard'): 2,
-             ('verywellhealth', 'colledgeboard'): 2,
-             ('verywellhealth', 'edx'): 2,
-             ('verywellhealth', 'jhu'): 1,
-             ('verywellhealth', 'mit'): 1,
-             ('cnn', 'verywellhealth'): 1,
-             ('cnn', 'medscape'): 1,
-             ('cnn', 'webmd'): 1,
-             ('cnn', 'mayoclinic'): 1,
-             ('cnn', 'myfitnesspal'): 1
-
+changed Forbes - webmd to 52
 
 
 -----------------------
 Exp 2
 -----------------------
-	('medscape', 'cnn'): 1,
-             ('medscape', 'edx'): 4,
-             ('medscape', 'nytimes'): 2,
-             ('medscape', 'forbes'): 2,
-             ('medscape', 'harvard'): 3,
-             ('medscape', 'theguardian'): 1,
-             ('medscape', 'colledgeboard'): 6,
-             ('medscape', 'jhu'): 2,
-             ('medscape', 'mit'): 1,
-             ('medscape', 'washingtonpost'): 1,
-             ('webmd', 'cnn'): 1,
-             ('webmd', 'forbes'): 49,
-             ('webmd', 'washingtonpost'): 17,
-             ('webmd', 'nytimes'): 1,
-             ('myfitnesspal', 'cnn'): 1,
-             ('myfitnesspal', 'forbes'): 17,
-             ('myfitnesspal', 'washingtonpost'): 8,
-             ('myfitnesspal', 'edx'): 1,
-             ('myfitnesspal', 'nytimes'): 1,
-             ('myfitnesspal', 'colledgeboard'): 3,
-             ('myfitnesspal', 'mit'): 1,
-             ('myfitnesspal', 'harvard'): 1,
-             ('myfitnesspal', 'jhu'): 1,
-             ('verywellhealth', 'forbes'): 1,
-             ('verywellhealth', 'harvard'): 2,
-             ('verywellhealth', 'cnn'): 1,
-             ('verywellhealth', 'colledgeboard'): 2,
-             ('verywellhealth', 'edx'): 2,
-             ('verywellhealth', 'nytimes'): 1,
-             ('verywellhealth', 'jhu'): 1,
-             ('verywellhealth', 'washingtonpost'): 1,
-             ('verywellhealth', 'mit'): 1,
-             ('mayoclinic', 'forbes'): 5,
-             ('mayoclinic', 'cnn'): 1,
-             ('mayoclinic', 'washingtonpost'): 4,
-             ('mayoclinic', 'nytimes'): 1
-
+changed quite amount of numbers 
 
 
 -----------------------
 Exp 3
 -----------------------
-	('theguardian', 'medscape'): 1,
-             ('forbes', 'webmd'): 49,
-             ('forbes', 'myfitnesspal'): 17,
-             ('forbes', 'mayoclinic'): 5,
-             ('forbes', 'medscape'): 2,
-             ('forbes', 'verywellhealth'): 1,
-             ('nytimes', 'medscape'): 2,
-             ('nytimes', 'verywellhealth'): 1,
-             ('nytimes', 'webmd'): 1,
-             ('nytimes', 'mayoclinic'): 1,
-             ('nytimes', 'myfitnesspal'): 1,
-             ('washingtonpost', 'webmd'): 17,
-             ('washingtonpost', 'medscape'): 1,
-             ('washingtonpost', 'myfitnesspal'): 8,
-             ('washingtonpost', 'mayoclinic'): 4,
-             ('washingtonpost', 'verywellhealth'): 1,
-             ('colledgeboard', 'medscape'): 6,
-             ('colledgeboard', 'verywellhealth'): 2,
-             ('colledgeboard', 'myfitnesspal'): 3,
-             ('harvard', 'medscape'): 3,
-             ('harvard', 'verywellhealth'): 2,
-             ('harvard', 'myfitnesspal'): 1,
-             ('edx', 'medscape'): 4,
-             ('edx', 'verywellhealth'): 2,
-             ('edx', 'myfitnesspal'): 1,
-             ('jhu', 'medscape'): 2,
-             ('jhu', 'verywellhealth'): 1,
-             ('jhu', 'myfitnesspal'): 1,
-             ('mit', 'medscape'): 1,
-             ('mit', 'verywellhealth'): 1,
-             ('mit', 'myfitnesspal'): 1,
-             ('cnn', 'verywellhealth'): 1,
-             ('cnn', 'medscape'): 1,
-             ('cnn', 'webmd'): 1,
-             ('cnn', 'mayoclinic'): 1,
-             ('cnn', 'myfitnesspal'): 1
+N-H
+--------------
+theguardian	medscape	1
+theguardian	webmd	24
+
+nytimes	webmd	17
+nytimes	medscape	1
+
+forbes	webmd	30
+
+washingtonpost	webmd	12
+
+cnn	webmd	26
+
+E-N
+--------------
+colledgeboard	washingtonpost	1
+colledgeboard	nytimes	2
+colledgeboard	forbes	3
+colledgeboard	cnn	4
+colledgeboard	theguardian	1
+
+edx	washingtonpost	1
+edx	forbes	3
+edx	cnn	2
+edx	theguardian	1
+edx	nytimes	1
+
+harvard	washingtonpost	1
+
+Jump-level
+--------------
+edx	webmd	1
+harvard	webmd	1
+jhu	webmd	1
+colledgeboard	webmd	4
 
 
 -----------------------
 Exp 4
 -----------------------
-	('medscape', 'theguardian'): 1,
-             ('medscape', 'forbes'): 2,
-             ('medscape', 'cnn'): 1,
-             ('medscape', 'nytimes'): 2,
-             ('medscape', 'washingtonpost'): 1,
-             ('webmd', 'cnn'): 1,
-             ('webmd', 'forbes'): 49,
-             ('webmd', 'washingtonpost'): 17,
-             ('webmd', 'nytimes'): 1,
-             ('colledgeboard', 'medscape'): 6,
-             ('colledgeboard', 'verywellhealth'): 2,
-             ('colledgeboard', 'myfitnesspal'): 3,
-             ('myfitnesspal', 'cnn'): 1,
-             ('myfitnesspal', 'forbes'): 17,
-             ('myfitnesspal', 'washingtonpost'): 8,
-             ('myfitnesspal', 'nytimes'): 1,
-             ('harvard', 'medscape'): 3,
-             ('harvard', 'verywellhealth'): 2,
-             ('harvard', 'myfitnesspal'): 1,
-             ('edx', 'medscape'): 4,
-             ('edx', 'verywellhealth'): 2,
-             ('edx', 'myfitnesspal'): 1,
-             ('jhu', 'medscape'): 2,
-             ('jhu', 'verywellhealth'): 1,
-             ('jhu', 'myfitnesspal'): 1,
-             ('mit', 'medscape'): 1,
-             ('mit', 'verywellhealth'): 1,
-             ('mit', 'myfitnesspal'): 1,
-             ('mayoclinic', 'forbes'): 5,
-             ('mayoclinic', 'cnn'): 1,
-             ('mayoclinic', 'washingtonpost'): 4,
-             ('mayoclinic', 'nytimes'): 1,
-             ('verywellhealth', 'forbes'): 1,
-             ('verywellhealth', 'cnn'): 1,
-             ('verywellhealth', 'nytimes'): 1,
-             ('verywellhealth', 'washingtonpost'): 1
+medscape	nytimes	7
+medscape	cnn	12
+medscape	washingtonpost	7
+medscape	theguardian	17
+medscape	forbes	14
+
+webmd	nytimes	12
+webmd	cnn	32
+webmd	theguardian	41
+webmd	washingtonpost	13
+webmd	forbes	38
+
+myfitnesspal	nytimes	9
+myfitnesspal	cnn	17
+myfitnesspal	theguardian	24
+myfitnesspal	washingtonpost	11
+myfitnesspal	forbes	23
+
+verywellhealth	nytimes	3
+verywellhealth	cnn	11
+verywellhealth	washingtonpost	7
+verywellhealth	forbes	7
+verywellhealth	theguardian	9
+
+mayoclinic	washingtonpost	5
+mayoclinic	cnn	7
+mayoclinic	nytimes	5
+mayoclinic	theguardian	7
+mayoclinic	forbes	6
+
+
+colledgeboard	forbes	1
+edx	forbes	1
+
+
+colledgeboard	medscape	4
+colledgeboard	mayoclinic	2
+colledgeboard	webmd	5
+colledgeboard	myfitnesspal	3
+colledgeboard	verywellhealth	1
+
+
+edx	webmd	2
+edx	medscape	2
+edx	mayoclinic	3
+edx	verywellhealth	1
+edx	myfitnesspal	1
+
+harvard	medscape	2
+harvard	mayoclinic	2
+harvard	verywellhealth	1
+harvard	myfitnesspal	1
+harvard	webmd	1
+
+jhu	webmd	1
 
 
 -----------------------
 Exp 5
 -----------------------
-	('theguardian', 'medscape'): 1,
-             ('forbes', 'webmd'): 49,
-             ('forbes', 'myfitnesspal'): 17,
-             ('forbes', 'mayoclinic'): 5,
-             ('forbes', 'medscape'): 2,
-             ('forbes', 'verywellhealth'): 1,
-             ('nytimes', 'medscape'): 2,
-             ('nytimes', 'verywellhealth'): 1,
-             ('nytimes', 'webmd'): 1,
-             ('nytimes', 'mayoclinic'): 1,
-             ('nytimes', 'myfitnesspal'): 1,
-             ('washingtonpost', 'webmd'): 17,
-             ('washingtonpost', 'medscape'): 1,
-             ('washingtonpost', 'myfitnesspal'): 8,
-             ('washingtonpost', 'mayoclinic'): 4,
-             ('washingtonpost', 'verywellhealth'): 1,
-             ('colledgeboard', 'medscape'): 6,
-             ('colledgeboard', 'verywellhealth'): 2,
-             ('colledgeboard', 'myfitnesspal'): 3,
-             ('harvard', 'medscape'): 3,
-             ('harvard', 'verywellhealth'): 2,
-             ('harvard', 'myfitnesspal'): 1,
-             ('edx', 'medscape'): 4,
-             ('edx', 'verywellhealth'): 2,
-             ('edx', 'myfitnesspal'): 1,
-             ('jhu', 'medscape'): 2,
-             ('jhu', 'verywellhealth'): 1,
-             ('jhu', 'myfitnesspal'): 1,
-             ('mit', 'medscape'): 1,
-             ('mit', 'verywellhealth'): 1,
-             ('mit', 'myfitnesspal'): 1,
-             ('cnn', 'verywellhealth'): 1,
-             ('cnn', 'medscape'): 1,
-             ('cnn', 'webmd'): 1,
-             ('cnn', 'mayoclinic'): 1,
-             ('cnn', 'myfitnesspal'): 1
+forbes	webmd	49
+forbes	myfitnesspal	23
+forbes	medscape	7
+forbes	verywellhealth	10
+forbes	mayoclinic	8
+
+washingtonpost	myfitnesspal	1
+washingtonpost	verywellhealth	1
+theguardian	myfitnesspal	1
+theguardian	verywellhealth	1
+cnn	myfitnesspal	1
+cnn	verywellhealth	1
+nytimes	myfitnesspal	1
+nytimes	verywellhealth	1
 
 
+N-E
+forbes	jhu	1
+forbes	harvard	1
+forbes	colledgeboard	1
+forbes	edx	2
+
+
+E-H
+colledgeboard	medscape	4
+colledgeboard	mayoclinic	3
+colledgeboard	webmd	7
+colledgeboard	verywellhealth	1
+colledgeboard	myfitnesspal	5
+
+harvard	medscape	2
+harvard	mayoclinic	2
+harvard	verywellhealth	1
+harvard	myfitnesspal	1
+harvard	webmd	1
+
+jhu	mayoclinic	1
+jhu	medscape	1
+jhu	verywellhealth	1
+jhu	myfitnesspal	1
+jhu	webmd	2
+
+edx	webmd	2
+edx	medscape	2
+edx	mayoclinic	3
+edx	verywellhealth	1
+edx	myfitnesspal	1
+
+mit	mayoclinic	1
+mit	medscape	1
+mit	verywellhealth	1
+mit	myfitnesspal	1
+mit	webmd	1
 
 
 -----------------------
 Exp 6
 -----------------------
-	('medscape', 'cnn'): 1,
-             ('medscape', 'edx'): 4,
-             ('medscape', 'nytimes'): 2,
-             ('medscape', 'forbes'): 2,
-             ('medscape', 'harvard'): 3,
-             ('medscape', 'theguardian'): 1,
-             ('medscape', 'colledgeboard'): 6,
-             ('medscape', 'jhu'): 2,
-             ('medscape', 'mit'): 1,
-             ('medscape', 'washingtonpost'): 1,
-             ('webmd', 'cnn'): 1,
-             ('webmd', 'forbes'): 49,
-             ('webmd', 'washingtonpost'): 17,
-             ('webmd', 'nytimes'): 1,
-             ('myfitnesspal', 'cnn'): 1,
-             ('myfitnesspal', 'forbes'): 17,
-             ('myfitnesspal', 'washingtonpost'): 8,
-             ('myfitnesspal', 'edx'): 1,
-             ('myfitnesspal', 'nytimes'): 1,
-             ('myfitnesspal', 'colledgeboard'): 3,
-             ('myfitnesspal', 'mit'): 1,
-             ('myfitnesspal', 'harvard'): 1,
-             ('myfitnesspal', 'jhu'): 1,
-             ('verywellhealth', 'forbes'): 1,
-             ('verywellhealth', 'harvard'): 2,
-             ('verywellhealth', 'cnn'): 1,
-             ('verywellhealth', 'colledgeboard'): 2,
-             ('verywellhealth', 'edx'): 2,
-             ('verywellhealth', 'nytimes'): 1,
-             ('verywellhealth', 'jhu'): 1,
-             ('verywellhealth', 'washingtonpost'): 1,
-             ('verywellhealth', 'mit'): 1,
-             ('mayoclinic', 'forbes'): 5,
-             ('mayoclinic', 'cnn'): 1,
-             ('mayoclinic', 'washingtonpost'): 4,
-             ('mayoclinic', 'nytimes'): 1}
+H-N
+medscape	nytimes	8
+medscape	cnn	15
+medscape	washingtonpost	8
+medscape	theguardian	18
+medscape	forbes	13
 
+webmd	nytimes	21
+webmd	cnn	43
+webmd	theguardian	40
+webmd	washingtonpost	16
+webmd	forbes	41
 
+verywellhealth	nytimes	13
+verywellhealth	washingtonpost	14
+verywellhealth	cnn	24
+verywellhealth	theguardian	21
+verywellhealth	forbes	18
 
+myfitnesspal	nytimes	13
+myfitnesspal	theguardian	23
+myfitnesspal	washingtonpost	13
+myfitnesspal	cnn	24
+myfitnesspal	forbes	21
 
+mayoclinic	nytimes	4
+mayoclinic	cnn	6
+mayoclinic	washingtonpost	4
+mayoclinic	forbes	4
+mayoclinic	theguardian	4
 
+H-E
+medscape	colledgeboard	6
+medscape	jhu	2
+medscape	mit	1
+medscape	edx	3
+medscape	harvard	3
 
+webmd	jhu	3
+webmd	colledgeboard	6
+webmd	edx	3
+webmd	harvard	2
+webmd	mit	1
 
+verywellhealth	jhu	1
+verywellhealth	colledgeboard	5
+verywellhealth	harvard	2
+verywellhealth	edx	2
+verywellhealth	mit	1
 
+myfitnesspal	jhu	2
+myfitnesspal	colledgeboard	6
+myfitnesspal	edx	3
+myfitnesspal	harvard	2
+myfitnesspal	mit	1
 
+mayoclinic	colledgeboard	3
+mayoclinic	jhu	1
+mayoclinic	mit	1
+mayoclinic	edx	3
+mayoclinic	harvard	2
 
+E-N
+edx	forbes	1
 
-
+colledgeboard	nytimes	1
+colledgeboard	theguardian	1
+colledgeboard	cnn	2
+colledgeboard	forbes	1
 
 

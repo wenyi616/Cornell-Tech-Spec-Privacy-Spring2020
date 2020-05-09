@@ -1,0 +1,314 @@
+--------------------
+EXP order
+--------------------
+
+1 - N - H - E
+2 - H - N - E
+3 - E - N - H
+4 - E - H - N
+5 - N - E - H
+6 - H - E - N
+
+
+
+
+
+
+
+
+--------------------
+Unique actors  (73)
+--------------------
+deepintent
+yahoo
+advertising
+ib-ibi
+mookie1
+atdmt
+casalemedia
+exelator
+bttrack
+doubleclick
+contextweb
+nr-data
+pubmatic
+bing
+adsrvr
+tapad
+adsymptotic
+scorecardresearch
+crwdcntrl
+districtm
+krxd
+1rx
+agkn
+amazon-adsystem
+adentifi
+adnxs
+spotxchange
+rubiconproject
+bidr
+bluekai
+dnacdn
+bidswitch
+myvisualiq
+ipredictive
+quantserve
+media.net
+demdex
+everesttech
+extend.tv
+facebook
+openx
+mathtag
+mxptint
+twitter
+rlcdn
+rkdms
+owneriq
+sitescout
+sharethrough
+simpli
+taboola
+3lift
+myvisualiq
+turn.com
+adform
+w55c
+zemanta
+tribalfusion
+linkedin
+iasds01
+dotomi
+appier
+acuityplatform
+advangelists
+mfadsrvr
+zorosrv
+smartadserver
+rfihub
+srv
+creativecdn
+addthis
+gumgum
+yieldmo
+
+-----------------------
+
+
+
+-----------------------
+Exp results
+-----------------------
+	'medscape': {
+	      ('cnn', 'rubiconproject'),
+              ('colledgeboard', 'demdex'),
+              ('colledgeboard', 'doubleclick'),
+              ('colledgeboard', 'everesttech'),
+              ('colledgeboard', 'facebook'),
+              ('colledgeboard', 'nr-data'),
+              ('colledgeboard', 'yahoo'),
+              ('edx', 'adsymptotic'),
+              ('edx', 'doubleclick'),
+              ('edx', 'facebook'),
+              ('edx', 'nr-data'),
+              ('forbes', 'deepintent'),
+              ('forbes', 'rubiconproject'),
+              ('harvard', 'doubleclick'),
+              ('harvard', 'facebook'),
+              ('harvard', 'nr-data'),
+              ('jhu', 'doubleclick'),
+              ('jhu', 'facebook'),
+              ('mit', 'doubleclick'),
+              ('nytimes', 'deepintent'),
+              ('nytimes', 'rubiconproject'),
+              ('theguardian', 'deepintent'),
+              ('washingtonpost', 'rubiconproject')},
+             
+	'webmd': {
+	      ('cnn', 'rubiconproject'),
+              ('forbes', '1rx'),
+              ('forbes', '3lift'),
+              ('forbes', 'adentifi'),
+              ('forbes', 'adform'),
+              ('forbes', 'adnxs'),
+              ('forbes', 'adsrvr'),
+              ('forbes', 'adsymptotic'),
+              ('forbes', 'advertising'),
+              ('forbes', 'agkn'),
+              ('forbes', 'amazon-adsystem'),
+              ('forbes', 'atdmt'),
+              ('forbes', 'bidr'),
+              ('forbes', 'bidswitch'),
+              ('forbes', 'bluekai'),
+              ('forbes', 'bttrack'),
+              ('forbes', 'casalemedia'),
+              ('forbes', 'contextweb'),
+              ('forbes', 'crwdcntrl'),
+              ('forbes', 'demdex'),
+              ('forbes', 'districtm'),
+              ('forbes', 'dnacdn'),
+              ('forbes', 'doubleclick'),
+              ('forbes', 'everesttech'),
+              ('forbes', 'exelator'),
+              ('forbes', 'facebook'),
+              ('forbes', 'ib-ibi'),
+              ('forbes', 'ipredictive'),
+              ('forbes', 'krxd'),
+              ('forbes', 'mathtag'),
+              ('forbes', 'mookie1'),
+              ('forbes', 'mxptint'),
+              ('forbes', 'openx'),
+              ('forbes', 'owneriq'),
+              ('forbes', 'pubmatic'),
+              ('forbes', 'quantserve'),
+              ('forbes', 'rlcdn'),
+              ('forbes', 'rubiconproject'),
+              ('forbes', 'scorecardresearch'),
+              ('forbes', 'sharethrough'),
+              ('forbes', 'simpli'),
+              ('forbes', 'sitescout'),
+              ('forbes', 'spotxchange'),
+              ('forbes', 'srv'),
+              ('forbes', 'taboola'),
+              ('forbes', 'tapad'),
+              ('forbes', 'twitter'),
+              ('forbes', 'w55c'),
+              ('forbes', 'yahoo'),
+              ('forbes', 'zemanta'),
+              ('nytimes', 'rubiconproject'),
+              ('washingtonpost', 'adnxs'),
+              ('washingtonpost', 'adsrvr'),
+              ('washingtonpost', 'amazon-adsystem'),
+              ('washingtonpost', 'bidswitch'),
+              ('washingtonpost', 'casalemedia'),
+              ('washingtonpost', 'districtm'),
+              ('washingtonpost', 'doubleclick'),
+              ('washingtonpost', 'everesttech'),
+              ('washingtonpost', 'krxd'),
+              ('washingtonpost', 'openx'),
+              ('washingtonpost', 'rkdms'),
+              ('washingtonpost', 'rubiconproject'),
+              ('washingtonpost', 'scorecardresearch'),
+              ('washingtonpost', 'sharethrough'),
+              ('washingtonpost', 'sitescout'),
+              ('washingtonpost', 'srv'),
+              ('washingtonpost', 'yahoo')},
+             
+	'myfitnesspal': {
+	      ('cnn', 'rubiconproject'),
+              ('colledgeboard', 'doubleclick'),
+              ('colledgeboard', 'everesttech'),
+              ('colledgeboard', 'yahoo'),
+              ('edx', 'doubleclick'),
+              ('forbes', 'adform'),
+              ('forbes', 'adnxs'),
+              ('forbes', 'advertising'),
+              ('forbes', 'amazon-adsystem'),
+              ('forbes', 'bidr'),
+              ('forbes', 'bing'),
+              ('forbes', 'bluekai'),
+              ('forbes', 'casalemedia'),
+              ('forbes', 'contextweb'),
+              ('forbes', 'doubleclick'),
+              ('forbes', 'myvisualiq'),
+              ('forbes', 'openx'),
+              ('forbes', 'rubiconproject'),
+              ('forbes', 'scorecardresearch'),
+              ('forbes', 'sharethrough'),
+              ('forbes', 'taboola'),
+              ('forbes', 'yahoo'),
+              ('harvard', 'doubleclick'),
+              ('jhu', 'doubleclick'),
+              ('mit', 'doubleclick'),
+              ('nytimes', 'rubiconproject'),
+              ('washingtonpost', 'adnxs'),
+              ('washingtonpost', 'amazon-adsystem'),
+              ('washingtonpost', 'casalemedia'),
+              ('washingtonpost', 'doubleclick'),
+              ('washingtonpost', 'openx'),
+              ('washingtonpost', 'rubiconproject'),
+              ('washingtonpost', 'scorecardresearch'),
+              ('washingtonpost', 'sharethrough')},
+             
+	'verywellhealth': {
+	      ('cnn', 'rubiconproject'),
+              ('colledgeboard', 'doubleclick'),
+              ('colledgeboard', 'nr-data'),
+              ('edx', 'doubleclick'),
+              ('edx', 'nr-data'),
+              ('forbes', 'rubiconproject'),
+              ('harvard', 'doubleclick'),
+              ('harvard', 'nr-data'),
+              ('jhu', 'doubleclick'),
+              ('mit', 'doubleclick'),
+              ('nytimes', 'rubiconproject'),
+              ('washingtonpost', 'rubiconproject')},
+             
+	'mayoclinic': {
+	      ('cnn', 'rubiconproject'),
+              ('forbes', 'bing'),
+              ('forbes', 'doubleclick'),
+              ('forbes', 'mathtag'),
+              ('forbes', 'rubiconproject'),
+              ('forbes', 'scorecardresearch'),
+              ('nytimes', 'rubiconproject'),
+              ('washingtonpost', 'doubleclick'),
+              ('washingtonpost', 'nr-data'),
+              ('washingtonpost', 'rubiconproject'),
+              ('washingtonpost', 'scorecardresearch')}})
+
+
+AKA:
+	     ('medscape', 'cnn'): 1,
+             ('medscape', 'edx'): 4,
+             ('medscape', 'nytimes'): 2,
+             ('medscape', 'forbes'): 2,
+             ('medscape', 'harvard'): 3,
+             ('medscape', 'theguardian'): 1,
+             ('medscape', 'colledgeboard'): 6,
+             ('medscape', 'jhu'): 2,
+             ('medscape', 'mit'): 1,
+             ('medscape', 'washingtonpost'): 1,
+
+             ('webmd', 'cnn'): 1,
+             ('webmd', 'forbes'): 49,
+             ('webmd', 'washingtonpost'): 17,
+             ('webmd', 'nytimes'): 1,
+
+             ('myfitnesspal', 'cnn'): 1,
+             ('myfitnesspal', 'forbes'): 17,
+             ('myfitnesspal', 'washingtonpost'): 8,
+             ('myfitnesspal', 'edx'): 1,
+             ('myfitnesspal', 'nytimes'): 1,
+             ('myfitnesspal', 'colledgeboard'): 3,
+             ('myfitnesspal', 'mit'): 1,
+             ('myfitnesspal', 'harvard'): 1,
+             ('myfitnesspal', 'jhu'): 1,
+
+             ('verywellhealth', 'forbes'): 1,
+             ('verywellhealth', 'harvard'): 2,
+             ('verywellhealth', 'cnn'): 1,
+             ('verywellhealth', 'colledgeboard'): 2,
+             ('verywellhealth', 'edx'): 2,
+             ('verywellhealth', 'nytimes'): 1,
+             ('verywellhealth', 'jhu'): 1,
+             ('verywellhealth', 'washingtonpost'): 1,
+             ('verywellhealth', 'mit'): 1,
+
+             ('mayoclinic', 'forbes'): 5,
+             ('mayoclinic', 'cnn'): 1,
+             ('mayoclinic', 'washingtonpost'): 4,
+             ('mayoclinic', 'nytimes'): 1
+
+
+
+
+
+
+
+
+
+
+
+
