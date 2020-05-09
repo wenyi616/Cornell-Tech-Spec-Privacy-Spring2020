@@ -1,273 +1,273 @@
 namevalue,context_id,time_stamp,byhost,byvname
-"('131', '20200501')",1,8,"{'.deepintent.com', 'match.deepintent.com'}","{'theguardian', 'forbes', 'nytimes'}"
+"('131', '20200501')",1,8,"{'match.deepintent.com', '.deepintent.com'}","{'theguardian', 'forbes', 'nytimes'}"
 "('131', '20200501')",2,1,{'.deepintent.com'},{'medscape'}
-"('A3', 'd=AQABBBoqrF4CEPdY3jmf7y0lqIos6X6BvLMFEgEBAQF7rV62XgAAAAAA_SMAAAcIGiqsXn6BvLM&S=AQAAAhIzhRxkiPRYG6D_rjODnUk')",1,37,"{'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'beap-bc.yahoo.com', 'cms.analytics.yahoo', 'ups.analytics.yahoo'}","{'forbes', 'washingtonpost'}"
-"('A3', 'd=AQABBBoqrF4CEPdY3jmf7y0lqIos6X6BvLMFEgEBAQF7rV62XgAAAAAA_SMAAAcIGiqsXn6BvLM&S=AQAAAhIzhRxkiPRYG6D_rjODnUk')",2,22,"{'pr-bh.ybp.yahoo', '.yahoo.com', 'ads.yahoo.com', 'ups.analytics.yahoo'}",{'webmd'}
-"('A3', 'd=AQABBPcsrF4CENuOO3pHfRbNXEYpdY8MhvEFEgEBAQF-rV62XgAAAAAA_SMAAAcI9yysXo8MhvE&S=AQAAAkj_WLuyapbWIKkqElaPtrI')",2,9,"{'cookiex.ngd.yahoo', '.yahoo.com', 'beap-bc.yahoo.com'}","{'myfitnesspal', 'medscape'}"
-"('A3', 'd=AQABBPcsrF4CENuOO3pHfRbNXEYpdY8MhvEFEgEBAQF-rV62XgAAAAAA_SMAAAcI9yysXo8MhvE&S=AQAAAkj_WLuyapbWIKkqElaPtrI')",3,12,"{'.yahoo.com', 'sp.analytics.yahoo'}",{'colledgeboard'}
-"('APID', 'UP5375626e-8bb3-11ea-8a1b-02b46a2b338d')",1,18,"{'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'pixel.advertising.com', '.advertising.com', 'cms.analytics.yahoo', '.yahoo.com', 'ups.analytics.yahoo'}",{'forbes'}
-"('APID', 'UP5375626e-8bb3-11ea-8a1b-02b46a2b338d')",2,20,"{'adserver-us.adtech.advertising', 'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'pixel.advertising.com', '.advertising.com', 'ups.analytics.yahoo', 'adserver.adtech.advertising'}","{'myfitnesspal', 'webmd'}"
+"('A3', 'd=AQABBBoqrF4CEPdY3jmf7y0lqIos6X6BvLMFEgEBAQF7rV62XgAAAAAA_SMAAAcIGiqsXn6BvLM&S=AQAAAhIzhRxkiPRYG6D_rjODnUk')",1,37,"{'beap-bc.yahoo.com', 'ads.yahoo.com', 'cms.analytics.yahoo', 'cookiex.ngd.yahoo', 'ups.analytics.yahoo', 'pr-bh.ybp.yahoo', '.yahoo.com'}","{'washingtonpost', 'forbes'}"
+"('A3', 'd=AQABBBoqrF4CEPdY3jmf7y0lqIos6X6BvLMFEgEBAQF7rV62XgAAAAAA_SMAAAcIGiqsXn6BvLM&S=AQAAAhIzhRxkiPRYG6D_rjODnUk')",2,22,"{'ups.analytics.yahoo', 'pr-bh.ybp.yahoo', 'ads.yahoo.com', '.yahoo.com'}",{'webmd'}
+"('A3', 'd=AQABBPcsrF4CENuOO3pHfRbNXEYpdY8MhvEFEgEBAQF-rV62XgAAAAAA_SMAAAcI9yysXo8MhvE&S=AQAAAkj_WLuyapbWIKkqElaPtrI')",2,9,"{'beap-bc.yahoo.com', 'cookiex.ngd.yahoo', '.yahoo.com'}","{'medscape', 'myfitnesspal'}"
+"('A3', 'd=AQABBPcsrF4CENuOO3pHfRbNXEYpdY8MhvEFEgEBAQF-rV62XgAAAAAA_SMAAAcI9yysXo8MhvE&S=AQAAAkj_WLuyapbWIKkqElaPtrI')",3,12,"{'sp.analytics.yahoo', '.yahoo.com'}",{'colledgeboard'}
+"('APID', 'UP5375626e-8bb3-11ea-8a1b-02b46a2b338d')",1,18,"{'ads.yahoo.com', '.advertising.com', 'cms.analytics.yahoo', 'pixel.advertising.com', 'ups.analytics.yahoo', 'pr-bh.ybp.yahoo', '.yahoo.com'}",{'forbes'}
+"('APID', 'UP5375626e-8bb3-11ea-8a1b-02b46a2b338d')",2,20,"{'adserver.adtech.advertising', 'adserver-us.adtech.advertising', 'ads.yahoo.com', '.advertising.com', 'pixel.advertising.com', 'ups.analytics.yahoo', 'pr-bh.ybp.yahoo'}","{'webmd', 'myfitnesspal'}"
 "('APIDTS', '1588341417')",1,2,{'.yahoo.com'},{'forbes'}
-"('APIDTS', '1588341417')",2,6,"{'pr-bh.ybp.yahoo', 'ups.analytics.yahoo'}",{'webmd'}
+"('APIDTS', '1588341417')",2,6,"{'ups.analytics.yahoo', 'pr-bh.ybp.yahoo'}",{'webmd'}
 "('ASP.NET_SessionId', 'qmhzkv32vyqsseubsfq5xrkz')",1,1,{'global.ib-ibi.com'},{'forbes'}
 "('ASP.NET_SessionId', 'qmhzkv32vyqsseubsfq5xrkz')",2,2,{'global.ib-ibi.com'},{'webmd'}
 "('ASP.NET_SessionId', 'v2r01qcxkympaqbu1fuzmttn')",1,1,{'ib.mookie1.com'},{'forbes'}
 "('ASP.NET_SessionId', 'v2r01qcxkympaqbu1fuzmttn')",2,2,{'ib.mookie1.com'},{'webmd'}
-"('ATN', '1.1588341315.5646170740280007981.AYInk7_HjCO9ZsBdLIU')",1,2,"{'.atdmt.com', 'ad.atdmt.com'}",{'forbes'}
+"('ATN', '1.1588341315.5646170740280007981.AYInk7_HjCO9ZsBdLIU')",1,2,"{'ad.atdmt.com', '.atdmt.com'}",{'forbes'}
 "('ATN', '1.1588341315.5646170740280007981.AYInk7_HjCO9ZsBdLIU')",2,1,{'cx.atdmt.com'},{'webmd'}
-"('B', 'b7f41fpfaoagq&b=3&s=06')",1,53,"{'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'beap-bc.yahoo.com', 'cms.analytics.yahoo', 'ups.analytics.yahoo'}","{'forbes', 'washingtonpost'}"
-"('B', 'b7f41fpfaoagq&b=3&s=06')",2,28,"{'pr-bh.ybp.yahoo', '.yahoo.com', 'ads.yahoo.com', 'ups.analytics.yahoo'}",{'webmd'}
-"('B', 'f31gchtfaob7n&b=3&s=o0')",2,16,"{'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'beap-bc.yahoo.com'}","{'myfitnesspal', 'medscape'}"
-"('B', 'f31gchtfaob7n&b=3&s=o0')",3,12,"{'.yahoo.com', 'sp.analytics.yahoo'}",{'colledgeboard'}
-"('CMDD', 'AAKdbQI*')",1,14,"{'dsum.casalemedia.com', 'ssum-sec.casalemedia.com', 'a2718.casalemedia.com', 'dsum-sec.casalemedia.com', '.casalemedia.com'}","{'forbes', 'washingtonpost'}"
-"('CMDD', 'AAKdbQI*')",2,4,"{'a2767.casalemedia.com', '.casalemedia.com', 'as-sec.casalemedia.com'}","{'myfitnesspal', 'webmd'}"
-"('CMID', 'XqwqCtHM43gAAFXPqmUAAABE')",1,23,"{'dsum.casalemedia.com', 'as-sec.casalemedia.com', 'ssum-sec.casalemedia.com', 'a2718.casalemedia.com', 'dsum-sec.casalemedia.com', '.casalemedia.com'}","{'forbes', 'washingtonpost'}"
-"('CMID', 'XqwqCtHM43gAAFXPqmUAAABE')",2,6,"{'a2767.casalemedia.com', '.casalemedia.com', 'as-sec.casalemedia.com'}","{'myfitnesspal', 'webmd'}"
+"('B', 'b7f41fpfaoagq&b=3&s=06')",1,53,"{'beap-bc.yahoo.com', 'ads.yahoo.com', 'cms.analytics.yahoo', 'cookiex.ngd.yahoo', 'ups.analytics.yahoo', 'pr-bh.ybp.yahoo', '.yahoo.com'}","{'washingtonpost', 'forbes'}"
+"('B', 'b7f41fpfaoagq&b=3&s=06')",2,28,"{'ups.analytics.yahoo', 'pr-bh.ybp.yahoo', 'ads.yahoo.com', '.yahoo.com'}",{'webmd'}
+"('B', 'f31gchtfaob7n&b=3&s=o0')",2,16,"{'beap-bc.yahoo.com', 'ads.yahoo.com', 'cookiex.ngd.yahoo', 'pr-bh.ybp.yahoo', '.yahoo.com'}","{'medscape', 'myfitnesspal'}"
+"('B', 'f31gchtfaob7n&b=3&s=o0')",3,12,"{'sp.analytics.yahoo', '.yahoo.com'}",{'colledgeboard'}
+"('CMDD', 'AAKdbQI*')",1,14,"{'dsum.casalemedia.com', 'a2718.casalemedia.com', '.casalemedia.com', 'dsum-sec.casalemedia.com', 'ssum-sec.casalemedia.com'}","{'washingtonpost', 'forbes'}"
+"('CMDD', 'AAKdbQI*')",2,4,"{'a2767.casalemedia.com', 'as-sec.casalemedia.com', '.casalemedia.com'}","{'webmd', 'myfitnesspal'}"
+"('CMID', 'XqwqCtHM43gAAFXPqmUAAABE')",1,23,"{'as-sec.casalemedia.com', 'dsum.casalemedia.com', 'a2718.casalemedia.com', '.casalemedia.com', 'dsum-sec.casalemedia.com', 'ssum-sec.casalemedia.com'}","{'washingtonpost', 'forbes'}"
+"('CMID', 'XqwqCtHM43gAAFXPqmUAAABE')",2,6,"{'a2767.casalemedia.com', 'as-sec.casalemedia.com', '.casalemedia.com'}","{'webmd', 'myfitnesspal'}"
 "('CMRUM3', '835eac2a6d276018072662242538953645&275eac2a6d2760f22d0c1f-900e-4c1c-ba61-841bc375953c&285eac2a712760b323da65-057d-4280-a39b-97e5bb9d0e03&b05eac2a6d2760di_afb02741a6d44a27b16a6&585eac2a6d2760XqwqHQAAAD3gWgFU&2e5eac2a6d27607526883567168608467&2d5eac2a442760CAESEAHdSX8y7lfTcWdMTtzzG3M&495eac2a6905a00&c35eac2a6d2760av-c5874241-0311-40e0-bbfe-9ca2ee6fd217')",1,2,{'.casalemedia.com'},{'forbes'}
 "('CMRUM3', '835eac2a6d276018072662242538953645&275eac2a6d2760f22d0c1f-900e-4c1c-ba61-841bc375953c&285eac2a712760b323da65-057d-4280-a39b-97e5bb9d0e03&b05eac2a6d2760di_afb02741a6d44a27b16a6&585eac2a6d2760XqwqHQAAAD3gWgFU&2e5eac2a6d27607526883567168608467&2d5eac2a442760CAESEAHdSX8y7lfTcWdMTtzzG3M&495eac2a6905a00&c35eac2a6d2760av-c5874241-0311-40e0-bbfe-9ca2ee6fd217')",2,1,{'a2767.casalemedia.com'},{'webmd'}
 "('CMST', 'XqwqCl6sKnEC')",1,2,{'.casalemedia.com'},{'forbes'}
 "('CMST', 'XqwqCl6sKnEC')",2,1,{'a2767.casalemedia.com'},{'webmd'}
 "('CMSUM', '2e5eac2a6d27607526883567168608467')",1,4,"{'.casalemedia.com', 'dsum-sec.casalemedia.com'}",{'forbes'}
-"('CMSUM', '2e5eac2a6d27607526883567168608467')",2,4,"{'a2767.casalemedia.com', '.casalemedia.com', 'as-sec.casalemedia.com'}","{'myfitnesspal', 'webmd'}"
+"('CMSUM', '2e5eac2a6d27607526883567168608467')",2,4,"{'a2767.casalemedia.com', 'as-sec.casalemedia.com', '.casalemedia.com'}","{'webmd', 'myfitnesspal'}"
 "('EE', '""bb6852e62883251d2992dbe138850296""')",1,1,{'.exelator.com'},{'forbes'}
 "('EE', '""bb6852e62883251d2992dbe138850296""')",2,4,{'.exelator.com'},{'webmd'}
 "('EE', '\\bb6852e62883251d2992dbe138850296\\')",1,6,"{'loadus.exelator.com', 'cdn.exelator.com', 'mydmp.exelator.com'}",{'forbes'}
-"('EE', '\\bb6852e62883251d2992dbe138850296\\')",2,2,"{'loadm.exelator.com', 'loadus.exelator.com'}",{'webmd'}
+"('EE', '\\bb6852e62883251d2992dbe138850296\\')",2,2,"{'loadus.exelator.com', 'loadm.exelator.com'}",{'webmd'}
 "('GLOBALID', '2uKlc8-sIBd987FnJwDBYuT9fAwDX1X4c3M45XSyIbuOOb1sCIy40vzN5R5RZPZTImr2N87rRZQC4TM1')",1,4,{'bttrack.com'},{'forbes'}
 "('GLOBALID', '2uKlc8-sIBd987FnJwDBYuT9fAwDX1X4c3M45XSyIbuOOb1sCIy40vzN5R5RZPZTImr2N87rRZQC4TM1')",2,3,{'bttrack.com'},{'webmd'}
-"('GUC', 'AQEBAQFerX5etkIfrgSu')",2,12,"{'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'beap-bc.yahoo.com'}","{'myfitnesspal', 'medscape'}"
-"('GUC', 'AQEBAQFerX5etkIfrgSu')",3,12,"{'.yahoo.com', 'sp.analytics.yahoo'}",{'colledgeboard'}
-"('GUC', 'AQEBAQFerXtetkIeZQSq')",1,39,"{'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'beap-bc.yahoo.com', 'cms.analytics.yahoo', 'ups.analytics.yahoo'}","{'forbes', 'washingtonpost'}"
-"('GUC', 'AQEBAQFerXtetkIeZQSq')",2,22,"{'pr-bh.ybp.yahoo', '.yahoo.com', 'ads.yahoo.com', 'ups.analytics.yahoo'}",{'webmd'}
-"('IDE', 'AHWqTUlSfPQmhrDdy6sME7fOAKONvXsefnx5oVvdvDng54IHFdQxDNHj5TVIvf7E')",2,109,"{'bid.g.doubleclick', 'googleads.g.doubleclick', 'cm.g.doubleclick', 'securepubads.g.doubleclick', 'stats.g.doubleclick', '.doubleclick.net'}","{'myfitnesspal', 'medscape', 'verywellhealth'}"
-"('IDE', 'AHWqTUlSfPQmhrDdy6sME7fOAKONvXsefnx5oVvdvDng54IHFdQxDNHj5TVIvf7E')",3,36,"{'bid.g.doubleclick', 'static.doubleclick.net', 'googleads.g.doubleclick', 'cm.g.doubleclick', 'stats.g.doubleclick'}","{'colledgeboard', 'harvard', 'edx', 'jhu', 'mit'}"
-"('IDE', 'AHWqTUm2w4rJv7-WWxNw9As9t9PsB6tmsP0IuJ9NZ169SNyj2VPHSxDe9klEysJl')",1,200,"{'bid.g.doubleclick', 'googleads.g.doubleclick', 'googleads4.g.doubleclick', 'cm.g.doubleclick', 'ad.doubleclick.net', 'securepubads.g.doubleclick', 'stats.g.doubleclick', '.doubleclick.net'}","{'forbes', 'washingtonpost'}"
-"('IDE', 'AHWqTUm2w4rJv7-WWxNw9As9t9PsB6tmsP0IuJ9NZ169SNyj2VPHSxDe9klEysJl')",2,132,"{'bid.g.doubleclick', 'googleads.g.doubleclick', 'googleads4.g.doubleclick', 'cm.g.doubleclick', 'ad.doubleclick.net', 'securepubads.g.doubleclick', 'stats.g.doubleclick'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
+"('GUC', 'AQEBAQFerX5etkIfrgSu')",2,12,"{'beap-bc.yahoo.com', 'ads.yahoo.com', 'cookiex.ngd.yahoo', 'pr-bh.ybp.yahoo', '.yahoo.com'}","{'medscape', 'myfitnesspal'}"
+"('GUC', 'AQEBAQFerX5etkIfrgSu')",3,12,"{'sp.analytics.yahoo', '.yahoo.com'}",{'colledgeboard'}
+"('GUC', 'AQEBAQFerXtetkIeZQSq')",1,39,"{'beap-bc.yahoo.com', 'ads.yahoo.com', 'cms.analytics.yahoo', 'cookiex.ngd.yahoo', 'ups.analytics.yahoo', 'pr-bh.ybp.yahoo', '.yahoo.com'}","{'washingtonpost', 'forbes'}"
+"('GUC', 'AQEBAQFerXtetkIeZQSq')",2,22,"{'ups.analytics.yahoo', 'pr-bh.ybp.yahoo', 'ads.yahoo.com', '.yahoo.com'}",{'webmd'}
+"('IDE', 'AHWqTUlSfPQmhrDdy6sME7fOAKONvXsefnx5oVvdvDng54IHFdQxDNHj5TVIvf7E')",2,109,"{'bid.g.doubleclick', 'cm.g.doubleclick', '.doubleclick.net', 'stats.g.doubleclick', 'googleads.g.doubleclick', 'securepubads.g.doubleclick'}","{'medscape', 'verywellhealth', 'myfitnesspal'}"
+"('IDE', 'AHWqTUlSfPQmhrDdy6sME7fOAKONvXsefnx5oVvdvDng54IHFdQxDNHj5TVIvf7E')",3,36,"{'bid.g.doubleclick', 'cm.g.doubleclick', 'stats.g.doubleclick', 'static.doubleclick.net', 'googleads.g.doubleclick'}","{'harvard', 'jhu', 'colledgeboard', 'edx', 'mit'}"
+"('IDE', 'AHWqTUm2w4rJv7-WWxNw9As9t9PsB6tmsP0IuJ9NZ169SNyj2VPHSxDe9klEysJl')",1,200,"{'bid.g.doubleclick', 'cm.g.doubleclick', '.doubleclick.net', 'stats.g.doubleclick', 'ad.doubleclick.net', 'googleads.g.doubleclick', 'googleads4.g.doubleclick', 'securepubads.g.doubleclick'}","{'washingtonpost', 'forbes'}"
+"('IDE', 'AHWqTUm2w4rJv7-WWxNw9As9t9PsB6tmsP0IuJ9NZ169SNyj2VPHSxDe9klEysJl')",2,132,"{'bid.g.doubleclick', 'cm.g.doubleclick', 'stats.g.doubleclick', 'ad.doubleclick.net', 'googleads.g.doubleclick', 'googleads4.g.doubleclick', 'securepubads.g.doubleclick'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
 "('INGRESSCOOKIE', '8d10a8b348c68dc9')",1,1,{'bh.contextweb.com'},{'forbes'}
-"('INGRESSCOOKIE', '8d10a8b348c68dc9')",2,8,{'bh.contextweb.com'},"{'myfitnesspal', 'webmd'}"
-"('JSESSIONID', '903d3253e2a76b4f')",1,2,"{'bam.nr-data.net', '.nr-data.net'}",{'washingtonpost'}
+"('INGRESSCOOKIE', '8d10a8b348c68dc9')",2,8,{'bh.contextweb.com'},"{'webmd', 'myfitnesspal'}"
+"('JSESSIONID', '903d3253e2a76b4f')",1,2,"{'.nr-data.net', 'bam.nr-data.net'}",{'washingtonpost'}
 "('JSESSIONID', '903d3253e2a76b4f')",2,6,{'bam.nr-data.net'},{'mayoclinic'}
-"('JSESSIONID', 'bfa681626cbc5e23')",2,10,"{'bam.nr-data.net', '.nr-data.net'}","{'medscape', 'verywellhealth'}"
-"('JSESSIONID', 'bfa681626cbc5e23')",3,18,{'bam.nr-data.net'},"{'colledgeboard', 'harvard', 'edx'}"
-"('KADUSERCOOKIE', '3A2FB39F-CFC8-4617-A956-3C703F4509B7')",1,4,"{'image6.pubmatic.com', 'image2.pubmatic.com', '.pubmatic.com'}",{'forbes'}
-"('KADUSERCOOKIE', '3A2FB39F-CFC8-4617-A956-3C703F4509B7')",2,29,"{'image2.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}",{'webmd'}
+"('JSESSIONID', 'bfa681626cbc5e23')",2,10,"{'.nr-data.net', 'bam.nr-data.net'}","{'medscape', 'verywellhealth'}"
+"('JSESSIONID', 'bfa681626cbc5e23')",3,18,{'bam.nr-data.net'},"{'colledgeboard', 'edx', 'harvard'}"
+"('KADUSERCOOKIE', '3A2FB39F-CFC8-4617-A956-3C703F4509B7')",1,4,"{'image6.pubmatic.com', '.pubmatic.com', 'image2.pubmatic.com'}",{'forbes'}
+"('KADUSERCOOKIE', '3A2FB39F-CFC8-4617-A956-3C703F4509B7')",2,29,"{'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'image2.pubmatic.com', 'simage2.pubmatic.com'}",{'webmd'}
 "('KRTBCOOKIE_80', '16514-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&22987-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&22995-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&23025-CAESEG-FTBaj4COz4KKsJl4cvwQ')",1,1,{'.pubmatic.com'},{'forbes'}
-"('KRTBCOOKIE_80', '16514-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&22987-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&22995-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&23025-CAESEG-FTBaj4COz4KKsJl4cvwQ')",2,27,"{'image2.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}",{'webmd'}
+"('KRTBCOOKIE_80', '16514-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&22987-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&22995-CAESEG-FTBaj4COz4KKsJl4cvwQ&KRTB&23025-CAESEG-FTBaj4COz4KKsJl4cvwQ')",2,27,"{'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'image2.pubmatic.com', 'simage2.pubmatic.com'}",{'webmd'}
 "('MUID', '24348E915159688011AB802C50A46927')",1,2,"{'c.bing.com', '.bing.com'}",{'forbes'}
-"('MUID', '24348E915159688011AB802C50A46927')",2,17,"{'.bing.com', 'bat.bing.com'}","{'mayoclinic', 'myfitnesspal'}"
+"('MUID', '24348E915159688011AB802C50A46927')",2,17,"{'bat.bing.com', '.bing.com'}","{'mayoclinic', 'myfitnesspal'}"
 "('PugT', '1588341415')",1,1,{'.pubmatic.com'},{'forbes'}
-"('PugT', '1588341415')",2,21,"{'image2.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', 'simage2.pubmatic.com', 'ads.pubmatic.com'}",{'webmd'}
+"('PugT', '1588341415')",2,21,"{'image6.pubmatic.com', 'image4.pubmatic.com', 'ads.pubmatic.com', 'image2.pubmatic.com', 'simage2.pubmatic.com'}",{'webmd'}
 "('TDCPM', 'CAESFgoHcnViaWNvbhILCLL7t_um-LY4EAUSFAoFb3BlbngSCwiy5eWlp_i2OBAFEhYKB2QwdHJvMWoSCwjIpu3lp_i2OBAFEhYKB2JsdWVrYWkSCwjYmYvJqPi2OBAFEhQKBXRhcGFkEgsI0ITU26j4tjgQBRIVCgZjYXNhbGUSCwickcfprPi2OBAFGAEgAigCMgsI0PzWiL_4tjgQBTgBWgV0YXBhZGAC')",1,4,"{'match.adsrvr.org', '.adsrvr.org'}",{'forbes'}
 "('TDCPM', 'CAESFgoHcnViaWNvbhILCLL7t_um-LY4EAUSFAoFb3BlbngSCwiy5eWlp_i2OBAFEhYKB2QwdHJvMWoSCwjIpu3lp_i2OBAFEhYKB2JsdWVrYWkSCwjYmYvJqPi2OBAFEhQKBXRhcGFkEgsI0ITU26j4tjgQBRIVCgZjYXNhbGUSCwickcfprPi2OBAFGAEgAigCMgsI0PzWiL_4tjgQBTgBWgV0YXBhZGAC')",2,2,{'match.adsrvr.org'},{'webmd'}
-"('TDID', 'f22d0c1f-900e-4c1c-ba61-841bc375953c')",1,29,"{'match.adsrvr.org', '.adsrvr.org'}","{'forbes', 'washingtonpost'}"
+"('TDID', 'f22d0c1f-900e-4c1c-ba61-841bc375953c')",1,29,"{'match.adsrvr.org', '.adsrvr.org'}","{'washingtonpost', 'forbes'}"
 "('TDID', 'f22d0c1f-900e-4c1c-ba61-841bc375953c')",2,23,"{'match.adsrvr.org', '.adsrvr.org'}",{'webmd'}
-"('TapAd_DID', '58dfa4c1-8bb3-11ea-bf7f-828326ab2b81')",1,8,"{'pixel.tapad.com', '.tapad.com', 'tapestry.tapad.com'}",{'forbes'}
-"('TapAd_DID', '58dfa4c1-8bb3-11ea-bf7f-828326ab2b81')",2,6,"{'pixel.tapad.com', '.tapad.com'}",{'webmd'}
-"('TapAd_TS', '1588341299468')",1,8,"{'pixel.tapad.com', '.tapad.com', 'tapestry.tapad.com'}",{'forbes'}
-"('TapAd_TS', '1588341299468')",2,6,"{'pixel.tapad.com', '.tapad.com'}",{'webmd'}
+"('TapAd_DID', '58dfa4c1-8bb3-11ea-bf7f-828326ab2b81')",1,8,"{'.tapad.com', 'pixel.tapad.com', 'tapestry.tapad.com'}",{'forbes'}
+"('TapAd_DID', '58dfa4c1-8bb3-11ea-bf7f-828326ab2b81')",2,6,"{'.tapad.com', 'pixel.tapad.com'}",{'webmd'}
+"('TapAd_TS', '1588341299468')",1,8,"{'.tapad.com', 'pixel.tapad.com', 'tapestry.tapad.com'}",{'forbes'}
+"('TapAd_TS', '1588341299468')",2,6,"{'.tapad.com', 'pixel.tapad.com'}",{'webmd'}
 "('U', '98d7880ab4f009b2b99d3cf2fd8465b6')",1,14,"{'p.adsymptotic.com', '.adsymptotic.com'}",{'forbes'}
 "('U', '98d7880ab4f009b2b99d3cf2fd8465b6')",2,6,"{'p.adsymptotic.com', '.adsymptotic.com'}",{'webmd'}
 "('U', 'f3e06fc62eee813444aa9bd44d25b62b')",2,7,"{'p.adsymptotic.com', '.adsymptotic.com'}",{'medscape'}
 "('U', 'f3e06fc62eee813444aa9bd44d25b62b')",3,11,"{'p.adsymptotic.com', '.adsymptotic.com'}",{'edx'}
-"('UID', '17018427a45a1421a5555261588341258')",1,14,"{'sb.scorecardresearch.com', '.scorecardresearch.com'}","{'forbes', 'washingtonpost'}"
-"('UID', '17018427a45a1421a5555261588341258')",2,20,"{'sa.scorecardresearch.com', 'sb.scorecardresearch.com'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
-"('UIDR', '1588341258')",1,14,"{'sb.scorecardresearch.com', '.scorecardresearch.com'}","{'forbes', 'washingtonpost'}"
-"('UIDR', '1588341258')",2,20,"{'sa.scorecardresearch.com', 'sb.scorecardresearch.com'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
+"('UID', '17018427a45a1421a5555261588341258')",1,14,"{'.scorecardresearch.com', 'sb.scorecardresearch.com'}","{'washingtonpost', 'forbes'}"
+"('UID', '17018427a45a1421a5555261588341258')",2,20,"{'sa.scorecardresearch.com', 'sb.scorecardresearch.com'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
+"('UIDR', '1588341258')",1,14,"{'.scorecardresearch.com', 'sb.scorecardresearch.com'}","{'washingtonpost', 'forbes'}"
+"('UIDR', '1588341258')",2,20,"{'sa.scorecardresearch.com', 'sb.scorecardresearch.com'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
 "('V', 'VnuyV3ZbfKyb')",1,1,{'.contextweb.com'},{'forbes'}
-"('V', 'VnuyV3ZbfKyb')",2,24,"{'bh.contextweb.com', '.contextweb.com'}","{'myfitnesspal', 'webmd'}"
+"('V', 'VnuyV3ZbfKyb')",2,24,"{'bh.contextweb.com', '.contextweb.com'}","{'webmd', 'myfitnesspal'}"
 "('_cc_aud', '\\ABR4nGNgYGCIW6OlwQAHABGiAV0%3D\\')",1,1,{'sync.crwdcntrl.net'},{'forbes'}
-"('_cc_aud', '\\ABR4nGNgYGCIW6OlwQAHABGiAV0%3D\\')",2,3,"{'tags.crwdcntrl.net', 'bcp.crwdcntrl.net'}",{'webmd'}
+"('_cc_aud', '\\ABR4nGNgYGCIW6OlwQAHABGiAV0%3D\\')",2,3,"{'bcp.crwdcntrl.net', 'tags.crwdcntrl.net'}",{'webmd'}
 "('_cc_cc', '\\ACZ4nGNQSDJKNrEwMjQxMDBJNTA3sjQ3TkkyS0lOTko1MDAwNkpkAIK4NVoaDAgAAEEmCe8%3D\\')",1,1,{'sync.crwdcntrl.net'},{'forbes'}
-"('_cc_cc', '\\ACZ4nGNQSDJKNrEwMjQxMDBJNTA3sjQ3TkkyS0lOTko1MDAwNkpkAIK4NVoaDAgAAEEmCe8%3D\\')",2,3,"{'tags.crwdcntrl.net', 'bcp.crwdcntrl.net'}",{'webmd'}
+"('_cc_cc', '\\ACZ4nGNQSDJKNrEwMjQxMDBJNTA3sjQ3TkkyS0lOTko1MDAwNkpkAIK4NVoaDAgAAEEmCe8%3D\\')",2,3,"{'bcp.crwdcntrl.net', 'tags.crwdcntrl.net'}",{'webmd'}
 "('_cc_id', 'b2c48214004e072973db6dccbe00032a')",1,2,"{'.crwdcntrl.net', 'sync.crwdcntrl.net'}",{'forbes'}
-"('_cc_id', 'b2c48214004e072973db6dccbe00032a')",2,3,"{'tags.crwdcntrl.net', 'bcp.crwdcntrl.net'}",{'webmd'}
-"('_dm_uid', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDAwLCJ1c3IiOiJxZ1l3c2dZYk1XSktSRTVLWkV4TVdERlFhek01VkU5aE0wRnpNbk16UTNOT3VnWURDS3BPdWdZRENLNU91Z1lEQ0xCTyIsImlhdCI6MTU4ODM0MTI2MX0.LVCI8QdwH8yAOqbLMyUif8De8wLCgJg5BuZ79bvTnIVrWDLD5hVuQTJFE41u_jG1zusYuZA5qjP8IXhkmWU0LQ')",1,13,"{'.districtm.io', 'dmx.us-east-5.districtm', 'dmx.districtm.io', 'cdn.districtm.io'}","{'forbes', 'washingtonpost'}"
+"('_cc_id', 'b2c48214004e072973db6dccbe00032a')",2,3,"{'bcp.crwdcntrl.net', 'tags.crwdcntrl.net'}",{'webmd'}
+"('_dm_uid', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDAwLCJ1c3IiOiJxZ1l3c2dZYk1XSktSRTVLWkV4TVdERlFhek01VkU5aE0wRnpNbk16UTNOT3VnWURDS3BPdWdZRENLNU91Z1lEQ0xCTyIsImlhdCI6MTU4ODM0MTI2MX0.LVCI8QdwH8yAOqbLMyUif8De8wLCgJg5BuZ79bvTnIVrWDLD5hVuQTJFE41u_jG1zusYuZA5qjP8IXhkmWU0LQ')",1,13,"{'cdn.districtm.io', 'dmx.districtm.io', 'dmx.us-east-5.districtm', '.districtm.io'}","{'washingtonpost', 'forbes'}"
 "('_dm_uid', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDAwLCJ1c3IiOiJxZ1l3c2dZYk1XSktSRTVLWkV4TVdERlFhek01VkU5aE0wRnpNbk16UTNOT3VnWURDS3BPdWdZRENLNU91Z1lEQ0xCTyIsImlhdCI6MTU4ODM0MTI2MX0.LVCI8QdwH8yAOqbLMyUif8De8wLCgJg5BuZ79bvTnIVrWDLD5hVuQTJFE41u_jG1zusYuZA5qjP8IXhkmWU0LQ')",2,3,"{'cdn.districtm.io', 'dmx.districtm.io'}",{'webmd'}
-"('_kuid_', 'NYJjK9iL')",1,36,"{'usermatch.krxd.net', 'beacon.krxd.net', 'cdn.krxd.net', 'consumer.krxd.net', '.krxd.net'}","{'forbes', 'washingtonpost'}"
+"('_kuid_', 'NYJjK9iL')",1,36,"{'.krxd.net', 'consumer.krxd.net', 'cdn.krxd.net', 'beacon.krxd.net', 'usermatch.krxd.net'}","{'washingtonpost', 'forbes'}"
 "('_kuid_', 'NYJjK9iL')",2,3,"{'beacon.krxd.net', '.krxd.net'}",{'webmd'}
-"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%2C%22nxtrdr%22%3Afalse%7D')",1,3,"{'sync.1rx.io', '.1rx.io'}",{'forbes'}
-"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%2C%22nxtrdr%22%3Afalse%7D')",2,4,"{'sync.1rx.io', '.1rx.io'}",{'webmd'}
-"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%7D')",1,3,"{'sync.1rx.io', '.1rx.io'}",{'forbes'}
-"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%7D')",2,4,"{'sync.1rx.io', '.1rx.io'}",{'webmd'}
-"('ab', '0001%3AFn0nHs5NwVNdXeGXGhCWjDZOVCojwaS7')",1,4,"{'.agkn.com', 'aa.agkn.com'}",{'forbes'}
-"('ab', '0001%3AFn0nHs5NwVNdXeGXGhCWjDZOVCojwaS7')",2,3,"{'.agkn.com', 'aa.agkn.com'}",{'webmd'}
-"('ad-id', 'A45uM9jLqkQuuYy7VTmOFJk')",1,36,"{'s.amazon-adsystem.com', 'c.amazon-adsystem.com', '.amazon-adsystem.com'}","{'forbes', 'washingtonpost'}"
-"('ad-id', 'A45uM9jLqkQuuYy7VTmOFJk')",2,56,"{'s.amazon-adsystem.com', 'c.amazon-adsystem.com', '.amazon-adsystem.com'}","{'myfitnesspal', 'webmd'}"
-"('adtheorent-legacy[cuid]', 'cuid_85c1d121-8bb3-11ea-8569-12c731858e46')",1,2,"{'.adentifi.com', 'rtb.adentifi.com'}",{'forbes'}
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%2C%22nxtrdr%22%3Afalse%7D')",1,3,"{'.1rx.io', 'sync.1rx.io'}",{'forbes'}
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%2C%22nxtrdr%22%3Afalse%7D')",2,4,"{'.1rx.io', 'sync.1rx.io'}",{'webmd'}
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%7D')",1,3,"{'.1rx.io', 'sync.1rx.io'}",{'forbes'}
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005%22%7D')",2,4,"{'.1rx.io', 'sync.1rx.io'}",{'webmd'}
+"('ab', '0001%3AFn0nHs5NwVNdXeGXGhCWjDZOVCojwaS7')",1,4,"{'aa.agkn.com', '.agkn.com'}",{'forbes'}
+"('ab', '0001%3AFn0nHs5NwVNdXeGXGhCWjDZOVCojwaS7')",2,3,"{'aa.agkn.com', '.agkn.com'}",{'webmd'}
+"('ad-id', 'A45uM9jLqkQuuYy7VTmOFJk')",1,36,"{'c.amazon-adsystem.com', 's.amazon-adsystem.com', '.amazon-adsystem.com'}","{'washingtonpost', 'forbes'}"
+"('ad-id', 'A45uM9jLqkQuuYy7VTmOFJk')",2,56,"{'c.amazon-adsystem.com', 's.amazon-adsystem.com', '.amazon-adsystem.com'}","{'webmd', 'myfitnesspal'}"
+"('adtheorent-legacy[cuid]', 'cuid_85c1d121-8bb3-11ea-8569-12c731858e46')",1,2,"{'rtb.adentifi.com', '.adentifi.com'}",{'forbes'}
 "('adtheorent-legacy[cuid]', 'cuid_85c1d121-8bb3-11ea-8569-12c731858e46')",2,1,{'rtb.adentifi.com'},{'webmd'}
-"('adtheorent[cuid]', 'cuid_85c1d121-8bb3-11ea-8569-12c731858e46')",1,2,"{'.adentifi.com', 'rtb.adentifi.com'}",{'forbes'}
+"('adtheorent[cuid]', 'cuid_85c1d121-8bb3-11ea-8569-12c731858e46')",1,2,"{'rtb.adentifi.com', '.adentifi.com'}",{'forbes'}
 "('adtheorent[cuid]', 'cuid_85c1d121-8bb3-11ea-8569-12c731858e46')",2,1,{'rtb.adentifi.com'},{'webmd'}
-"('anj', ""dTM7k!M4/8F7/.XF']wIg2C$Somp3X!tL<Ae3oYo47YS#XstGtXt#r7!?UY*(0+a4"")",1,15,"{'cdn.adnxs.com', 'acdn.adnxs.com', 'nym1-ib.adnxs.com', 'ib.adnxs.com', 'sharethrough.adnxs.com', '.adnxs.com'}",{'forbes'}
+"('anj', ""dTM7k!M4/8F7/.XF']wIg2C$Somp3X!tL<Ae3oYo47YS#XstGtXt#r7!?UY*(0+a4"")",1,15,"{'nym1-ib.adnxs.com', 'ib.adnxs.com', 'acdn.adnxs.com', '.adnxs.com', 'sharethrough.adnxs.com', 'cdn.adnxs.com'}",{'forbes'}
 "('anj', ""dTM7k!M4/8F7/.XF']wIg2C$Somp3X!tL<Ae3oYo47YS#XstGtXt#r7!?UY*(0+a4"")",2,3,"{'nym1-ib.adnxs.com', 'sharethrough.adnxs.com'}",{'webmd'}
-"('audience', '98a4c4c0-8bb3-11ea-bca3-1d9f7f392201')",1,4,"{'.spotxchange.com', 'sync.search.spotxchange'}",{'forbes'}
-"('audience', '98a4c4c0-8bb3-11ea-bca3-1d9f7f392201')",2,3,"{'.spotxchange.com', 'sync.search.spotxchange'}",{'webmd'}
-"('audit', '1|mFVHqHkj5bH2tA61swo12kYBGrxLXkCS7viqpyHuzNk9Fq0YJqa2exI+GIMW9IqPCNzhw6vix23hlI2uKWkDtsxuhZpbWKLtHrqARQxmcjZNzmBpqKG5ew==')",1,8,"{'s.update.rubiconproject', 'beacon-us-iad3.rubiconproject.com', 'eus.rubiconproject.com', '.rubiconproject.com'}",{'forbes'}
-"('audit', '1|mFVHqHkj5bH2tA61swo12kYBGrxLXkCS7viqpyHuzNk9Fq0YJqa2exI+GIMW9IqPCNzhw6vix23hlI2uKWkDtsxuhZpbWKLtHrqARQxmcjZNzmBpqKG5ew==')",2,4,"{'pixel-us-east.rubiconproject.com', 'eus.rubiconproject.com', 'secure-assets.rubiconproject.com'}",{'webmd'}
+"('audience', '98a4c4c0-8bb3-11ea-bca3-1d9f7f392201')",1,4,"{'sync.search.spotxchange', '.spotxchange.com'}",{'forbes'}
+"('audience', '98a4c4c0-8bb3-11ea-bca3-1d9f7f392201')",2,3,"{'sync.search.spotxchange', '.spotxchange.com'}",{'webmd'}
+"('audit', '1|mFVHqHkj5bH2tA61swo12kYBGrxLXkCS7viqpyHuzNk9Fq0YJqa2exI+GIMW9IqPCNzhw6vix23hlI2uKWkDtsxuhZpbWKLtHrqARQxmcjZNzmBpqKG5ew==')",1,8,"{'beacon-us-iad3.rubiconproject.com', 'eus.rubiconproject.com', '.rubiconproject.com', 's.update.rubiconproject'}",{'forbes'}
+"('audit', '1|mFVHqHkj5bH2tA61swo12kYBGrxLXkCS7viqpyHuzNk9Fq0YJqa2exI+GIMW9IqPCNzhw6vix23hlI2uKWkDtsxuhZpbWKLtHrqARQxmcjZNzmBpqKG5ew==')",2,4,"{'eus.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'secure-assets.rubiconproject.com'}",{'webmd'}
 "('bito', 'AABFmU69WFQAABDDe4aIGQ')",1,1,{'.bidr.io'},{'forbes'}
-"('bito', 'AABFmU69WFQAABDDe4aIGQ')",2,5,{'match.prod.bidr'},"{'myfitnesspal', 'webmd'}"
-"('bku', 'ikG99Y/3gafB6I9L')",1,99,"{'tags.bluekai.com', '.bluekai.com', 'stags.bluekai.com'}",{'forbes'}
-"('bku', 'ikG99Y/3gafB6I9L')",2,12,"{'tags.bluekai.com', '.bluekai.com', 'stags.bluekai.com'}","{'myfitnesspal', 'webmd'}"
+"('bito', 'AABFmU69WFQAABDDe4aIGQ')",2,5,{'match.prod.bidr'},"{'webmd', 'myfitnesspal'}"
+"('bku', 'ikG99Y/3gafB6I9L')",1,99,"{'tags.bluekai.com', 'stags.bluekai.com', '.bluekai.com'}",{'forbes'}
+"('bku', 'ikG99Y/3gafB6I9L')",2,12,"{'tags.bluekai.com', '.bluekai.com', 'stags.bluekai.com'}","{'webmd', 'myfitnesspal'}"
 "('browser_data', 'XGRgm193OTZlQzdnSHpZZUNpbUc2NmFIcDY2TDdudlBzcXhSMXN6QUxsY2hHSjFJVHIyY01OZGslMkIlMkZlTk84U3h3em50b29wUTU4YTZOR1Q4U2dGU1B1eXBvYWclM0QlM0Q')",1,2,{'.dnacdn.net'},{'forbes'}
 "('browser_data', 'XGRgm193OTZlQzdnSHpZZUNpbUc2NmFIcDY2TDdudlBzcXhSMXN6QUxsY2hHSjFJVHIyY01OZGslMkIlMkZlTk84U3h3em50b29wUTU4YTZOR1Q4U2dGU1B1eXBvYWclM0QlM0Q')",2,2,{'dnacdn.net'},{'webmd'}
-"('c', '1588341261')",1,10,"{'.bidswitch.net', 'x.bidswitch.net'}","{'forbes', 'washingtonpost'}"
+"('c', '1588341261')",1,10,"{'.bidswitch.net', 'x.bidswitch.net'}","{'washingtonpost', 'forbes'}"
 "('c', '1588341261')",2,6,"{'us-east-sync.bidswitch.net', 'x.bidswitch.net'}",{'webmd'}
 "('c', '1588341356')",1,3,"{'.myvisualiq.net', 't.myvisualiq.net'}",{'forbes'}
 "('c', '1588341356')",2,1,{'t.myvisualiq.net'},{'myfitnesspal'}
-"('cu', '50c0f085-8bb3-11ea-8dcb-6dfb4eaae873|1588341285845')",1,4,"{'sync.ipredictive.com', '.ipredictive.com'}",{'forbes'}
-"('cu', '50c0f085-8bb3-11ea-8dcb-6dfb4eaae873|1588341285845')",2,3,"{'sync.ipredictive.com', '.ipredictive.com'}",{'webmd'}
-"('d', 'EHUBDwGqIIEOmvUA')",1,8,"{'.quantserve.com', 'secure.quantserve.com', 'pixel.quantserve.com'}",{'forbes'}
+"('cu', '50c0f085-8bb3-11ea-8dcb-6dfb4eaae873|1588341285845')",1,4,"{'.ipredictive.com', 'sync.ipredictive.com'}",{'forbes'}
+"('cu', '50c0f085-8bb3-11ea-8dcb-6dfb4eaae873|1588341285845')",2,3,"{'.ipredictive.com', 'sync.ipredictive.com'}",{'webmd'}
+"('d', 'EHUBDwGqIIEOmvUA')",1,8,"{'pixel.quantserve.com', 'secure.quantserve.com', '.quantserve.com'}",{'forbes'}
 "('d', 'EHUBDwGqIIEOmvUA')",2,1,{'pixel.quantserve.com'},{'webmd'}
-"('data-a', '7526883567168608467~~1')",1,402,"{'cs.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-a', '7526883567168608467~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-adt', '6821881830051811416~~1')",1,318,"{'contextual.media.net', 'cvision.media.net', 'hblg.media.net', 'lgncal.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-adt', '6821881830051811416~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-amb', '2363256606281464141~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-amb', '2363256606281464141~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-b', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-b', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-bs', 'de1edf2d-73a4-47bc-b136-4ae7063511b2~~1')",1,379,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-bs', 'de1edf2d-73a4-47bc-b136-4ae7063511b2~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-bt', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",1,318,"{'contextual.media.net', 'cvision.media.net', 'hblg.media.net', 'lgncal.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-bt', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-co', 'AAAGUZHkl8a3YgMwZAW3AAAAAAA~~1')",1,390,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-co', 'AAAGUZHkl8a3YgMwZAW3AAAAAAA~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-di', 'di_afb02741a6d44a27b16a6~~1')",1,212,"{'contextual.media.net', 'cvision.media.net', 'hblg.media.net', 'lgncal.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-di', 'di_afb02741a6d44a27b16a6~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-dmx', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDA1LCJ1c3IiOiJxZ1llc2dZYk1XSktSRTVLWkV4TVdERlFhek01VkU5aE0wRnpNbk16UTNOTyJ9.mj8EUKlluohhYenv_uK4uxUlVjKE2fWWiXr4uCYCjBgGueZcE7iKYU_d9bLchzcGSt3PXe2U2I7dDLUPAuDCNQ~~1')",1,380,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-dmx', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDA1LCJ1c3IiOiJxZ1llc2dZYk1XSktSRTVLWkV4TVdERlFhek01VkU5aE0wRnpNbk16UTNOTyJ9.mj8EUKlluohhYenv_uK4uxUlVjKE2fWWiXr4uCYCjBgGueZcE7iKYU_d9bLchzcGSt3PXe2U2I7dDLUPAuDCNQ~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-emx', '7526883567168608467brt43531588341280935352ae~~1')",1,318,"{'contextual.media.net', 'cvision.media.net', 'hblg.media.net', 'lgncal.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-emx', '7526883567168608467brt43531588341280935352ae~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-mf', '40b7cac0-8bde-436f-a3ef-4f701db35d64~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-mf', '40b7cac0-8bde-436f-a3ef-4f701db35d64~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-mm', '11c35eac-2a21-4b00-b00b-f8c935a11a0c~~1')",1,390,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-mm', '11c35eac-2a21-4b00-b00b-f8c935a11a0c~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-p', 'VnuyV3ZbfKyb~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-p', 'VnuyV3ZbfKyb~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-r', 'K9O9DHV1-I-7BR2~~1')",1,380,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-r', 'K9O9DHV1-I-7BR2~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-r1', 'RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005~~1')",1,380,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-r1', 'RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-rbh', 'k2HBwFJ2GdEEOCvf0Y3I~~1')",1,270,"{'contextual.media.net', 'cvision.media.net', 'hblg.media.net', 'lgncal.media.net', 'hbxlp.media.net', 'coplg-w.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net'}",{'forbes'}
-"('data-rbh', 'k2HBwFJ2GdEEOCvf0Y3I~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-rk', '979321814925778824~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-rk', '979321814925778824~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-sh', '4a8d1984-473d-491d-b2f7-7cb61836798d~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-sh', '4a8d1984-473d-491d-b2f7-7cb61836798d~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-so', '0d9d5811-ae4f-4777-98a8-6010c5969897~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-so', '0d9d5811-ae4f-4777-98a8-6010c5969897~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-som', '09952cf7ddd1415e952cf7ddd1515e5f~~1')",1,393,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-som', '09952cf7ddd1415e952cf7ddd1515e5f~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-sov', 'c7525a994f4a1746e9fc26be~~1')",1,390,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-sov', 'c7525a994f4a1746e9fc26be~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-xu', '4FlCNvXw1Juw7K5~~1')",1,318,"{'contextual.media.net', 'cvision.media.net', 'hblg.media.net', 'lgncal.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-xu', '4FlCNvXw1Juw7K5~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('data-ze', 'TM6LMxYK3kC19y2AVTom~~1')",1,380,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'lg3.media.net', 'hbx.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('data-ze', 'TM6LMxYK3kC19y2AVTom~~1')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('demdex', '08980642074004230442948801797311474884')",2,8,"{'webmd.demdex.net', '.demdex.net', 'dpm.demdex.net'}",{'medscape'}
+"('data-a', '7526883567168608467~~1')",1,402,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'cs.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-a', '7526883567168608467~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-adt', '6821881830051811416~~1')",1,318,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-adt', '6821881830051811416~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-amb', '2363256606281464141~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-amb', '2363256606281464141~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-b', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-b', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-bs', 'de1edf2d-73a4-47bc-b136-4ae7063511b2~~1')",1,379,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-bs', 'de1edf2d-73a4-47bc-b136-4ae7063511b2~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-bt', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",1,318,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-bt', '771a64b5-f666-4ca4-9828-32eb1545984b~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-co', 'AAAGUZHkl8a3YgMwZAW3AAAAAAA~~1')",1,390,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-co', 'AAAGUZHkl8a3YgMwZAW3AAAAAAA~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-di', 'di_afb02741a6d44a27b16a6~~1')",1,212,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-di', 'di_afb02741a6d44a27b16a6~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-dmx', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDA1LCJ1c3IiOiJxZ1llc2dZYk1XSktSRTVLWkV4TVdERlFhek01VkU5aE0wRnpNbk16UTNOTyJ9.mj8EUKlluohhYenv_uK4uxUlVjKE2fWWiXr4uCYCjBgGueZcE7iKYU_d9bLchzcGSt3PXe2U2I7dDLUPAuDCNQ~~1')",1,380,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-dmx', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDA1LCJ1c3IiOiJxZ1llc2dZYk1XSktSRTVLWkV4TVdERlFhek01VkU5aE0wRnpNbk16UTNOTyJ9.mj8EUKlluohhYenv_uK4uxUlVjKE2fWWiXr4uCYCjBgGueZcE7iKYU_d9bLchzcGSt3PXe2U2I7dDLUPAuDCNQ~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-emx', '7526883567168608467brt43531588341280935352ae~~1')",1,318,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-emx', '7526883567168608467brt43531588341280935352ae~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-mf', '40b7cac0-8bde-436f-a3ef-4f701db35d64~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-mf', '40b7cac0-8bde-436f-a3ef-4f701db35d64~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-mm', '11c35eac-2a21-4b00-b00b-f8c935a11a0c~~1')",1,390,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-mm', '11c35eac-2a21-4b00-b00b-f8c935a11a0c~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-p', 'VnuyV3ZbfKyb~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-p', 'VnuyV3ZbfKyb~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-r', 'K9O9DHV1-I-7BR2~~1')",1,380,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-r', 'K9O9DHV1-I-7BR2~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-r1', 'RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005~~1')",1,380,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-r1', 'RX-9bf7f180-bfe9-47dd-91bf-4549229bb17e-005~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-rbh', 'k2HBwFJ2GdEEOCvf0Y3I~~1')",1,270,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-rbh', 'k2HBwFJ2GdEEOCvf0Y3I~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-rk', '979321814925778824~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-rk', '979321814925778824~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-sh', '4a8d1984-473d-491d-b2f7-7cb61836798d~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-sh', '4a8d1984-473d-491d-b2f7-7cb61836798d~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-so', '0d9d5811-ae4f-4777-98a8-6010c5969897~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-so', '0d9d5811-ae4f-4777-98a8-6010c5969897~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-som', '09952cf7ddd1415e952cf7ddd1515e5f~~1')",1,393,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-som', '09952cf7ddd1415e952cf7ddd1515e5f~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-sov', 'c7525a994f4a1746e9fc26be~~1')",1,390,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-sov', 'c7525a994f4a1746e9fc26be~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-xu', '4FlCNvXw1Juw7K5~~1')",1,318,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-xu', '4FlCNvXw1Juw7K5~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('data-ze', 'TM6LMxYK3kC19y2AVTom~~1')",1,380,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('data-ze', 'TM6LMxYK3kC19y2AVTom~~1')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('demdex', '08980642074004230442948801797311474884')",2,8,"{'.demdex.net', 'dpm.demdex.net', 'webmd.demdex.net'}",{'medscape'}
 "('demdex', '08980642074004230442948801797311474884')",3,9,"{'.demdex.net', 'dpm.demdex.net', 'thecollegeboard.demdex.net'}",{'colledgeboard'}
-"('demdex', '12817733358675739114137966723933473093')",1,19,"{'morganstanley.demdex.net', 'vanguard.demdex.net', '.demdex.net', 'dpm.demdex.net'}",{'forbes'}
-"('demdex', '12817733358675739114137966723933473093')",2,24,"{'webmd.demdex.net', '.demdex.net', 'dpm.demdex.net'}",{'webmd'}
+"('demdex', '12817733358675739114137966723933473093')",1,19,"{'.demdex.net', 'morganstanley.demdex.net', 'dpm.demdex.net', 'vanguard.demdex.net'}",{'forbes'}
+"('demdex', '12817733358675739114137966723933473093')",2,24,"{'.demdex.net', 'dpm.demdex.net', 'webmd.demdex.net'}",{'webmd'}
 "('dextp', '285689-1-1588342023340')",2,2,"{'.demdex.net', 'dpm.demdex.net'}",{'medscape'}
 "('dextp', '285689-1-1588342023340')",3,3,"{'dpm.demdex.net', 'thecollegeboard.demdex.net'}",{'colledgeboard'}
 "('dpm', '08980642074004230442948801797311474884')",2,1,{'.dpm.demdex'},{'medscape'}
-"('dpm', '08980642074004230442948801797311474884')",3,4,"{'.dpm.demdex', 'dpm.demdex.net'}",{'colledgeboard'}
-"('dpm', '12817733358675739114137966723933473093')",1,7,"{'.dpm.demdex', 'dpm.demdex.net'}",{'forbes'}
-"('dpm', '12817733358675739114137966723933473093')",2,9,"{'.dpm.demdex', 'dpm.demdex.net'}",{'webmd'}
-"('everest_g_v2', 'g_surferid~XqwqHQAAAD3gWgFU')",1,6,"{'.everesttech.net', 'sync-tm.everesttech.net'}","{'forbes', 'washingtonpost'}"
+"('dpm', '08980642074004230442948801797311474884')",3,4,"{'dpm.demdex.net', '.dpm.demdex'}",{'colledgeboard'}
+"('dpm', '12817733358675739114137966723933473093')",1,7,"{'dpm.demdex.net', '.dpm.demdex'}",{'forbes'}
+"('dpm', '12817733358675739114137966723933473093')",2,9,"{'dpm.demdex.net', '.dpm.demdex'}",{'webmd'}
+"('everest_g_v2', 'g_surferid~XqwqHQAAAD3gWgFU')",1,6,"{'sync-tm.everesttech.net', '.everesttech.net'}","{'washingtonpost', 'forbes'}"
 "('everest_g_v2', 'g_surferid~XqwqHQAAAD3gWgFU')",2,1,{'sync-tm.everesttech.net'},{'webmd'}
-"('everest_g_v2', 'g_surferid~Xqws_AAAAJslXQFU')",2,4,"{'.everesttech.net', 'sync-tm.everesttech.net'}","{'myfitnesspal', 'medscape'}"
-"('everest_g_v2', 'g_surferid~Xqws_AAAAJslXQFU')",3,23,"{'pixel.everesttech.net', 'cm.everesttech.net', '.everesttech.net'}",{'colledgeboard'}
-"('extendtv_user_id', 'eae71626-6e0a-442e-8bbc-61d813a51f55')",1,7,"{'.extend.tv', 'sync.extend.tv'}",{'forbes'}
-"('extendtv_user_id', 'eae71626-6e0a-442e-8bbc-61d813a51f55')",2,3,"{'.extend.tv', 'sync.extend.tv'}",{'webmd'}
+"('everest_g_v2', 'g_surferid~Xqws_AAAAJslXQFU')",2,4,"{'sync-tm.everesttech.net', '.everesttech.net'}","{'medscape', 'myfitnesspal'}"
+"('everest_g_v2', 'g_surferid~Xqws_AAAAJslXQFU')",3,23,"{'pixel.everesttech.net', '.everesttech.net', 'cm.everesttech.net'}",{'colledgeboard'}
+"('extendtv_user_id', 'eae71626-6e0a-442e-8bbc-61d813a51f55')",1,7,"{'sync.extend.tv', '.extend.tv'}",{'forbes'}
+"('extendtv_user_id', 'eae71626-6e0a-442e-8bbc-61d813a51f55')",2,3,"{'sync.extend.tv', '.extend.tv'}",{'webmd'}
 "('fr', '0isX1gId8kcbJvOau..BerCoo...1.0.BerCoo.')",1,11,{'.facebook.com'},{'forbes'}
 "('fr', '0isX1gId8kcbJvOau..BerCoo...1.0.BerCoo.')",2,1,{'.facebook.com'},{'webmd'}
 "('fr', '0weVUHgKfSNYRMZ4T..BerC0D...1.0.BerC0D.')",2,10,{'.facebook.com'},{'medscape'}
-"('fr', '0weVUHgKfSNYRMZ4T..BerC0D...1.0.BerC0D.')",3,30,{'.facebook.com'},"{'colledgeboard', 'harvard', 'jhu', 'edx'}"
-"('i', '186eb046-34b7-0bf9-3811-081c435b982a|1588341257')",1,21,"{'rtb.openx.net', 'us-u.openx.net', '.openx.net', 'washingtonpost-d.openx.net'}","{'forbes', 'washingtonpost'}"
-"('i', '186eb046-34b7-0bf9-3811-081c435b982a|1588341257')",2,20,"{'us-u.openx.net', '.openx.net', 'underarmour-d.openx.net', 'u.openx.net', 'rtb.openx.net'}","{'myfitnesspal', 'webmd'}"
+"('fr', '0weVUHgKfSNYRMZ4T..BerC0D...1.0.BerC0D.')",3,30,{'.facebook.com'},"{'harvard', 'colledgeboard', 'edx', 'jhu'}"
+"('i', '186eb046-34b7-0bf9-3811-081c435b982a|1588341257')",1,21,"{'rtb.openx.net', 'us-u.openx.net', '.openx.net', 'washingtonpost-d.openx.net'}","{'washingtonpost', 'forbes'}"
+"('i', '186eb046-34b7-0bf9-3811-081c435b982a|1588341257')",2,20,"{'us-u.openx.net', 'underarmour-d.openx.net', 'u.openx.net', 'rtb.openx.net', '.openx.net'}","{'webmd', 'myfitnesspal'}"
 "('ibkukinet', '314365897=-8586132655939712795')",1,1,{'.ib.mookie1'},{'forbes'}
 "('ibkukinet', '314365897=-8586132655939712795')",2,1,{'ib.mookie1.com'},{'webmd'}
 "('ibkukiuno', 's=8fd5417d-abb8-457f-bdac-6fe642601240&h=&v=0&l=-8586132655939712795&op=&hl=0&vlu=0&tcs=1&dcc=-8586132655939712795')",1,1,{'.ib.mookie1'},{'forbes'}
 "('ibkukiuno', 's=8fd5417d-abb8-457f-bdac-6fe642601240&h=&v=0&l=-8586132655939712795&op=&hl=0&vlu=0&tcs=1&dcc=-8586132655939712795')",2,1,{'ib.mookie1.com'},{'webmd'}
-"('icu', 'ChgI3-c3EAoYAiACKAIwmNSw9QU4AkACSAIQmNSw9QUYAQ..')",1,71,"{'cdn.adnxs.com', 'crcdn01.adnxs.com', 'secure.adnxs.com', 'acdn.adnxs.com', 'nym1-ib.adnxs.com', 'ib.adnxs.com', 'sharethrough.adnxs.com', '.adnxs.com'}","{'forbes', 'washingtonpost'}"
-"('icu', 'ChgI3-c3EAoYAiACKAIwmNSw9QU4AkACSAIQmNSw9QUYAQ..')",2,14,"{'secure.adnxs.com', 'acdn.adnxs.com', 'nym1-ib.adnxs.com', 'ib.adnxs.com', 'sharethrough.adnxs.com'}","{'myfitnesspal', 'webmd'}"
+"('icu', 'ChgI3-c3EAoYAiACKAIwmNSw9QU4AkACSAIQmNSw9QUYAQ..')",1,71,"{'crcdn01.adnxs.com', 'nym1-ib.adnxs.com', 'cdn.adnxs.com', 'acdn.adnxs.com', '.adnxs.com', 'sharethrough.adnxs.com', 'secure.adnxs.com', 'ib.adnxs.com'}","{'washingtonpost', 'forbes'}"
+"('icu', 'ChgI3-c3EAoYAiACKAIwmNSw9QU4AkACSAIQmNSw9QUYAQ..')",2,14,"{'nym1-ib.adnxs.com', 'acdn.adnxs.com', 'sharethrough.adnxs.com', 'secure.adnxs.com', 'ib.adnxs.com'}","{'webmd', 'myfitnesspal'}"
 "('id', '10607173391445011652')",1,1,{'.mookie1.com'},{'forbes'}
-"('id', '10607173391445011652')",2,8,"{'ib.mookie1.com', 'gmtdmp.mookie1.com', 't.mookie1.com', '.mookie1.com'}",{'webmd'}
-"('khaos', 'K9O9DHV1-I-7BR2')",1,91,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 's.update.rubiconproject', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'forbes', 'washingtonpost'}"
-"('khaos', 'K9O9DHV1-I-7BR2')",2,40,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 'ads.rubiconproject.com', 'optimized-by.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', '.rubiconproject.com'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
-"('mc', '5eac2a27-197ba-42a6e-20de8')",1,27,"{'.quantserve.com', 'cms.quantserve.com', 'secure.quantserve.com', 'pixel.quantserve.com'}",{'forbes'}
+"('id', '10607173391445011652')",2,8,"{'.mookie1.com', 'ib.mookie1.com', 't.mookie1.com', 'gmtdmp.mookie1.com'}",{'webmd'}
+"('khaos', 'K9O9DHV1-I-7BR2')",1,91,"{'s.update.rubiconproject', 'secure-assets.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com'}","{'washingtonpost', 'forbes'}"
+"('khaos', 'K9O9DHV1-I-7BR2')",2,40,"{'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'fastlane.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'ads.rubiconproject.com', 'optimized-by.rubiconproject.com'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
+"('mc', '5eac2a27-197ba-42a6e-20de8')",1,27,"{'pixel.quantserve.com', 'secure.quantserve.com', 'cms.quantserve.com', '.quantserve.com'}",{'forbes'}
 "('mc', '5eac2a27-197ba-42a6e-20de8')",2,1,{'pixel.quantserve.com'},{'webmd'}
 "('mdata', '1|10607173391445011652|1588341336668')",1,1,{'.mookie1.com'},{'forbes'}
-"('mdata', '1|10607173391445011652|1588341336668')",2,8,"{'ib.mookie1.com', 'gmtdmp.mookie1.com', 't.mookie1.com', '.mookie1.com'}",{'webmd'}
+"('mdata', '1|10607173391445011652|1588341336668')",2,8,"{'.mookie1.com', 'ib.mookie1.com', 't.mookie1.com', 'gmtdmp.mookie1.com'}",{'webmd'}
 "('mt_mop', '4:1588341360')",1,1,{'.mathtag.com'},{'forbes'}
 "('mt_mop', '4:1588341360')",2,5,"{'sync.mathtag.com', 'tags.mathtag.com'}",{'webmd'}
 "('mxpim', 'R1B331_C999EAD5_44BC0608.1.5EAC2A71000000000000000000000000000000000000000000000000000000000000000000000000000000005EAC2A26')",1,2,{'.mxptint.net'},{'forbes'}
 "('mxpim', 'R1B331_C999EAD5_44BC0608.1.5EAC2A71000000000000000000000000000000000000000000000000000000000000000000000000000000005EAC2A26')",2,1,{'pmp.mxptint.net'},{'webmd'}
 "('ov', 'fec47ab2acbc065de8253d4c89d1d649')",1,1,{'.mookie1.com'},{'forbes'}
-"('ov', 'fec47ab2acbc065de8253d4c89d1d649')",2,8,"{'ib.mookie1.com', 'gmtdmp.mookie1.com', 't.mookie1.com', '.mookie1.com'}",{'webmd'}
+"('ov', 'fec47ab2acbc065de8253d4c89d1d649')",2,8,"{'.mookie1.com', 'ib.mookie1.com', 't.mookie1.com', 'gmtdmp.mookie1.com'}",{'webmd'}
 "('pd', 'v2|1588341279|kegahEkWgyiK')",1,13,"{'rtb.openx.net', 'us-u.openx.net', '.openx.net'}",{'forbes'}
 "('pd', 'v2|1588341279|kegahEkWgyiK')",2,1,{'us-u.openx.net'},{'webmd'}
 "('personalization_id', '\\v1_gLzJw0SxSjbXnljPv5aM9Q==\\')",1,3,"{'platform.twitter.com', 'syndication.twitter.com'}",{'forbes'}
 "('personalization_id', '\\v1_gLzJw0SxSjbXnljPv5aM9Q==\\')",2,3,{'analytics.twitter.com'},{'webmd'}
 "('pux', '1185%3D90565%261197%3D90565%261512%3D90565%262132%3D90565%262231%3D90565%262238%3D90565%262249%3D90565%262307%3D90565%262313%3D90565%262528%3D90565%262596%3D90565%262650%3D90565%262676%3D90565%262861%3D90565%262974%3D90565%263664%3D90565%263668%3D90565%263778%3D90565%263822%3D90565%263992%3D90565%264112%3D90565%265120%3D90565%265446%3D90565%265474%3D90565%26goog%3D90565%26idl%3D90565%26brx%3D90565%26w55c%3D90565%26a9us%3D90565%26turn%3D90565%26bk%3D90565%261197ext%3D90565%26')",1,3,{'eus.rubiconproject.com'},{'forbes'}
 "('pux', '1185%3D90565%261197%3D90565%261512%3D90565%262132%3D90565%262231%3D90565%262238%3D90565%262249%3D90565%262307%3D90565%262313%3D90565%262528%3D90565%262596%3D90565%262650%3D90565%262676%3D90565%262861%3D90565%262974%3D90565%263664%3D90565%263668%3D90565%263778%3D90565%263822%3D90565%263992%3D90565%264112%3D90565%265120%3D90565%265446%3D90565%265474%3D90565%26goog%3D90565%26idl%3D90565%26brx%3D90565%26w55c%3D90565%26a9us%3D90565%26turn%3D90565%26bk%3D90565%261197ext%3D90565%26')",2,1,{'eus.rubiconproject.com'},{'webmd'}
-"('pxrc', 'CKfUsPUFEgUI204QABIGCL7qARAs')",1,5,"{'idsync.rlcdn.com', '.rlcdn.com'}",{'forbes'}
+"('pxrc', 'CKfUsPUFEgUI204QABIGCL7qARAs')",1,5,"{'.rlcdn.com', 'idsync.rlcdn.com'}",{'forbes'}
 "('pxrc', 'CKfUsPUFEgUI204QABIGCL7qARAs')",2,1,{'idsync.rlcdn.com'},{'webmd'}
 "('rlas3', 'pR5BKWD9u/2NqMmfZwVkfgq2Qp7+HbGsrRFrDxkGyuM=')",1,2,{'.rlcdn.com'},{'forbes'}
 "('rlas3', 'pR5BKWD9u/2NqMmfZwVkfgq2Qp7+HbGsrRFrDxkGyuM=')",2,1,{'idsync.rlcdn.com'},{'webmd'}
-"('rsid', '1|DNi5OVoMr/vVSy6g0MQzNRXnpsxWJKbdvHdREsWffk0b8Nz5OWnkL8WfY9WPiuPJR3OqtTnGEmGoFyjKXUn7RjT/rmwFilIR+x8qfNyRRkN5zGTGXOMAbP+vG/+NWVqRHrqb+gxpPzD5ypA2Cex7l/Usaek=')",1,149,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 's.update.rubiconproject', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'nytimes', 'forbes', 'cnn', 'washingtonpost'}"
-"('rsid', '1|DNi5OVoMr/vVSy6g0MQzNRXnpsxWJKbdvHdREsWffk0b8Nz5OWnkL8WfY9WPiuPJR3OqtTnGEmGoFyjKXUn7RjT/rmwFilIR+x8qfNyRRkN5zGTGXOMAbP+vG/+NWVqRHrqb+gxpPzD5ypA2Cex7l/Usaek=')",2,78,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 'ads.rubiconproject.com', 'optimized-by.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', '.rubiconproject.com'}","{'myfitnesspal', 'webmd', 'medscape', 'mayoclinic', 'verywellhealth'}"
-"('ses10', '254660^1')",1,67,"{'eus.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 's.update.rubiconproject', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'forbes', 'washingtonpost'}"
-"('ses10', '254660^1')",2,12,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
+"('rsid', '1|DNi5OVoMr/vVSy6g0MQzNRXnpsxWJKbdvHdREsWffk0b8Nz5OWnkL8WfY9WPiuPJR3OqtTnGEmGoFyjKXUn7RjT/rmwFilIR+x8qfNyRRkN5zGTGXOMAbP+vG/+NWVqRHrqb+gxpPzD5ypA2Cex7l/Usaek=')",1,149,"{'s.update.rubiconproject', 'secure-assets.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com'}","{'washingtonpost', 'cnn', 'forbes', 'nytimes'}"
+"('rsid', '1|DNi5OVoMr/vVSy6g0MQzNRXnpsxWJKbdvHdREsWffk0b8Nz5OWnkL8WfY9WPiuPJR3OqtTnGEmGoFyjKXUn7RjT/rmwFilIR+x8qfNyRRkN5zGTGXOMAbP+vG/+NWVqRHrqb+gxpPzD5ypA2Cex7l/Usaek=')",2,78,"{'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'fastlane.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'ads.rubiconproject.com', 'optimized-by.rubiconproject.com', 'token.rubiconproject.com'}","{'verywellhealth', 'medscape', 'mayoclinic', 'webmd', 'myfitnesspal'}"
+"('ses10', '254660^1')",1,67,"{'s.update.rubiconproject', 'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com'}","{'washingtonpost', 'forbes'}"
+"('ses10', '254660^1')",2,12,"{'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'fastlane.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
 "('sessionid', 'h-fd2e5e3f9503e51b2d5eab0dd9da285a_t-1588341256')",1,1,{'.mid.rkdms'},{'washingtonpost'}
 "('sessionid', 'h-fd2e5e3f9503e51b2d5eab0dd9da285a_t-1588341256')",2,2,"{'mid.rkdms.com', '.rkdms.com'}",{'webmd'}
-"('si', 'Q6416277581656778414P')",1,5,"{'px.owneriq.net', '.owneriq.net'}",{'forbes'}
-"('si', 'Q6416277581656778414P')",2,3,"{'px.owneriq.net', '.owneriq.net'}",{'webmd'}
-"('ssi', 'e625993a-c5ac-4c9b-abc5-4b35049967f3#1588341261658')",1,14,"{'pixel-sync.sitescout.com', '.sitescout.com', 'pixel-a.sitescout.com'}","{'forbes', 'washingtonpost'}"
+"('si', 'Q6416277581656778414P')",1,5,"{'.owneriq.net', 'px.owneriq.net'}",{'forbes'}
+"('si', 'Q6416277581656778414P')",2,3,"{'.owneriq.net', 'px.owneriq.net'}",{'webmd'}
+"('ssi', 'e625993a-c5ac-4c9b-abc5-4b35049967f3#1588341261658')",1,14,"{'pixel-sync.sitescout.com', 'pixel-a.sitescout.com', '.sitescout.com'}","{'washingtonpost', 'forbes'}"
 "('ssi', 'e625993a-c5ac-4c9b-abc5-4b35049967f3#1588341261658')",2,9,"{'pixel-sync.sitescout.com', '.sitescout.com'}",{'webmd'}
-"('stx_user_id', '4a8d1984-473d-491d-b2f7-7cb61836798d')",1,10,"{'.sharethrough.com', 'b.sharethrough.com', 'btlr.sharethrough.com', 'native.sharethrough.com'}",{'forbes'}
-"('stx_user_id', '4a8d1984-473d-491d-b2f7-7cb61836798d')",2,10,"{'static.sharethrough.com', 'native.sharethrough.com', 'btlr.sharethrough.com', 'b.sharethrough.com'}",{'webmd'}
+"('stx_user_id', '4a8d1984-473d-491d-b2f7-7cb61836798d')",1,10,"{'btlr.sharethrough.com', 'native.sharethrough.com', 'b.sharethrough.com', '.sharethrough.com'}",{'forbes'}
+"('stx_user_id', '4a8d1984-473d-491d-b2f7-7cb61836798d')",2,10,"{'btlr.sharethrough.com', 'native.sharethrough.com', 'b.sharethrough.com', 'static.sharethrough.com'}",{'webmd'}
 "('suid', '0A826C8349FE44B59385C860B5A92A90')",1,2,"{'um.simpli.fi', '.simpli.fi'}",{'forbes'}
 "('suid', '0A826C8349FE44B59385C860B5A92A90')",2,2,{'um.simpli.fi'},{'webmd'}
 "('suid_legacy', '0A826C8349FE44B59385C860B5A92A90')",1,2,"{'um.simpli.fi', '.simpli.fi'}",{'forbes'}
 "('suid_legacy', '0A826C8349FE44B59385C860B5A92A90')",2,2,{'um.simpli.fi'},{'webmd'}
 "('t_gid', 'e9d0bbdc-bd0c-45f3-b695-a9658c2e2e27-tuct5a5afe4')",1,1,{'.taboola.com'},{'forbes'}
-"('t_gid', 'e9d0bbdc-bd0c-45f3-b695-a9658c2e2e27-tuct5a5afe4')",2,10,"{'match.taboola.com', '.taboola.com', 'cdn.taboola.com', 'trc.taboola.com'}","{'myfitnesspal', 'webmd'}"
-"('tluid', '7265616135096699616')",1,7,"{'dmpsync.3lift.com', '.3lift.com', 'eb2.3lift.com'}",{'forbes'}
-"('tluid', '7265616135096699616')",2,6,"{'.3lift.com', 'eb2.3lift.com'}",{'webmd'}
+"('t_gid', 'e9d0bbdc-bd0c-45f3-b695-a9658c2e2e27-tuct5a5afe4')",2,10,"{'match.taboola.com', 'trc.taboola.com', 'cdn.taboola.com', '.taboola.com'}","{'webmd', 'myfitnesspal'}"
+"('tluid', '7265616135096699616')",1,7,"{'dmpsync.3lift.com', 'eb2.3lift.com', '.3lift.com'}",{'forbes'}
+"('tluid', '7265616135096699616')",2,6,"{'eb2.3lift.com', '.3lift.com'}",{'webmd'}
 "('tuuid', '7191d8f3-a6dd-4cf7-9142-a725291c92c7')",1,5,"{'.myvisualiq.net', 't.myvisualiq.net'}",{'forbes'}
 "('tuuid', '7191d8f3-a6dd-4cf7-9142-a725291c92c7')",2,1,{'t.myvisualiq.net'},{'myfitnesspal'}
-"('tuuid', 'de1edf2d-73a4-47bc-b136-4ae7063511b2')",1,10,"{'.bidswitch.net', 'x.bidswitch.net'}","{'forbes', 'washingtonpost'}"
+"('tuuid', 'de1edf2d-73a4-47bc-b136-4ae7063511b2')",1,10,"{'.bidswitch.net', 'x.bidswitch.net'}","{'washingtonpost', 'forbes'}"
 "('tuuid', 'de1edf2d-73a4-47bc-b136-4ae7063511b2')",2,6,"{'us-east-sync.bidswitch.net', 'x.bidswitch.net'}",{'webmd'}
-"('tuuid_lu', '1588341261')",1,10,"{'.bidswitch.net', 'x.bidswitch.net'}","{'forbes', 'washingtonpost'}"
+"('tuuid_lu', '1588341261')",1,10,"{'.bidswitch.net', 'x.bidswitch.net'}","{'washingtonpost', 'forbes'}"
 "('tuuid_lu', '1588341261')",2,6,"{'us-east-sync.bidswitch.net', 'x.bidswitch.net'}",{'webmd'}
 "('tuuid_lu', '1588341357')",1,2,{'.myvisualiq.net'},{'forbes'}
 "('tuuid_lu', '1588341357')",2,1,{'t.myvisualiq.net'},{'myfitnesspal'}
-"('u', 'C|0EAgmPuapJj7mqQAAAAAAAgAsAQfohgIAAC0BB-gYAgABAAcAAAAAAW4pUv__HgAAAAAAD4I6AAAAABApTwkAAAAABZFUGgAAAAAbxjdSAA')",1,2,"{'.agkn.com', 'aa.agkn.com'}",{'forbes'}
+"('u', 'C|0EAgmPuapJj7mqQAAAAAAAgAsAQfohgIAAC0BB-gYAgABAAcAAAAAAW4pUv__HgAAAAAAD4I6AAAAABApTwkAAAAABZFUGgAAAAAbxjdSAA')",1,2,"{'aa.agkn.com', '.agkn.com'}",{'forbes'}
 "('u', 'C|0EAgmPuapJj7mqQAAAAAAAgAsAQfohgIAAC0BB-gYAgABAAcAAAAAAW4pUv__HgAAAAAAD4I6AAAAABApTwkAAAAABZFUGgAAAAAbxjdSAA')",2,1,{'aa.agkn.com'},{'webmd'}
 "('ud', '""eJxrXxzq6XKLQSEpyczC1CjVzMjCwtjI1DDFyNLSKCUp1dDYwsLUwMjSbHFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe944QwAYusp%252FQ%253D%253D""')",1,8,{'.exelator.com'},{'forbes'}
 "('ud', '""eJxrXxzq6XKLQSEpyczC1CjVzMjCwtjI1DDFyNLSKCUp1dDYwsLUwMjSbHFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe944QwAYusp%252FQ%253D%253D""')",2,4,{'.exelator.com'},{'webmd'}
 "('ud', '\\eJxrXxzq6XKLQSEpyczC1CjVzMjCwtjI1DDFyNLSKCUp1dDYwsLUwMjSbHFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe944QwAYusp%252FQ%253D%253D\\')",1,5,"{'cdn.exelator.com', 'mydmp.exelator.com'}",{'forbes'}
-"('ud', '\\eJxrXxzq6XKLQSEpyczC1CjVzMjCwtjI1DDFyNLSKCUp1dDYwsLUwMjSbHFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe944QwAYusp%252FQ%253D%253D\\')",2,2,"{'loadm.exelator.com', 'loadus.exelator.com'}",{'webmd'}
-"('uid', '2723826051447814477')",1,17,"{'.turn.com', 'd.turn.com', 'ad.turn.com', 'r.turn.com'}",{'forbes'}
+"('ud', '\\eJxrXxzq6XKLQSEpyczC1CjVzMjCwtjI1DDFyNLSKCUp1dDYwsLUwMjSbHFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe944QwAYusp%252FQ%253D%253D\\')",2,2,"{'loadus.exelator.com', 'loadm.exelator.com'}",{'webmd'}
+"('uid', '2723826051447814477')",1,17,"{'.turn.com', 'r.turn.com', 'd.turn.com', 'ad.turn.com'}",{'forbes'}
 "('uid', '2723826051447814477')",2,9,"{'.turn.com', 'd.turn.com', 'ad.turn.com'}",{'webmd'}
 "('uid', '4920355138092551235')",1,8,"{'.adform.net', 'c1.adform.net'}",{'forbes'}
-"('uid', '4920355138092551235')",2,15,"{'.adform.net', 'c1.adform.net'}","{'myfitnesspal', 'webmd'}"
+"('uid', '4920355138092551235')",2,15,"{'.adform.net', 'c1.adform.net'}","{'webmd', 'myfitnesspal'}"
 "('univ_id', '537072971|f22d0c1f-900e-4c1c-ba61-841bc375953c|1588341282027858')",1,8,"{'rtb.openx.net', 'us-u.openx.net', '.openx.net'}",{'forbes'}
-"('univ_id', '537072971|f22d0c1f-900e-4c1c-ba61-841bc375953c|1588341282027858')",2,10,"{'rtb.openx.net', 'us-u.openx.net', 'underarmour-d.openx.net', 'u.openx.net'}","{'myfitnesspal', 'webmd'}"
-"('uuid', '11c35eac-2a21-4b00-b00b-f8c935a11a0c')",1,8,"{'pixel.mathtag.com', '.mathtag.com', 'sync.mathtag.com'}",{'forbes'}
-"('uuid', '11c35eac-2a21-4b00-b00b-f8c935a11a0c')",2,11,"{'pixel.mathtag.com', 'sync.mathtag.com', 'tags.mathtag.com'}","{'mayoclinic', 'webmd'}"
-"('uuid2', '7526883567168608467')",1,131,"{'cdn.adnxs.com', 'crcdn01.adnxs.com', 'secure.adnxs.com', 'acdn.adnxs.com', 'nym1-ib.adnxs.com', 'ib.adnxs.com', 'sharethrough.adnxs.com', '.adnxs.com'}","{'forbes', 'washingtonpost'}"
-"('uuid2', '7526883567168608467')",2,40,"{'secure.adnxs.com', 'acdn.adnxs.com', 'nym1-ib.adnxs.com', 'ib.adnxs.com', 'sharethrough.adnxs.com', '.adnxs.com'}","{'myfitnesspal', 'webmd'}"
-"('vis10', '254660^1')",1,67,"{'eus.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 's.update.rubiconproject', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'forbes', 'washingtonpost'}"
-"('vis10', '254660^1')",2,12,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
-"('vis15', '254660^2')",1,68,"{'eus.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 's.update.rubiconproject', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'forbes', 'washingtonpost'}"
-"('vis15', '254660^2')",2,12,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
-"('vis2', '254660^2')",1,68,"{'eus.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', 's.update.rubiconproject', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'forbes', 'washingtonpost'}"
-"('vis2', '254660^2')",2,10,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com'}","{'mayoclinic', 'webmd', 'myfitnesspal'}"
-"('visitor-id', '2313428786589727000V10')",1,474,"{'cs.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net', 'coplg-w.media.net', '.media.net'}",{'forbes'}
-"('visitor-id', '2313428786589727000V10')",2,139,"{'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net'}",{'webmd'}
-"('wfivefivec', '4FlCNvXw1Juw7K5')",1,13,"{'pm.w55c.net', 'i.w55c.net', '.w55c.net'}",{'forbes'}
-"('wfivefivec', '4FlCNvXw1Juw7K5')",2,3,"{'pm.w55c.net', '.w55c.net'}",{'webmd'}
-"('zuid', 'TM6LMxYK3kC19y2AVTom')",1,16,"{'.zemanta.com', 'b1sync.zemanta.com'}",{'forbes'}
-"('zuid', 'TM6LMxYK3kC19y2AVTom')",2,6,"{'.zemanta.com', 'b1sync.zemanta.com'}",{'webmd'}
+"('univ_id', '537072971|f22d0c1f-900e-4c1c-ba61-841bc375953c|1588341282027858')",2,10,"{'rtb.openx.net', 'us-u.openx.net', 'u.openx.net', 'underarmour-d.openx.net'}","{'webmd', 'myfitnesspal'}"
+"('uuid', '11c35eac-2a21-4b00-b00b-f8c935a11a0c')",1,8,"{'sync.mathtag.com', '.mathtag.com', 'pixel.mathtag.com'}",{'forbes'}
+"('uuid', '11c35eac-2a21-4b00-b00b-f8c935a11a0c')",2,11,"{'sync.mathtag.com', 'pixel.mathtag.com', 'tags.mathtag.com'}","{'webmd', 'mayoclinic'}"
+"('uuid2', '7526883567168608467')",1,131,"{'crcdn01.adnxs.com', 'nym1-ib.adnxs.com', 'cdn.adnxs.com', 'acdn.adnxs.com', '.adnxs.com', 'sharethrough.adnxs.com', 'secure.adnxs.com', 'ib.adnxs.com'}","{'washingtonpost', 'forbes'}"
+"('uuid2', '7526883567168608467')",2,40,"{'nym1-ib.adnxs.com', 'acdn.adnxs.com', '.adnxs.com', 'sharethrough.adnxs.com', 'secure.adnxs.com', 'ib.adnxs.com'}","{'webmd', 'myfitnesspal'}"
+"('vis10', '254660^1')",1,67,"{'s.update.rubiconproject', 'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com'}","{'washingtonpost', 'forbes'}"
+"('vis10', '254660^1')",2,12,"{'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'fastlane.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
+"('vis15', '254660^2')",1,68,"{'s.update.rubiconproject', 'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com'}","{'washingtonpost', 'forbes'}"
+"('vis15', '254660^2')",2,12,"{'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'fastlane.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
+"('vis2', '254660^2')",1,68,"{'s.update.rubiconproject', 'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', 'beacon-us-iad2.rubiconproject.com', '.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com'}","{'washingtonpost', 'forbes'}"
+"('vis2', '254660^2')",2,10,"{'secure-assets.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'fastlane.rubiconproject.com', 'eus.rubiconproject.com', 'pixel.rubiconproject.com'}","{'webmd', 'mayoclinic', 'myfitnesspal'}"
+"('visitor-id', '2313428786589727000V10')",1,474,"{'hblg.media.net', 'hbx.media.net', 'lg3.media.net', '.media.net', 'cvision.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'cs.media.net', 'hbxlp.media.net', 'coplg-w.media.net'}",{'forbes'}
+"('visitor-id', '2313428786589727000V10')",2,139,"{'hblg.media.net', 'hbx.media.net', 'lgncal.media.net', 'contextual.media.net', 'cslogger.media.net', 'hbxlp.media.net'}",{'webmd'}
+"('wfivefivec', '4FlCNvXw1Juw7K5')",1,13,"{'i.w55c.net', '.w55c.net', 'pm.w55c.net'}",{'forbes'}
+"('wfivefivec', '4FlCNvXw1Juw7K5')",2,3,"{'.w55c.net', 'pm.w55c.net'}",{'webmd'}
+"('zuid', 'TM6LMxYK3kC19y2AVTom')",1,16,"{'b1sync.zemanta.com', '.zemanta.com'}",{'forbes'}
+"('zuid', 'TM6LMxYK3kC19y2AVTom')",2,6,"{'b1sync.zemanta.com', '.zemanta.com'}",{'webmd'}
