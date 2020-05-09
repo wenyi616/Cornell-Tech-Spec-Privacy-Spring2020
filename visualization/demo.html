@@ -1,14 +1,45 @@
 <html>
 <body>
- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<style>
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      /* background-color: DodgerBlue; */
+      width: 1000;
+      text-align: center;
+      
+    }
+</style>
 
-<div id="sankey_multiple" style="width: 900px; height: 300px;"></div>
+<div class="flex-container">
+    <div id="sankey_1"></div>
+    <p style="padding-bottom: 10%;">Figure 1: N - H - E</p>
+    <div id="sankey_2"></div>
+    <p style="padding-bottom: 10%;">Figure 2: H - N - E</p>
+    <div id="sankey_3"></div>
+    <p style="padding-bottom: 10%;">Figure 3: E - N - H</p>
+    <div id="sankey_4"></div>
+    <p style="padding-bottom: 10%;">Figure 4: E - H - N</p>
+    <div id="sankey_5"></div>
+    <p style="padding-bottom: 10%;">Figure 5: N - E - H</p>
+    <div id="sankey_6"></div>
+    <p style="padding-bottom: 10%;">Figure 6: H - E - N</p>
+</div>
 
 <script type="text/javascript">
     google.charts.load("current", {packages:["sankey"]});
-    google.charts.setOnLoadCallback(drawChart);
-    
-    function drawChart() {
+    google.charts.setOnLoadCallback(drawDemo1);
+    google.charts.setOnLoadCallback(drawDemo2);
+    google.charts.setOnLoadCallback(drawDemo3);
+    google.charts.setOnLoadCallback(drawDemo4);
+    google.charts.setOnLoadCallback(drawDemo5);
+    google.charts.setOnLoadCallback(drawDemo6);
+
+    // ------------------------------------------
+    // Exp 1
+    // ------------------------------------------ 
+    function drawDemo1() {
         
         var data = new google.visualization.DataTable();
         
@@ -16,55 +47,39 @@
         data.addColumn('string', 'To');
         data.addColumn('number', 'Weight');
         data.addRows([
-            // level 1
-        [ 'cnn', 'webmd',            1 ],        // rubiconproject
-        [ 'cnn', 'mayoclinic',       1 ],        // rubiconproject
-        [ 'cnn', 'myfitnesspal',     1 ],        // rubiconproject
-        [ 'cnn', 'medscape',         1 ],        // rubiconproject
-        [ 'cnn', 'verywellhealth',   1 ],        // rubiconproject
 
-        [ 'nytimes', 'webmd',        1 ],        // rubiconproject
-        [ 'nytimes', 'mayoclinic',   1 ],        // rubiconproject
-        [ 'nytimes', 'myfitnesspal', 1 ],        // rubiconproject
-        [ 'nytimes', 'medscape',     2 ],        // deepintent, rubiconproject
-        [ 'nytimes', 'verywellhealth', 1 ],      // rubiconproject
+        // level 1 N-H
+        [ 'cnn', 'webmd',            1 ],
+        [ 'cnn', 'mayoclinic',       1 ],
+        [ 'cnn', 'myfitnesspal',     1 ],
+        [ 'cnn', 'medscape',         1 ], 
+        [ 'cnn', 'verywellhealth',   1 ],
+
+        [ 'nytimes', 'webmd',        1 ],
+        [ 'nytimes', 'mayoclinic',   1 ], 
+        [ 'nytimes', 'myfitnesspal', 1 ],
+        [ 'nytimes', 'medscape',     2 ], 
+        [ 'nytimes', 'verywellhealth', 1 ],
         
         [ 'theguardian', 'webmd',        0 ],
         [ 'theguardian', 'mayoclinic',   0 ],
         [ 'theguardian', 'myfitnesspal', 0 ],
-        [ 'theguardian', 'medscape',     1 ],    // deepintent
+        [ 'theguardian', 'medscape',     1 ], 
         [ 'theguardian', 'verywellhealth', 0 ],
         
-        [ 'washingtonpost', 'webmd',         14 ], // yahoo, doubleclick, adsrvr, scorecardresearch, districtm
-                                                    // krxd, amazon-adsystem, bidswitch, everesttech, openx, 
-                                                    // adnxs, rubiconproject, rkdms, sitescout
-
-        [ 'washingtonpost', 'mayoclinic',    4 ], // doubleclick, nr-data, scorecardresearch, rubiconproject
-        [ 'washingtonpost', 'myfitnesspal',  7 ], // casalemedia, doubleclick, scorecardresearch, amazon-adsystem,
-                                                    // openx, adnxs, rubiconproject
-
-        [ 'washingtonpost', 'medscape',      2 ], // casalemedia, rubiconproject
-        [ 'washingtonpost', 'verywellhealth', 1 ],//rubiconproject
+        [ 'washingtonpost', 'webmd',         17 ],
+        [ 'washingtonpost', 'mayoclinic',    4 ],
+        [ 'washingtonpost', 'myfitnesspal',  8 ],
+        [ 'washingtonpost', 'medscape',      1 ], 
+        [ 'washingtonpost', 'verywellhealth', 1 ],
+    
+        [ 'forbes', 'webmd',        49 ],       
+        [ 'forbes', 'mayoclinic',    5 ],       
+        [ 'forbes', 'myfitnesspal',  17 ],      
+        [ 'forbes', 'medscape',      2 ],      
+        [ 'forbes', 'verywellhealth', 1 ],   
         
-        [ 'forbes', 'webmd',        51 ],        // yahoo, advertising, ib-ibi, mookie1, atdmt, casalemedia, exelator,
-                                                    // bttrack, doubleclick, contextweb, pubmatic, adsrvr, tapad, adsymptotic
-                                                    // scorecardresearch, crwdcntrl, districtm, krxd, 1rx, agkn, amazon-adsystem
-                                                    // adentifi, adnxs, spotxchange, rubiconproject, bidr, bluekai, dnacdn
-                                                    // bidswitch, ipredictive, quantserve, media.net (40+ cookies, thousand occurrence)
-                                                    // demdex, everesttech, extend.tv, facebook, openx, mathtag, mxptint
-                                                    // twitter, rlcdn, owneriq, sitescout, sharethrough, simpli, taboola
-                                                    // 3lift, turn.com, adform, w55c, zemanta
-                                                    
-        [ 'forbes', 'mayoclinic',    5 ],        // doubleclick, bing, scorecardresearch, rubiconproject, mathtag
-
-        [ 'forbes', 'myfitnesspal',  16 ],       // yahoo, advertising, casalemedia, doubleclick, contextweb, bing,
-                                                    // scorecardresearch, amazon-adsystem, bidr, bluekai, myvisualiq,
-                                                    // adnxs, rubiconproject, taboola, myvisualiq, adform
-
-        [ 'forbes', 'medscape',      3 ],        // deepintent, openx, rubiconproject
-        [ 'forbes', 'verywellhealth', 1 ],       // rubiconproject
-        
-        // level 2
+        // level 2 H-E
         [ 'webmd', 'jhu', 0 ],
         [ 'webmd', 'mit', 0 ],
         [ 'webmd', 'edx', 0 ],
@@ -77,23 +92,23 @@
         [ 'mayoclinic', 'harvard', 0 ],
         [ 'mayoclinic', 'collegeboard', 0 ],
         
-        [ 'myfitnesspal', 'jhu', 0 ],
-        [ 'myfitnesspal', 'mit', 0 ],
-        [ 'myfitnesspal', 'edx', 0 ],
-        [ 'myfitnesspal', 'harvard', 0 ],        
-        [ 'myfitnesspal', 'collegeboard', 2 ],   // yahoo, everesttech
+        [ 'myfitnesspal', 'jhu', 1 ],
+        [ 'myfitnesspal', 'mit', 1 ],
+        [ 'myfitnesspal', 'edx', 1 ],
+        [ 'myfitnesspal', 'harvard', 1 ],        
+        [ 'myfitnesspal', 'collegeboard', 3 ],  
 
-        [ 'medscape', 'jhu', 1 ],                // facebook
-        [ 'medscape', 'mit', 0 ],                
-        [ 'medscape', 'edx', 3 ],                // nr-data, adsymptotic, facebook
-        [ 'medscape', 'harvard', 2 ],            // nr-data, facebook
-        [ 'medscape', 'collegeboard', 5 ],       // yahoo, nr-data, demdex, everesttech, facebook
+        [ 'medscape', 'jhu', 2 ],                
+        [ 'medscape', 'mit', 1 ],                
+        [ 'medscape', 'edx', 4 ],              
+        [ 'medscape', 'harvard', 3 ],          
+        [ 'medscape', 'collegeboard', 6 ],     
 
-        [ 'verywellhealth', 'jhu', 0 ],
-        [ 'verywellhealth', 'mit', 0 ],
-        [ 'verywellhealth', 'edx', 1 ],          // nr-data
-        [ 'verywellhealth', 'harvard', 1 ],      // nr-data
-        [ 'verywellhealth', 'collegeboard', 1 ]  // nr-data
+        [ 'verywellhealth', 'jhu', 1 ],
+        [ 'verywellhealth', 'mit', 1 ],
+        [ 'verywellhealth', 'edx', 2 ],          
+        [ 'verywellhealth', 'harvard', 2 ],     
+        [ 'verywellhealth', 'collegeboard', 2 ]  
         ]);
 
         var colors = ['#b2df8a', '#a6cee3', '#a6cee3', '#a6cee3', '#a6cee3', '#a6cee3',
@@ -106,7 +121,7 @@
         // Set chart options
         var options = {
             height: 600,
-            width: 1200,
+            width: 1000,
             sankey: {
                 node: {
                     colors: colors,
@@ -127,12 +142,633 @@
         };
 
         // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_1'));
+        chart.draw(data, options);
+    }
+
+    // ------------------------------------------
+    // Exp 2
+    // ------------------------------------------ 
+    function drawDemo2() {
+        
+        var data = new google.visualization.DataTable();
+        
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+        
+        // level 1 H-N
+        [ 'webmd', 'cnn', 1 ],
+        [ 'webmd', 'nytimes', 1 ],
+        [ 'webmd', 'theguardian', 0 ],
+        [ 'webmd', 'washingtonpost', 17 ],
+        [ 'webmd', 'forbes', 49 ],
+        
+        [ 'mayoclinic', 'cnn', 1 ],
+        [ 'mayoclinic', 'nytimes', 1 ],
+        [ 'mayoclinic', 'theguardian', 0 ],
+        [ 'mayoclinic', 'washingtonpost', 4 ],
+        [ 'mayoclinic', 'forbes', 5 ],
+        
+        [ 'myfitnesspal', 'cnn', 1 ],
+        [ 'myfitnesspal', 'nytimes', 1 ],
+        [ 'myfitnesspal', 'theguardian', 0 ],
+        [ 'myfitnesspal', 'washingtonpost', 8 ],        
+        [ 'myfitnesspal', 'forbes', 17 ],  
+
+        [ 'medscape', 'cnn', 1 ],                
+        [ 'medscape', 'nytimes', 2 ],                
+        [ 'medscape', 'theguardian', 1 ],              
+        [ 'medscape', 'washingtonpost', 1 ],          
+        [ 'medscape', 'forbes', 2 ],     
+
+        [ 'verywellhealth', 'cnn', 1 ],
+        [ 'verywellhealth', 'nytimes', 1 ],
+        [ 'verywellhealth', 'theguardian', 0 ],          
+        [ 'verywellhealth', 'washingtonpost', 1 ],     
+        [ 'verywellhealth', 'forbes', 1 ],
+
+        // level 2 N-E
+        [ 'cnn', 'jhu', 0 ],  
+        [ 'medscape', 'jhu', 2 ],  
+        [ 'myfitnesspal', 'jhu', 1 ],
+        [ 'verywellhealth', 'jhu', 1 ],
+
+        [ 'medscape', 'mit', 1 ],
+        [ 'myfitnesspal', 'mit', 1 ],
+        [ 'verywellhealth', 'mit', 1 ],
+
+        [ 'medscape', 'edx', 4 ],   
+        [ 'myfitnesspal', 'edx', 1 ],   
+        [ 'verywellhealth', 'edx', 2 ],
+
+        [ 'medscape', 'harvard', 3 ], 
+        [ 'myfitnesspal', 'harvard', 1 ],
+        [ 'verywellhealth', 'harvard', 2 ],
+
+        [ 'medscape', 'collegeboard', 6 ],  
+        [ 'myfitnesspal', 'collegeboard', 3 ],                   
+        [ 'verywellhealth', 'collegeboard', 2 ],
+
+        // nyt
+        [ 'nytimes', 'jhu',        0 ],
+        [ 'nytimes', 'mit',   0 ], 
+        [ 'nytimes', 'edx', 0 ],
+        [ 'nytimes', 'harvard',     0 ], 
+        [ 'nytimes', 'collegeboard', 0 ],
+        
+        [ 'theguardian', 'jhu',        0 ],
+        [ 'theguardian', 'mit',   0 ],
+        [ 'theguardian', 'edx', 0 ],
+        [ 'theguardian', 'harvard',     0 ], 
+        [ 'theguardian', 'collegeboard', 0 ],
+        
+        [ 'washingtonpost', 'jhu',  0 ],
+        [ 'washingtonpost', 'mit',  0 ],
+        [ 'washingtonpost', 'edx',  0 ],
+        [ 'washingtonpost', 'harvard',      0 ], 
+        [ 'washingtonpost', 'collegeboard', 0 ],
+    
+        [ 'forbes', 'jhu',  0 ],       
+        [ 'forbes', 'mit',  0 ],       
+        [ 'forbes', 'edx',  0 ],      
+        [ 'forbes', 'harvard',      0 ],      
+        [ 'forbes', 'collegeboard', 0 ]  
+        ]);
+
+        var colors = [
+        '#a6cee3', '#b2df8a', '#b2df8a', '#b2df8a', '#b2df8a', '#b2df8a',
+        '#a6cee3', '#a6cee3', '#a6cee3', '#a6cee3',
+        '#cab2d6','#cab2d6','#cab2d6','#cab2d6','#cab2d6']
+        
+
+        // Set chart options
+        var options = {
+            height: 600,
+            width: 1000,
+            sankey: {
+                node: {
+                    colors: colors,
+                    label: { 
+                        // fontName: 'Times-Roman',
+                        fontSize: 12,
+                        // color: '#871b47',
+                        // bold: true,
+                        // italic: true
+                    } ,
+                },
+                link: {
+                    colorMode: 'gradient',
+                    colors: colors
+                },
+                iterations: 0
+            }
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_2'));
+        chart.draw(data, options);
+    }
+
+    // ------------------------------------------
+    // Exp 3
+    // ------------------------------------------ 
+    function drawDemo3() {
+        
+        var data = new google.visualization.DataTable();
+        
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+
+        // level 1 E-N
+        [ 'jhu', 'cnn',              0 ],
+        [ 'jhu', 'nytimes',       0 ],
+        [ 'jhu', 'theguardian',      0 ],
+        [ 'jhu', 'washingtonpost',   0 ], 
+        [ 'jhu', 'forbes',   0 ],
+
+        [ 'mit', 'cnn',         0 ],
+        [ 'mit', 'nytimes',     0 ], 
+        [ 'mit', 'theguardian', 0 ],
+        [ 'mit', 'washingtonpost',     0 ], 
+        [ 'mit', 'forbes', 0 ],
+        
+        [ 'edx', 'cnn',         0 ],
+        [ 'edx', 'nytimes',     0 ],
+        [ 'edx', 'theguardian', 0 ],
+        [ 'edx', 'washingtonpost', 0 ], 
+        [ 'edx', 'forbes', 0 ],
+        
+        [ 'harvard', 'cnn',        0 ],
+        [ 'harvard', 'nytimes',    0 ],
+        [ 'harvard', 'theguardian',0 ],
+        [ 'harvard', 'washingtonpost', 0 ], 
+        [ 'harvard', 'forbes', 0 ],
+    
+        [ 'collegeboard', 'cnn',         0 ],       
+        [ 'collegeboard', 'nytimes',     0 ],       
+        [ 'collegeboard', 'theguardian', 0 ],      
+        [ 'collegeboard', 'washingtonpost',      0 ],      
+        [ 'collegeboard', 'forbes', 0 ],
+
+        // level 2 N-H
+        [ 'cnn', 'webmd',            1 ],
+        [ 'cnn', 'mayoclinic',       1 ],
+        [ 'cnn', 'myfitnesspal',     1 ],
+        [ 'cnn', 'medscape',         1 ], 
+        [ 'cnn', 'verywellhealth',   1 ],
+
+        [ 'collegeboard', 'medscape', 6 ],
+        [ 'collegeboard', 'verywellhealth', 2 ],
+        [ 'collegeboard', 'myfitnesspal', 3 ],
+
+        [ 'harvard', 'medscape', 3 ],
+        [ 'harvard', 'verywellhealth', 2 ],
+        [ 'harvard', 'myfitnesspal', 1 ],
+
+        [ 'edx', 'medscape', 4 ],
+        [ 'edx', 'verywellhealth', 2 ],
+        [ 'edx', 'myfitnesspal', 1 ],
+
+        [ 'jhu', 'medscape', 2 ],
+        [ 'jhu', 'verywellhealth', 1 ],
+        [ 'jhu', 'myfitnesspal', 1 ],
+
+        [ 'mit', 'medscape', 1 ],
+        [ 'mit', 'verywellhealth', 1 ],
+        [ 'mit', 'myfitnesspal', 1 ],
+
+        [ 'nytimes', 'webmd',        1 ],
+        [ 'nytimes', 'mayoclinic',   1 ], 
+        [ 'nytimes', 'myfitnesspal', 1 ],
+        [ 'nytimes', 'medscape',     2 ], 
+        [ 'nytimes', 'verywellhealth', 1 ],
+        
+        [ 'theguardian', 'webmd',        0 ],
+        [ 'theguardian', 'mayoclinic',   0 ],
+        [ 'theguardian', 'myfitnesspal', 0 ],
+        [ 'theguardian', 'medscape',     1 ], 
+        [ 'theguardian', 'verywellhealth', 0 ],
+        
+        [ 'washingtonpost', 'webmd',         17 ],
+        [ 'washingtonpost', 'mayoclinic',    4 ],
+        [ 'washingtonpost', 'myfitnesspal',  8 ],
+        [ 'washingtonpost', 'medscape',      1 ], 
+        [ 'washingtonpost', 'verywellhealth', 1 ],
+    
+        [ 'forbes', 'webmd',         49 ],       
+        [ 'forbes', 'mayoclinic',    5 ],       
+        [ 'forbes', 'myfitnesspal',  17 ],      
+        [ 'forbes', 'medscape',      2 ],      
+        [ 'forbes', 'verywellhealth', 1 ]  
+        ]);
+
+        var colors = [
+        '#cab2d6','#b2df8a', '#b2df8a', '#b2df8a', '#b2df8a', '#b2df8a',
+        '#cab2d6','#cab2d6','#cab2d6','#cab2d6',
+        '#a6cee3', '#a6cee3', '#a6cee3', '#a6cee3','#a6cee3']
+
+        // Set chart options
+        var options = {
+            height: 600,
+            width: 1000,
+            sankey: {
+                node: {
+                    colors: colors,
+                    label: { 
+                        // fontName: 'Times-Roman',
+                        fontSize: 12,
+                        // color: '#871b47',
+                        // bold: true,
+                        // italic: true
+                    } ,
+                },
+                link: {
+                    colorMode: 'gradient',
+                    colors: colors
+                },
+                iterations: 0
+            }
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_3'));
+        chart.draw(data, options);
+    }
+
+    // ------------------------------------------
+    // Exp 4
+    // ------------------------------------------ 
+    function drawDemo4() {
+        
+        var data = new google.visualization.DataTable();
+        
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+
+        // level 1 E-H
+        [ 'jhu', 'webmd',            0 ],
+        [ 'jhu', 'mayoclinic',       0 ],
+        [ 'jhu', 'myfitnesspal',     1 ],
+        [ 'jhu', 'medscape',         2 ], 
+        [ 'jhu', 'verywellhealth',   1 ],
+
+        [ 'mit', 'webmd',         0 ],
+        [ 'mit', 'mayoclinic',    0 ], 
+        [ 'mit', 'myfitnesspal',  1 ],
+        [ 'mit', 'medscape',      1 ], 
+        [ 'mit', 'verywellhealth', 1 ],
+        
+        [ 'edx', 'webmd',       0 ],
+        [ 'edx', 'mayoclinic',  0 ],
+        [ 'edx', 'myfitnesspal',1 ],
+        [ 'edx', 'medscape',    4 ], 
+        [ 'edx', 'verywellhealth', 2 ],
+        
+        [ 'harvard', 'webmd',        0 ],
+        [ 'harvard', 'mayoclinic',   0 ],
+        [ 'harvard', 'myfitnesspal', 1 ],
+        [ 'harvard', 'medscape',     3 ], 
+        [ 'harvard', 'verywellhealth', 2 ],
+    
+        [ 'collegeboard', 'webmd',         0 ],       
+        [ 'collegeboard', 'mayoclinic',    0 ],       
+        [ 'collegeboard', 'myfitnesspal',  3 ],      
+        [ 'collegeboard', 'medscape',      6 ],      
+        [ 'collegeboard', 'verywellhealth',2 ],
+
+        // level 2 H-N
+        [ 'webmd', 'cnn', 1 ],
+        [ 'webmd', 'nytimes', 1 ],
+        [ 'webmd', 'theguardian', 0 ],
+        [ 'webmd', 'washingtonpost', 17 ],
+        [ 'webmd', 'forbes', 49 ],
+        
+        [ 'mayoclinic', 'cnn', 1 ],
+        [ 'mayoclinic', 'nytimes', 1 ],
+        [ 'mayoclinic', 'theguardian', 0 ],
+        [ 'mayoclinic', 'washingtonpost', 4 ],
+        [ 'mayoclinic', 'forbes', 5 ],
+        
+        [ 'myfitnesspal', 'cnn',        1 ],
+        [ 'myfitnesspal', 'nytimes',    1 ],
+        [ 'myfitnesspal', 'theguardian', 0 ],
+        [ 'myfitnesspal', 'washingtonpost', 8 ],        
+        [ 'myfitnesspal', 'forbes',     17 ],  
+
+        [ 'medscape', 'cnn',        1 ],                
+        [ 'medscape', 'nytimes',    2 ],                
+        [ 'medscape', 'theguardian',1 ],              
+        [ 'medscape', 'washingtonpost', 1 ],          
+        [ 'medscape', 'forbes',     2 ],     
+
+        [ 'verywellhealth', 'cnn', 1 ],
+        [ 'verywellhealth', 'nytimes', 1 ],
+        [ 'verywellhealth', 'theguardian', 0 ],          
+        [ 'verywellhealth', 'washingtonpost', 1 ],     
+        [ 'verywellhealth', 'forbes', 1 ]
+        ]);
+
+        var colors = [
+        '#cab2d6','#a6cee3', '#a6cee3', '#a6cee3', '#a6cee3','#a6cee3',
+        '#cab2d6','#cab2d6','#cab2d6','#cab2d6',
+        '#b2df8a', '#b2df8a', '#b2df8a', '#b2df8a','#b2df8a']
+
+        // Set chart options
+        var options = {
+            height: 600,
+            width: 1000,
+            sankey: {
+                node: {
+                    colors: colors,
+                    label: { 
+                        // fontName: 'Times-Roman',
+                        fontSize: 12,
+                        // color: '#871b47',
+                        // bold: true,
+                        // italic: true
+                    } ,
+                },
+                link: {
+                    colorMode: 'gradient',
+                    colors: colors
+                },
+                iterations: 0
+            }
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_4'));
+        chart.draw(data, options);
+    }
+
+    // ------------------------------------------
+    // Exp 5
+    // ------------------------------------------ 
+    function drawDemo5() {
+        
+        var data = new google.visualization.DataTable();
+        
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+
+        // level 1 N-E
+        [ 'cnn', 'jhu', 0 ],  
+        [ 'cnn', 'mit', 0 ],
+        [ 'cnn', 'edx', 0 ],   
+        [ 'cnn', 'harvard', 0 ], 
+        [ 'cnn', 'collegeboard', 0 ],  
+        // nyt
+        [ 'nytimes', 'jhu',        0 ],
+        [ 'nytimes', 'mit',   0 ], 
+        [ 'nytimes', 'edx', 0 ],
+        [ 'nytimes', 'harvard',     0 ], 
+        [ 'nytimes', 'collegeboard', 0 ],
+        
+        [ 'theguardian', 'jhu',   0 ],
+        [ 'theguardian', 'mit',   0 ],
+        [ 'theguardian', 'edx', 0 ],
+        [ 'theguardian', 'harvard',     0 ], 
+        [ 'theguardian', 'collegeboard', 0 ],
+        
+        [ 'washingtonpost', 'jhu',  0 ],
+        [ 'washingtonpost', 'mit',  0 ],
+        [ 'washingtonpost', 'edx',  0 ],
+        [ 'washingtonpost', 'harvard',      0 ], 
+        [ 'washingtonpost', 'collegeboard', 0 ],
+    
+        [ 'forbes', 'jhu',  0 ],       
+        [ 'forbes', 'mit',  0 ],       
+        [ 'forbes', 'edx',  0 ],      
+        [ 'forbes', 'harvard',      0 ],      
+        [ 'forbes', 'collegeboard', 0 ],
+
+        // level 2 E-H
+        [ 'jhu', 'webmd',            0 ],
+        [ 'jhu', 'mayoclinic',       0 ],
+        [ 'jhu', 'myfitnesspal',     1 ],
+        [ 'jhu', 'medscape',         2 ], 
+        [ 'jhu', 'verywellhealth',   1 ],
+
+        [ 'forbes', 'webmd',  49 ],  
+        [ 'forbes', 'mayoclinic',       5 ],
+        [ 'forbes', 'myfitnesspal',     17 ],     
+        [ 'forbes', 'medscape',  2 ],       
+        [ 'forbes', 'verywellhealth',   1 ],
+        [ 'cnn', 'webmd',  1 ],  
+        [ 'cnn', 'mayoclinic',       1 ],
+        [ 'cnn', 'myfitnesspal',     1 ],     
+        [ 'cnn', 'medscape',  1 ],       
+        [ 'cnn', 'verywellhealth',   1 ],
+        [ 'nytimes', 'webmd',        1 ],
+        [ 'nytimes', 'mayoclinic',   1 ], 
+        [ 'nytimes', 'myfitnesspal', 1 ],
+        [ 'nytimes', 'medscape',     2 ], 
+        [ 'nytimes', 'verywellhealth', 1 ],
+        [ 'theguardian', 'medscape',   1 ],
+        [ 'washingtonpost', 'webmd',         17 ],
+        [ 'washingtonpost', 'mayoclinic',    4 ],
+        [ 'washingtonpost', 'myfitnesspal',  8 ],
+        [ 'washingtonpost', 'medscape',      1 ], 
+        [ 'washingtonpost', 'verywellhealth', 1 ],
+
+        [ 'mit', 'webmd',         0 ],
+        [ 'mit', 'mayoclinic',    0 ], 
+        [ 'mit', 'myfitnesspal',  1 ],
+        [ 'mit', 'medscape',      1 ], 
+        [ 'mit', 'verywellhealth', 1 ],
+        
+        [ 'edx', 'webmd',       0 ],
+        [ 'edx', 'mayoclinic',  0 ],
+        [ 'edx', 'myfitnesspal',1 ],
+        [ 'edx', 'medscape',    4 ], 
+        [ 'edx', 'verywellhealth', 2 ],
+        
+        [ 'harvard', 'webmd',        0 ],
+        [ 'harvard', 'mayoclinic',   0 ],
+        [ 'harvard', 'myfitnesspal', 1 ],
+        [ 'harvard', 'medscape',     3 ], 
+        [ 'harvard', 'verywellhealth', 2 ],
+    
+        [ 'collegeboard', 'webmd',         0 ],       
+        [ 'collegeboard', 'mayoclinic',    0 ],       
+        [ 'collegeboard', 'myfitnesspal',  3 ],      
+        [ 'collegeboard', 'medscape',      6 ],      
+        [ 'collegeboard', 'verywellhealth',2 ]
+        ]);
+
+        var colors = ['#b2df8a', '#cab2d6','#cab2d6','#cab2d6','#cab2d6','#cab2d6',
+        '#b2df8a', '#b2df8a', '#b2df8a', '#b2df8a',
+        '#a6cee3','#a6cee3','#a6cee3','#a6cee3','#a6cee3']
+        
+        // Set chart options
+        var options = {
+            height: 600,
+            width: 1000,
+            sankey: {
+                node: {
+                    colors: colors,
+                    label: { 
+                        // fontName: 'Times-Roman',
+                        fontSize: 12,
+                        // color: '#871b47',
+                        // bold: true,
+                        // italic: true
+                    } ,
+                },
+                link: {
+                    colorMode: 'gradient',
+                    colors: colors
+                },
+                iterations: 0
+            }
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_5'));
+        chart.draw(data, options);
+    }
+
+    // ------------------------------------------
+    // Exp 6
+    // ------------------------------------------ 
+    function drawDemo6() {
+        
+        var data = new google.visualization.DataTable();
+        
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+
+        // level 1 H-E
+        [ 'webmd', 'jhu', 0 ],
+        [ 'webmd', 'mit', 0 ],
+        [ 'webmd', 'edx', 0 ],
+        [ 'webmd', 'harvard', 0 ],
+        [ 'webmd', 'collegeboard', 0 ],
+        
+        [ 'mayoclinic', 'jhu', 0 ],
+        [ 'mayoclinic', 'mit', 0 ],
+        [ 'mayoclinic', 'edx', 0 ],
+        [ 'mayoclinic', 'harvard', 0 ],
+        [ 'mayoclinic', 'collegeboard', 0 ],
+        
+        [ 'myfitnesspal', 'jhu', 1 ],
+        [ 'myfitnesspal', 'mit', 1 ],
+        [ 'myfitnesspal', 'edx', 1 ],
+        [ 'myfitnesspal', 'harvard', 1 ],        
+        [ 'myfitnesspal', 'collegeboard', 3 ],  
+
+        [ 'medscape', 'jhu', 2 ],                
+        [ 'medscape', 'mit', 1 ],                
+        [ 'medscape', 'edx', 4 ],              
+        [ 'medscape', 'harvard', 3 ],          
+        [ 'medscape', 'collegeboard', 6 ],     
+
+        [ 'verywellhealth', 'jhu', 1 ],
+        [ 'verywellhealth', 'mit', 1 ],
+        [ 'verywellhealth', 'edx', 2 ],          
+        [ 'verywellhealth', 'harvard', 2 ],     
+        [ 'verywellhealth', 'collegeboard', 2 ],
+
+        // level 2 E-N
+        [ 'jhu', 'cnn',              0 ],
+        [ 'jhu', 'nytimes',       0 ],
+        [ 'jhu', 'theguardian',      0 ],
+        [ 'jhu', 'washingtonpost',   0 ], 
+        [ 'jhu', 'forbes',   0 ],
+
+        [ 'medscape', 'cnn', 1 ],  
+        [ 'medscape', 'nytimes', 2 ],   
+        [ 'medscape', 'forbes', 2 ],   
+        [ 'medscape', 'theguardian', 2 ],   
+        [ 'medscape', 'washingtonpost', 2 ],   
+        [ 'webmd', 'cnn', 1 ],  
+        [ 'webmd', 'nytimes', 1 ],   
+        [ 'webmd', 'forbes', 49 ],   
+        [ 'webmd', 'washingtonpost', 17 ],   
+        [ 'myfitnesspal', 'cnn', 1 ],  
+        [ 'myfitnesspal', 'nytimes', 1 ],   
+        [ 'myfitnesspal', 'forbes', 17 ],   
+        [ 'myfitnesspal', 'washingtonpost', 8 ], 
+        [ 'verywellhealth', 'cnn', 1 ],  
+        [ 'verywellhealth', 'nytimes', 1 ],   
+        [ 'verywellhealth', 'forbes',  1 ],   
+        [ 'verywellhealth', 'washingtonpost', 1 ],   
+        [ 'mayoclinic', 'cnn', 1 ],  
+        [ 'mayoclinic', 'nytimes', 1 ],   
+        [ 'mayoclinic', 'forbes',  5 ],   
+        [ 'mayoclinic', 'washingtonpost', 4 ],   
+
+        [ 'mit', 'cnn',         0 ],
+        [ 'mit', 'nytimes',     0 ], 
+        [ 'mit', 'theguardian', 0 ],
+        [ 'mit', 'washingtonpost',     0 ], 
+        [ 'mit', 'forbes', 0 ],
+        
+        [ 'edx', 'cnn',         0 ],
+        [ 'edx', 'nytimes',     0 ],
+        [ 'edx', 'theguardian', 0 ],
+        [ 'edx', 'washingtonpost', 0 ], 
+        [ 'edx', 'forbes', 0 ],
+        
+        [ 'harvard', 'cnn',        0 ],
+        [ 'harvard', 'nytimes',    0 ],
+        [ 'harvard', 'theguardian',0 ],
+        [ 'harvard', 'washingtonpost', 0 ], 
+        [ 'harvard', 'forbes', 0 ],
+    
+        [ 'collegeboard', 'cnn',         0 ],       
+        [ 'collegeboard', 'nytimes',     0 ],       
+        [ 'collegeboard', 'theguardian', 0 ],      
+        [ 'collegeboard', 'washingtonpost',      0 ],      
+        [ 'collegeboard', 'forbes', 0 ]
+
+        ]);
+
+        var colors = [
+        '#a6cee3',
+        '#cab2d6','#cab2d6','#cab2d6','#cab2d6','#cab2d6',
+        '#a6cee3', '#a6cee3', '#a6cee3','#a6cee3',
+        '#b2df8a', '#b2df8a', '#b2df8a', '#b2df8a','#b2df8a']
+
+        // Set chart options
+        var options = {
+            height: 600,
+            width: 1000,
+            sankey: {
+                node: {
+                    colors: colors,
+                    label: { 
+                        // fontName: 'Times-Roman',
+                        fontSize: 12,
+                        // color: '#871b47',
+                        // bold: true,
+                        // italic: true
+                    } ,
+                },
+                link: {
+                    colorMode: 'gradient',
+                    colors: colors
+                },
+                iterations: 0
+            }
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_6'));
         chart.draw(data, options);
     }
 
 
 </script>
-
 </body>
 </html>

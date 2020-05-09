@@ -3,10 +3,11 @@
 
 #### Step 1: process-sql
 From openWPM to data tables (cookies, js, httprequest)
+Input [exp-num] to run all experiments up to [exp-num]
 
 > python process-sql.py [exp-num] 
 
-> python process-sql.py 1
+> python process-sql.py 6
 
 ------
 

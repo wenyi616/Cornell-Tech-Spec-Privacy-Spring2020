@@ -1,0 +1,31 @@
+        // level 2 N-H
+        [ 'cnn', 'webmd',            0 ],
+        [ 'cnn', 'nytimes',          0 ],
+        [ 'cnn', 'myfitnesspal',     0 ],
+        [ 'cnn', 'medscape',         0 ], 
+        [ 'cnn', 'verywellhealth',   0 ],
+
+        [ 'nytimes', 'webmd',        0 ],
+        [ 'nytimes', 'mayoclinic',   0 ], 
+        [ 'nytimes', 'myfitnesspal', 0 ],
+        [ 'nytimes', 'medscape',     0 ], 
+        [ 'nytimes', 'verywellhealth', 0 ],
+        
+        [ 'theguardian', 'webmd',        0 ],
+        [ 'theguardian', 'mayoclinic',   0 ],
+        [ 'theguardian', 'myfitnesspal', 0 ],
+        [ 'theguardian', 'medscape',     0 ], 
+        [ 'theguardian', 'verywellhealth', 0 ],
+        
+        [ 'washingtonpost', 'webmd',         0 ],
+        [ 'washingtonpost', 'mayoclinic',    0 ],
+        [ 'washingtonpost', 'myfitnesspal',  0 ],
+        [ 'washingtonpost', 'medscape',      0 ], 
+        [ 'washingtonpost', 'verywellhealth', 0 ],
+    
+        [ 'forbes', 'webmd',         0 ],       
+        [ 'forbes', 'mayoclinic',    0 ],       
+        [ 'forbes', 'myfitnesspal',  0 ],      
+        [ 'forbes', 'medscape',      0 ],      
+        [ 'forbes', 'verywellhealth', 0 ]  
+        

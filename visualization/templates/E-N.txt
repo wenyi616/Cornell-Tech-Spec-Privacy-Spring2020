@@ -1,0 +1,62 @@
+       // level 1 E-N
+        [ 'jhu', 'cnn',              0 ],
+        [ 'jhu', 'mayoclinic',       0 ],
+        [ 'jhu', 'theguardian',      0 ],
+        [ 'jhu', 'washingtonpost',   0 ], 
+        [ 'jhu', 'forbes',   0 ],
+
+        [ 'mit', 'cnn',         0 ],
+        [ 'mit', 'nytimes',     0 ], 
+        [ 'mit', 'theguardian', 0 ],
+        [ 'mit', 'washingtonpost',     0 ], 
+        [ 'mit', 'forbes', 0 ],
+        
+        [ 'edx', 'cnn',         0 ],
+        [ 'edx', 'nytimes',     0 ],
+        [ 'edx', 'theguardian', 0 ],
+        [ 'edx', 'washingtonpost', 0 ], 
+        [ 'edx', 'forbes', 0 ],
+        
+        [ 'harvard', 'cnn',        0 ],
+        [ 'harvard', 'nytimes',    0 ],
+        [ 'harvard', 'theguardian',0 ],
+        [ 'harvard', 'washingtonpost', 0 ], 
+        [ 'harvard', 'forbes', 0 ],
+    
+        [ 'collegeboard', 'cnn',         0 ],       
+        [ 'collegeboard', 'nytimes',     0 ],       
+        [ 'collegeboard', 'theguardian', 0 ],      
+        [ 'collegeboard', 'washingtonpost',      0 ],      
+        [ 'collegeboard', 'forbes', 0 ],
+
+        // level 2 N-H
+        [ 'cnn', 'webmd',            0 ],
+        [ 'cnn', 'nytimes',          0 ],
+        [ 'cnn', 'myfitnesspal',     0 ],
+        [ 'cnn', 'medscape',         0 ], 
+        [ 'cnn', 'verywellhealth',   0 ],
+
+        [ 'nytimes', 'webmd',        0 ],
+        [ 'nytimes', 'mayoclinic',   0 ], 
+        [ 'nytimes', 'myfitnesspal', 0 ],
+        [ 'nytimes', 'medscape',     0 ], 
+        [ 'nytimes', 'verywellhealth', 0 ],
+        
+        [ 'theguardian', 'webmd',        0 ],
+        [ 'theguardian', 'mayoclinic',   0 ],
+        [ 'theguardian', 'myfitnesspal', 0 ],
+        [ 'theguardian', 'medscape',     0 ], 
+        [ 'theguardian', 'verywellhealth', 0 ],
+        
+        [ 'washingtonpost', 'webmd',         0 ],
+        [ 'washingtonpost', 'mayoclinic',    0 ],
+        [ 'washingtonpost', 'myfitnesspal',  0 ],
+        [ 'washingtonpost', 'medscape',      0 ], 
+        [ 'washingtonpost', 'verywellhealth', 0 ],
+    
+        [ 'forbes', 'webmd',         0 ],       
+        [ 'forbes', 'mayoclinic',    0 ],       
+        [ 'forbes', 'myfitnesspal',  0 ],      
+        [ 'forbes', 'medscape',      0 ],      
+        [ 'forbes', 'verywellhealth', 0 ]  
+        ]);

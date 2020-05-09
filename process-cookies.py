@@ -90,7 +90,7 @@ def merge_cookies(jsc_cookies, js_cookies, http_cookies):
 
 if __name__ == '__main__':
     experiment_num = sys.argv[1] #1
-    web_nums = 3 #sys.argv[2] #3
+    web_nums = 3
 
     # cookies (set/change httpresponce, js)
     bigcookies = []
@@ -111,5 +111,5 @@ if __name__ == '__main__':
 
     print("--------save hugecookies--------")
     hugecookies.to_csv("./hugecookies/hugecookies-{}.csv".format(experiment_num), index=False)
-    unique_hugecookies = hugecookies.drop_duplicates()
-    unique_hugecookies.to_csv("./hugecookies/unique_hugecookies-{}.csv".format(experiment_num), index=False)
+    # unique_hugecookies = hugecookies.drop_duplicates()
+    # unique_hugecookies.to_csv("./hugecookies/unique_hugecookies-{}.csv".format(experiment_num), index=False)

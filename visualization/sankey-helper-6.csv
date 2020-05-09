@@ -1,0 +1,410 @@
+namevalue,context_id,time_stamp,byhost,byvname
+"('131', '20200502')",1,6,{'match.deepintent.com'},"{'theguardian', 'forbes'}"
+"('131', '20200502')",2,1,{'.deepintent.com'},{'medscape'}
+"('A3', 'd=AQABBKPMrF4CEKCi8LpQuotbEk2A-M-xq1YFEgEBAQEerl62XgAAAAAA_SMAAAcIo8ysXs-xq1Y&S=AQAAAvnjt_OAJSnniQsAfwCfCcg')",1,21,"{'pr.ybp.yahoo', 'pr-bh.ybp.yahoo', 'cms.analytics.yahoo', '.yahoo.com', 'ups.analytics.yahoo'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('A3', 'd=AQABBKPMrF4CEKCi8LpQuotbEk2A-M-xq1YFEgEBAQEerl62XgAAAAAA_SMAAAcIo8ysXs-xq1Y&S=AQAAAvnjt_OAJSnniQsAfwCfCcg')",2,44,"{'service.idsync.analytics', 'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'ups.analytics.yahoo'}","{'webmd', 'medscape', 'verywellhealth'}"
+"('A3', 'd=AQABBKPMrF4CEKCi8LpQuotbEk2A-M-xq1YFEgEBAQEerl62XgAAAAAA_SMAAAcIo8ysXs-xq1Y&S=AQAAAvnjt_OAJSnniQsAfwCfCcg')",3,12,"{'.yahoo.com', 'sp.analytics.yahoo'}",{'colledgeboard'}
+"('AA003', 'AXwYZWtvDTm62xgbYIXzG2KFvzIvbcxoS9u19aT99TIZGIBwe-44a_2CUp2QW_unTFM')",1,3,{'ad.atdmt.com'},{'forbes'}
+"('AA003', 'AXwYZWtvDTm62xgbYIXzG2KFvzIvbcxoS9u19aT99TIZGIBwe-44a_2CUp2QW_unTFM')",2,1,{'.atdmt.com'},{'webmd'}
+"('ADGRX_UID', 'db8f28d0-8c14-11ea-9e09-1d424a007b1c')",1,20,"{'cm.adgrx.com', '.adgrx.com'}","{'theguardian', 'cnn', 'nytimes'}"
+"('ADGRX_UID', 'db8f28d0-8c14-11ea-9e09-1d424a007b1c')",2,4,"{'cm.adgrx.com', '.adgrx.com'}",{'myfitnesspal'}
+"('ANON_ID', 'aRnr6iPME7e7mKvCiHxiIZcWunWAnqjDoeV0beTZbds7j3AEcg9fyPALExjh3S055AfZcTsZaYY3')",1,1,{'a.tribalfusion.com'},{'cnn'}
+"('ANON_ID', 'aRnr6iPME7e7mKvCiHxiIZcWunWAnqjDoeV0beTZbds7j3AEcg9fyPALExjh3S055AfZcTsZaYY3')",2,2,{'.tribalfusion.com'},{'verywellhealth'}
+"('ANON_ID_old', 'aRnr6iPME7e7mKvCiHxiIZcWunWAnqjDoeV0beTZbds7j3AEcg9fyPALExjh3S055AfZcTsZaYY3')",1,1,{'a.tribalfusion.com'},{'cnn'}
+"('ANON_ID_old', 'aRnr6iPME7e7mKvCiHxiIZcWunWAnqjDoeV0beTZbds7j3AEcg9fyPALExjh3S055AfZcTsZaYY3')",2,2,{'.tribalfusion.com'},{'verywellhealth'}
+"('APID', 'UP2af623f6-8c14-11ea-8cbe-0e8001752577')",1,44,"{'adserver-us.adtech.advertising', 'pr.ybp.yahoo', 'pr-bh.ybp.yahoo', 'pixel.advertising.com', '.advertising.com', 'cms.analytics.yahoo', 'ups.analytics.yahoo'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('APID', 'UP2af623f6-8c14-11ea-8cbe-0e8001752577')",2,42,"{'adserver-us.adtech.advertising', 'service.idsync.analytics', 'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'pixel.advertising.com', '.advertising.com', 'cookiex.ngd.yahoo', '.yahoo.com', 'ads.adaptv.advertising', 'ups.analytics.yahoo', 'adserver.adtech.advertising'}","{'myfitnesspal', 'webmd', 'medscape', 'verywellhealth'}"
+"('APID', 'UP2af623f6-8c14-11ea-8cbe-0e8001752577')",3,4,{'sp.analytics.yahoo'},{'colledgeboard'}
+"('APIDTS', '1588382984')",1,5,"{'pr-bh.ybp.yahoo', 'ups.analytics.yahoo', 'cms.analytics.yahoo', 'pr.ybp.yahoo'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('APIDTS', '1588382984')",2,6,"{'pr-bh.ybp.yahoo', '.yahoo.com', 'service.idsync.analytics', 'ads.yahoo.com'}","{'webmd', 'medscape', 'verywellhealth'}"
+"('APIDTS', '1588382984')",3,4,{'sp.analytics.yahoo'},{'colledgeboard'}
+"('ASP.NET_SessionId', 'gpyfth3j50vqrijge11qgiff')",1,1,{'ib.mookie1.com'},{'forbes'}
+"('ASP.NET_SessionId', 'gpyfth3j50vqrijge11qgiff')",2,2,{'ib.mookie1.com'},{'webmd'}
+"('ASP.NET_SessionId', 'z14xd5m0z3sdtmevw03sf31s')",1,1,{'global.ib-ibi.com'},{'forbes'}
+"('ASP.NET_SessionId', 'z14xd5m0z3sdtmevw03sf31s')",2,2,{'global.ib-ibi.com'},{'webmd'}
+"('ATN', '1.1588382897.16211325620742349554.AYIMEUTQhobeIFy0eW0')",1,3,{'ad.atdmt.com'},{'forbes'}
+"('ATN', '1.1588382897.16211325620742349554.AYIMEUTQhobeIFy0eW0')",2,1,{'.atdmt.com'},{'webmd'}
+"('AWSELB', '6523811C24BEA1B191321F7709C18C13A8107B778E704E87DC274B59418662DD78A467E79BE475CE036B64F09465C196E0B9531C2152B5CFEF8ED1CB3F6FE060BE26C6BF48FB7D1FB292540343F199F77E127577')",1,3,"{'.intentiq.com', 'sync.intentiq.com'}",{'theguardian'}
+"('AWSELB', '6523811C24BEA1B191321F7709C18C13A8107B778E704E87DC274B59418662DD78A467E79BE475CE036B64F09465C196E0B9531C2152B5CFEF8ED1CB3F6FE060BE26C6BF48FB7D1FB292540343F199F77E127577')",2,6,"{'sync1.intentiq.com', '.intentiq.com'}",{'webmd'}
+"('B', '5dathptfapj53&b=3&s=su')",1,25,"{'pr.ybp.yahoo', 'pr-bh.ybp.yahoo', 'cms.analytics.yahoo', '.yahoo.com', 'ups.analytics.yahoo'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('B', '5dathptfapj53&b=3&s=su')",2,68,"{'service.idsync.analytics', 'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'ups.analytics.yahoo'}","{'webmd', 'medscape', 'verywellhealth'}"
+"('B', '5dathptfapj53&b=3&s=su')",3,12,"{'.yahoo.com', 'sp.analytics.yahoo'}",{'colledgeboard'}
+"('CDIUSER', 'di_880d688f27444c1180b75')",1,8,"{'.deepintent.com', 'match.deepintent.com'}","{'theguardian', 'forbes'}"
+"('CDIUSER', 'di_880d688f27444c1180b75')",2,2,"{'.deepintent.com', 'match.deepintent.com'}",{'medscape'}
+"('CMDD', 'AAKLqQQAB35GAQ**')",1,2,"{'as-sec.casalemedia.com', 'dsum-sec.casalemedia.com'}",{'cnn'}
+"('CMDD', 'AAKLqQQAB35GAQ**')",2,2,{'.casalemedia.com'},{'verywellhealth'}
+"('CMID', 'XqzMuNHM43gAACLdRnQAAAB.')",1,114,"{'dsum.casalemedia.com', 'as-sec.casalemedia.com', 'a1579.casalemedia.com', 'ssum-sec.casalemedia.com', 'dsum-sec.casalemedia.com', '.casalemedia.com'}","{'nytimes', 'theguardian', 'cnn', 'washingtonpost'}"
+"('CMID', 'XqzMuNHM43gAACLdRnQAAAB.')",2,41,"{'dsum.casalemedia.com', 'as-sec.casalemedia.com', 'ssum-sec.casalemedia.com', 'dsum-sec.casalemedia.com', '.casalemedia.com', 'a948.casalemedia.com'}","{'myfitnesspal', 'webmd', 'verywellhealth'}"
+"('CMRUM3', '835eacce49276018072662242634074289&275eacce482760b304d3f5-a06c-4fb6-be25-3ee29ee2e85e&035eacce482760dad15eac-cca2-4b00-8641-ade433ebfe1f&2f5eaccdc027608fd9v3ZV1JuGXe5&515eacce482760MNsX62bdFLEojhfpMNxbvDWJFeko2BO_ZosyI8Bc&045eacce4827609011845017516733525&585eacce482760XqzMpwAAAFCXNlvC&2e5eacce482760835792501234290343&2d5eacccba2760CAESEDSJMEGWuFM0P-xhNSchqYU&415eacce4805a0AQEI9jgY6a3w6QIyiz0UAQEBAQE')",1,1,{'dsum-sec.casalemedia.com'},{'cnn'}
+"('CMRUM3', '835eacce49276018072662242634074289&275eacce482760b304d3f5-a06c-4fb6-be25-3ee29ee2e85e&035eacce482760dad15eac-cca2-4b00-8641-ade433ebfe1f&2f5eaccdc027608fd9v3ZV1JuGXe5&515eacce482760MNsX62bdFLEojhfpMNxbvDWJFeko2BO_ZosyI8Bc&045eacce4827609011845017516733525&585eacce482760XqzMpwAAAFCXNlvC&2e5eacce482760835792501234290343&2d5eacccba2760CAESEDSJMEGWuFM0P-xhNSchqYU&415eacce4805a0AQEI9jgY6a3w6QIyiz0UAQEBAQE')",2,8,"{'as-sec.casalemedia.com', '.casalemedia.com'}",{'verywellhealth'}
+"('CMST', 'XqzMul6szmIF')",1,1,{'dsum-sec.casalemedia.com'},{'cnn'}
+"('CMST', 'XqzMul6szmIF')",2,2,{'.casalemedia.com'},{'verywellhealth'}
+"('CMSUM', '415eacce4805a0AQEI9jgY6a3w6QIyiz0UAQEBAQE')",1,76,"{'dsum.casalemedia.com', 'as-sec.casalemedia.com', 'a1579.casalemedia.com', 'ssum-sec.casalemedia.com', 'dsum-sec.casalemedia.com', '.casalemedia.com'}","{'washingtonpost', 'theguardian', 'cnn', 'nytimes'}"
+"('CMSUM', '415eacce4805a0AQEI9jgY6a3w6QIyiz0UAQEBAQE')",2,10,"{'as-sec.casalemedia.com', '.casalemedia.com'}",{'verywellhealth'}
+"('CSDT', 'UEQ6MTAyMTFfMCZSeG4zNFpjIzEwMTM5XzAmUnhuMzRSUiMxNF8wJlJ4bjM0SzE')",1,1,{'sync.intentiq.com'},{'theguardian'}
+"('CSDT', 'UEQ6MTAyMTFfMCZSeG4zNFpjIzEwMTM5XzAmUnhuMzRSUiMxNF8wJlJ4bjM0SzE')",2,2,{'.intentiq.com'},{'webmd'}
+"('DMADT', 'L8UK0TlmTU6VgeOuyJ2hmg')",1,5,{'sc.iasds01.com'},"{'forbes', 'cnn', 'nytimes'}"
+"('DMADT', 'L8UK0TlmTU6VgeOuyJ2hmg')",2,2,{'.iasds01.com'},{'verywellhealth'}
+"('DPSync2', '1589587200%3A197_219_201_200%7C1588982400%3A164%7C1588464000%3A174')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('DPSync2', '1589587200%3A197_219_201_200%7C1588982400%3A164%7C1588464000%3A174')",2,18,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com', 'ads.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('DotomiUser', '718105449029497320$3$864697365$$1')",1,2,"{'bluekai-sync.dotomi.com', 'triplelift-match.dotomi.com'}","{'theguardian', 'forbes'}"
+"('DotomiUser', '718105449029497320$3$864697365$$1')",2,9,"{'amazon-tam-match.dotomi.com', 'rubicon-match.dotomi.com', 'cookie.sync.ad', '.dotomi.com', 'web.hb.ad', 'direct.ad.cpe', 'casale-match.dotomi.com'}","{'myfitnesspal', 'verywellhealth'}"
+"('EE', '""83ddecfdd4625fd9a44500643e200f0c""')",1,8,{'.exelator.com'},"{'forbes', 'cnn'}"
+"('EE', '""83ddecfdd4625fd9a44500643e200f0c""')",2,3,{'.exelator.com'},{'webmd'}
+"('EE', '\\83ddecfdd4625fd9a44500643e200f0c\\')",1,16,"{'loadm.exelator.com', 'cdn.exelator.com', 'loadus.exelator.com', 'load77.exelator.com', 'mydmp.exelator.com'}","{'forbes', 'cnn'}"
+"('EE', '\\83ddecfdd4625fd9a44500643e200f0c\\')",2,2,"{'loadm.exelator.com', 'loadus.exelator.com'}",{'webmd'}
+"('EQUser', 'UID=d66bb1af-d010-433b-bff4-eb29a9cf3082')",1,1,{'um2.eqads.com'},{'theguardian'}
+"('EQUser', 'UID=d66bb1af-d010-433b-bff4-eb29a9cf3082')",2,2,"{'.eqads.com', 'um2.eqads.com'}",{'webmd'}
+"('GLOBALID', '2uKlc8-sIBd987FnJ32_HOODAHMFp9aDDXI4nQvKIrt2R0VoCPDA0_rNmWOp5fNUIWr2c5X92pQC4TM1')",1,9,{'bttrack.com'},"{'theguardian', 'cnn'}"
+"('GLOBALID', '2uKlc8-sIBd987FnJ32_HOODAHMFp9aDDXI4nQvKIrt2R0VoCPDA0_rNmWOp5fNUIWr2c5X92pQC4TM1')",2,4,{'bttrack.com'},{'medscape'}
+"('GUC', 'AQEBAQFerh5etkIiWQTE')",1,21,"{'pr.ybp.yahoo', 'pr-bh.ybp.yahoo', 'cms.analytics.yahoo', '.yahoo.com', 'ups.analytics.yahoo'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('GUC', 'AQEBAQFerh5etkIiWQTE')",2,38,"{'service.idsync.analytics', 'ads.yahoo.com', 'pr-bh.ybp.yahoo', 'cookiex.ngd.yahoo', '.yahoo.com', 'ups.analytics.yahoo'}","{'webmd', 'medscape', 'verywellhealth'}"
+"('GUC', 'AQEBAQFerh5etkIiWQTE')",3,12,"{'.yahoo.com', 'sp.analytics.yahoo'}",{'colledgeboard'}
+"('IDE', 'AHWqTUmxr1aNqhliJAJOUp3hII9JIFyVtgy1MP-h0WljtYjBLQyldpxOWxC7R4mP')",1,373,"{'5290727.fls.doubleclick', 'bid.g.doubleclick', 'googleads.g.doubleclick', 'googleads4.g.doubleclick', 'cm.g.doubleclick', 'ad.doubleclick.net', 'securepubads.g.doubleclick', 'stats.g.doubleclick'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('IDE', 'AHWqTUmxr1aNqhliJAJOUp3hII9JIFyVtgy1MP-h0WljtYjBLQyldpxOWxC7R4mP')",2,327,"{'bid.g.doubleclick', 'googleads.g.doubleclick', 'googleads4.g.doubleclick', 'cm.g.doubleclick', 'ad.doubleclick.net', 'securepubads.g.doubleclick', 'stats.g.doubleclick', '.doubleclick.net'}","{'myfitnesspal', 'webmd', 'medscape', 'mayoclinic', 'verywellhealth'}"
+"('IDE', 'AHWqTUmxr1aNqhliJAJOUp3hII9JIFyVtgy1MP-h0WljtYjBLQyldpxOWxC7R4mP')",3,35,"{'bid.g.doubleclick', 'static.doubleclick.net', 'googleads.g.doubleclick', 'cm.g.doubleclick', 'stats.g.doubleclick'}","{'colledgeboard', 'harvard', 'edx', 'jhu', 'mit'}"
+"('IDSYNC', '\\18y3~1r4p:18bj~1r4p:18yi~1r4p:18w6~1r4p:1771~1r4p:1762~1r4p\\')",1,1,{'ups.analytics.yahoo'},{'nytimes'}
+"('IDSYNC', '\\18y3~1r4p:18bj~1r4p:18yi~1r4p:18w6~1r4p:1771~1r4p:1762~1r4p\\')",2,1,{'service.idsync.analytics'},{'verywellhealth'}
+"('IDSYNC', '\\18y3~1r4p:18bj~1r4p:18yi~1r4p:18w6~1r4p:1771~1r4p:1762~1r4p\\')",3,4,{'sp.analytics.yahoo'},{'colledgeboard'}
+"('INGRESSCOOKIE', '8d10a8b348c68dc9')",1,3,{'bh.contextweb.com'},"{'theguardian', 'cnn'}"
+"('INGRESSCOOKIE', '8d10a8b348c68dc9')",2,12,{'bh.contextweb.com'},"{'myfitnesspal', 'webmd', 'medscape'}"
+"('IQAppnexusCookieSync', '1588382969921')",1,1,{'sync.intentiq.com'},{'theguardian'}
+"('IQAppnexusCookieSync', '1588382969921')",2,3,"{'sync1.intentiq.com', '.intentiq.com'}",{'webmd'}
+"('IQPData', '314365897#1588382970888#0#1588382969910')",1,1,{'sync.intentiq.com'},{'theguardian'}
+"('IQPData', '314365897#1588382970888#0#1588382969910')",2,2,{'.intentiq.com'},{'webmd'}
+"('IQRubiconCookieSync', '1588382970890')",1,1,{'sync.intentiq.com'},{'theguardian'}
+"('IQRubiconCookieSync', '1588382970890')",2,1,{'.intentiq.com'},{'webmd'}
+"('JSESSIONID', '84e2f97945b21d70')",1,5,{'bam.nr-data.net'},{'washingtonpost'}
+"('JSESSIONID', '84e2f97945b21d70')",2,16,"{'bam.nr-data.net', '.nr-data.net'}","{'mayoclinic', 'medscape', 'verywellhealth'}"
+"('JSESSIONID', '84e2f97945b21d70')",3,31,{'bam.nr-data.net'},"{'colledgeboard', 'harvard', 'cnn', 'edx'}"
+"('KADUSERCOOKIE', '2A9A1551-25CB-467B-9D9E-2EBC2988AF46')",1,137,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'hbopenbid.pubmatic.com', 'simage2.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KADUSERCOOKIE', '2A9A1551-25CB-467B-9D9E-2EBC2988AF46')",2,44,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image4.pubmatic.com', 'image6.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_148', '19421-uid:21DFCF19E2F149798F2595A0BE0A39B3')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_148', '19421-uid:21DFCF19E2F149798F2595A0BE0A39B3')",2,12,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com', 'ads.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_153', '19420-LPaHxXrwhJ80o4fHLPHLkimkhcc09YOReqa0vVZi&KRTB&22979-LPaHxXrwhJ80o4fHLPHLkimkhcc09YOReqa0vVZi')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_153', '19420-LPaHxXrwhJ80o4fHLPHLkimkhcc09YOReqa0vVZi&KRTB&22979-LPaHxXrwhJ80o4fHLPHLkimkhcc09YOReqa0vVZi')",2,8,"{'image2.pubmatic.com', 'simage4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_218', '22922-XqzMpwAAAFCXNlvC&KRTB&22978-XqzMpwAAAFCXNlvC&KRTB&23194-XqzMpwAAAFCXNlvC&KRTB&23209-XqzMpwAAAFCXNlvC')",1,135,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'hbopenbid.pubmatic.com', 'simage2.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_218', '22922-XqzMpwAAAFCXNlvC&KRTB&22978-XqzMpwAAAFCXNlvC&KRTB&23194-XqzMpwAAAFCXNlvC&KRTB&23209-XqzMpwAAAFCXNlvC')",2,31,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_22', '14911-9011845017516733525&KRTB&23150-9011845017516733525')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_22', '14911-9011845017516733525&KRTB&23150-9011845017516733525')",2,33,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_27', '16735-uid:dad15eac-cca2-4b00-8641-ade433ebfe1f&KRTB&16736-uid:dad15eac-cca2-4b00-8641-ade433ebfe1f')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_27', '16735-uid:dad15eac-cca2-4b00-8641-ade433ebfe1f&KRTB&16736-uid:dad15eac-cca2-4b00-8641-ade433ebfe1f')",2,33,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_279', '22890-3b4bf74d-8c14-11ea-9934-27c93114df9a')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_279', '22890-3b4bf74d-8c14-11ea-9934-27c93114df9a')",2,8,"{'image2.pubmatic.com', 'simage4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_32', '11175-AAAGR_pB_roYeQNNP2YXAAAAAAA&KRTB&22714-AAAGR_pB_roYeQNNP2YXAAAAAAA&KRTB&22715-AAAGR_pB_roYeQNNP2YXAAAAAAA')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_32', '11175-AAAGR_pB_roYeQNNP2YXAAAAAAA&KRTB&22714-AAAGR_pB_roYeQNNP2YXAAAAAAA&KRTB&22715-AAAGR_pB_roYeQNNP2YXAAAAAAA')",2,4,"{'image2.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_330', '22938-bd36decfe30c35c71023ed1fd6b5e7f6&KRTB&22939-bd36decfe30c35c71023ed1fd6b5e7f6')",1,135,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'hbopenbid.pubmatic.com', 'simage2.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_330', '22938-bd36decfe30c35c71023ed1fd6b5e7f6&KRTB&22939-bd36decfe30c35c71023ed1fd6b5e7f6')",2,31,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_377', '22918-b304d3f5-a06c-4fb6-be25-3ee29ee2e85e&KRTB&23031-b304d3f5-a06c-4fb6-be25-3ee29ee2e85e')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_377', '22918-b304d3f5-a06c-4fb6-be25-3ee29ee2e85e&KRTB&23031-b304d3f5-a06c-4fb6-be25-3ee29ee2e85e')",2,33,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_466', '16530-bcc046f2-f4a6-48c1-9903-218db1bd8bb5&KRTB&16532-bcc046f2-f4a6-48c1-9903-218db1bd8bb5')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_466', '16530-bcc046f2-f4a6-48c1-9903-218db1bd8bb5&KRTB&16532-bcc046f2-f4a6-48c1-9903-218db1bd8bb5')",2,3,"{'image2.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_52', '22772-R1B332_C9A044D1_101518A26&KRTB&23092-R1B332_C9A044D1_101518A26')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_52', '22772-R1B332_C9A044D1_101518A26&KRTB&23092-R1B332_C9A044D1_101518A26')",2,8,"{'image2.pubmatic.com', 'simage4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_57', '22767-835792501234290343&KRTB&22776-835792501234290343')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_57', '22767-835792501234290343&KRTB&22776-835792501234290343')",2,12,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com', 'ads.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_594', '17105-RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005&KRTB&17107-RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_594', '17105-RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005&KRTB&17107-RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005')",2,2,"{'image2.pubmatic.com', '.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_699', '22727-AACXjk69WZkAABBI2-MSgA&KRTB&22744-AACXjk69WZkAABBI2-MSgA')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_699', '22727-AACXjk69WZkAABBI2-MSgA&KRTB&22744-AACXjk69WZkAABBI2-MSgA')",2,28,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_80', '16514-CAESEIEUfJ-HLciX-Rq6w8JVPfM&KRTB&22987-CAESEIEUfJ-HLciX-Rq6w8JVPfM&KRTB&22995-CAESEIEUfJ-HLciX-Rq6w8JVPfM&KRTB&23025-CAESEIEUfJ-HLciX-Rq6w8JVPfM')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_80', '16514-CAESEIEUfJ-HLciX-Rq6w8JVPfM&KRTB&22987-CAESEIEUfJ-HLciX-Rq6w8JVPfM&KRTB&22995-CAESEIEUfJ-HLciX-Rq6w8JVPfM&KRTB&23025-CAESEIEUfJ-HLciX-Rq6w8JVPfM')",2,35,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'ads.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('KRTBCOOKIE_964', '20918-cuid_3b467811-8c14-11ea-a551-1202f1c33782')",1,133,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}","{'theguardian', 'cnn'}"
+"('KRTBCOOKIE_964', '20918-cuid_3b467811-8c14-11ea-a551-1202f1c33782')",2,4,"{'image2.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('MUID', '31BAFD3B944C61620DE4F385959C609C')",1,25,"{'c.bing.com', '.bing.com', 'bat.bing.com'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('MUID', '31BAFD3B944C61620DE4F385959C609C')",2,15,"{'.bing.com', 'bat.bing.com'}","{'mayoclinic', 'myfitnesspal'}"
+"('MUID', '31BAFD3B944C61620DE4F385959C609C')",3,18,{'bat.bing.com'},"{'colledgeboard', 'cnn', 'edx'}"
+"('PugT', '1588383304')",1,1,{'image2.pubmatic.com'},{'cnn'}
+"('PugT', '1588383304')",2,2,{'.pubmatic.com'},{'verywellhealth'}
+"('SOC', 'XqzMucCo8WUAAv-Bxt4AAAAA')",1,1,{'tg.socdm.com'},{'cnn'}
+"('SOC', 'XqzMucCo8WUAAv-Bxt4AAAAA')",2,1,{'.socdm.com'},{'webmd'}
+"('SPugT', '1588382912')",1,84,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image6.pubmatic.com', 'simage2.pubmatic.com', 'hbopenbid.pubmatic.com', 'ads.pubmatic.com'}",{'cnn'}
+"('SPugT', '1588382912')",2,5,"{'image2.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('SyncRTB2', '1589587200%3A54_22_13_48_21_166_3_99_8_178_71_7_104%7C1588982400%3A2_15%7C1589241600%3A63%7C1588636800%3A160%7C1589673600%3A35')",1,31,"{'image6.pubmatic.com', 'image2.pubmatic.com', 'ads.pubmatic.com'}",{'cnn'}
+"('SyncRTB2', '1589587200%3A54_22_13_48_21_166_3_99_8_178_71_7_104%7C1588982400%3A2_15%7C1589241600%3A63%7C1588636800%3A160%7C1589673600%3A35')",2,18,"{'image2.pubmatic.com', 'simage4.pubmatic.com', 'image4.pubmatic.com', '.pubmatic.com', 'simage2.pubmatic.com', 'ads.pubmatic.com'}","{'webmd', 'verywellhealth'}"
+"('TDCPM', 'CAESGQoKbGl2ZWludGVudBILCMSr8-3CkLc4EAUSFwoIcHVibWF0aWMSCwi2-oGYw5C3OBAFEhYKB3J1Ymljb24SCwimpLexw5C3OBAFEhQKBXRhcGFkEgsIys7QpMWQtzgQBRIYCgltb29raWUtcHMSCwjizI712JC3OBAFEhUKBmNhc2FsZRILCOKG9pPikLc4EAUYAyABKAUyCwjixJGi75C3OBAFQh0iGwgBEhcKE3N2X3R1cmJpbmVfZmVlZGJhY2sQAVoHcnViaWNvbmADcgltb29raWUtcHM.')",1,4,"{'match.adsrvr.org', '.adsrvr.org'}",{'cnn'}
+"('TDCPM', 'CAESGQoKbGl2ZWludGVudBILCMSr8-3CkLc4EAUSFwoIcHVibWF0aWMSCwi2-oGYw5C3OBAFEhYKB3J1Ymljb24SCwimpLexw5C3OBAFEhQKBXRhcGFkEgsIys7QpMWQtzgQBRIYCgltb29raWUtcHMSCwjizI712JC3OBAFEhUKBmNhc2FsZRILCOKG9pPikLc4EAUYAyABKAUyCwjixJGi75C3OBAFQh0iGwgBEhcKE3N2X3R1cmJpbmVfZmVlZGJhY2sQAVoHcnViaWNvbmADcgltb29raWUtcHM.')",2,2,{'.adsrvr.org'},{'verywellhealth'}
+"('TDID', 'b304d3f5-a06c-4fb6-be25-3ee29ee2e85e')",1,42,"{'match.adsrvr.org', '.adsrvr.org', 'use-tor.adsrvr.org'}","{'forbes', 'theguardian', 'cnn', 'washingtonpost'}"
+"('TDID', 'b304d3f5-a06c-4fb6-be25-3ee29ee2e85e')",2,44,"{'match.adsrvr.org', '.adsrvr.org', 'use-tor.adsrvr.org', '.aralego.com', 'sync.aralego.com'}","{'myfitnesspal', 'webmd', 'verywellhealth'}"
+"('TapAd_DID', '3a7397b3-8c14-11ea-a9d1-6eb69782813b')",1,19,"{'pixel.tapad.com', '.tapad.com', 'tapestry.tapad.com'}","{'theguardian', 'forbes', 'cnn'}"
+"('TapAd_DID', '3a7397b3-8c14-11ea-a9d1-6eb69782813b')",2,19,"{'pixel.tapad.com', '.tapad.com', 'tapestry.tapad.com'}","{'myfitnesspal', 'webmd'}"
+"('TapAd_TS', '1588382909611')",1,19,"{'pixel.tapad.com', '.tapad.com', 'tapestry.tapad.com'}","{'theguardian', 'forbes', 'cnn'}"
+"('TapAd_TS', '1588382909611')",2,19,"{'pixel.tapad.com', '.tapad.com', 'tapestry.tapad.com'}","{'myfitnesspal', 'webmd'}"
+"('U', 'bd36decfe30c35c71023ed1fd6b5e7f6')",1,24,"{'p.adsymptotic.com', '.adsymptotic.com'}","{'theguardian', 'cnn', 'forbes'}"
+"('U', 'bd36decfe30c35c71023ed1fd6b5e7f6')",2,5,"{'p.adsymptotic.com', '.adsymptotic.com'}",{'webmd'}
+"('U', 'bd36decfe30c35c71023ed1fd6b5e7f6')",3,12,"{'p.adsymptotic.com', '.adsymptotic.com'}",{'edx'}
+"('UID', '16418428a36a77a207f979e1588382875')",1,66,"{'sa.scorecardresearch.com', 'sb.scorecardresearch.com', 'ads.scorecardresearch.com'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('UID', '16418428a36a77a207f979e1588382875')",2,28,"{'sb.scorecardresearch.com', '.scorecardresearch.com'}","{'mayoclinic', 'webmd', 'myfitnesspal', 'verywellhealth'}"
+"('UIDR', '1588382875')",1,66,"{'sa.scorecardresearch.com', 'sb.scorecardresearch.com', 'ads.scorecardresearch.com'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('UIDR', '1588382875')",2,28,"{'sb.scorecardresearch.com', '.scorecardresearch.com'}","{'mayoclinic', 'webmd', 'myfitnesspal', 'verywellhealth'}"
+"('UserID1', '6822052905379100813')",1,3,"{'.adfarm1.adition', 'dsp.adfarm1.adition'}",{'cnn'}
+"('UserID1', '6822052905379100813')",2,1,{'.adfarm1.adition'},{'webmd'}
+"('UserMatchHistory', 'AQIw_eqiCIxbFgAAAXHTCDdmrlTJZn0hWQ96rAi7gqLc4RhUmc4A7i9ADCD0sgEJyiGKlZ-PxQY')",1,5,{'px.ads.linkedin'},{'forbes'}
+"('UserMatchHistory', 'AQIw_eqiCIxbFgAAAXHTCDdmrlTJZn0hWQ96rAi7gqLc4RhUmc4A7i9ADCD0sgEJyiGKlZ-PxQY')",3,6,"{'.linkedin.com', 'px.ads.linkedin'}",{'edx'}
+"('V', 'VDOcP613De8q')",1,9,"{'bh.contextweb.com', '.contextweb.com'}","{'theguardian', 'cnn'}"
+"('V', 'VDOcP613De8q')",2,32,"{'bh.contextweb.com', '.contextweb.com'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('__kuid', '11852f44-db02-4824-9a03-83abb37e921b.357596969')",1,1,{'match.adsby.bidtheatre'},{'cnn'}
+"('__kuid', '11852f44-db02-4824-9a03-83abb37e921b.357596969')",2,1,{'.adsby.bidtheatre'},{'webmd'}
+"('_auid', '1UgzGrN7CaK3zarPwM2sXg')",1,3,"{'.c.appier', 'gocm.c.appier'}",{'cnn'}
+"('_auid', '1UgzGrN7CaK3zarPwM2sXg')",2,1,{'.c.appier'},{'myfitnesspal'}
+"('_cc_id', '56f6c96164e3eb3c4daed03d54f5fda9')",1,6,"{'sync.crwdcntrl.net', 'ad.crwdcntrl.net'}","{'theguardian', 'forbes'}"
+"('_cc_id', '56f6c96164e3eb3c4daed03d54f5fda9')",2,17,"{'.crwdcntrl.net', 'bcp.crwdcntrl.net', 'ad.crwdcntrl.net', 'tags.crwdcntrl.net'}","{'webmd', 'verywellhealth'}"
+"('_dm_uid', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDAwLCJ1c3IiOiJxZ1l3c2dZYk1XSkxXbTVUU1ZKUWVsTlFPVE5WUldGVGRqZGlNRUpEUjJrd3VnWURDS3BPdWdZRENLNU91Z1lEQ0xCTyIsImlhdCI6MTU4ODM4MjkxMX0.FTBkUrjx8Nkuc_Ll40ocFkEgwtMTgwRxLW9UyH6T--DEYNZoHNjwaK-pbG207sEYH9QvqWYX90BunnNKEV6L4g')",1,3,"{'cdn.districtm.io', 'dmx.districtm.io'}",{'washingtonpost'}
+"('_dm_uid', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDAwLCJ1c3IiOiJxZ1l3c2dZYk1XSkxXbTVUU1ZKUWVsTlFPVE5WUldGVGRqZGlNRUpEUjJrd3VnWURDS3BPdWdZRENLNU91Z1lEQ0xCTyIsImlhdCI6MTU4ODM4MjkxMX0.FTBkUrjx8Nkuc_Ll40ocFkEgwtMTgwRxLW9UyH6T--DEYNZoHNjwaK-pbG207sEYH9QvqWYX90BunnNKEV6L4g')",2,11,"{'dmx.us-east-4.districtm', '.districtm.io', 'cdn.districtm.io', 'dmx.districtm.io'}","{'webmd', 'medscape'}"
+"('_kuid_', 'NYNbUVvS')",1,120,"{'jslog.krxd.net', 'usermatch.krxd.net', 'beacon.krxd.net', 'cdn.krxd.net', 'consumer.krxd.net', '.krxd.net'}","{'forbes', 'theguardian', 'cnn', 'washingtonpost'}"
+"('_kuid_', 'NYNbUVvS')",2,1,{'.krxd.net'},{'webmd'}
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005%22%2C%22nxtrdr%22%3Afalse%7D')",1,8,"{'sync.1rx.io', '.1rx.io'}","{'theguardian', 'forbes', 'nytimes'}"
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005%22%2C%22nxtrdr%22%3Afalse%7D')",2,4,"{'sync.1rx.io', '.1rx.io'}",{'webmd'}
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005%22%7D')",1,3,"{'sync.1rx.io', '.1rx.io'}",{'forbes'}
+"('_rxuuid', '%7B%22rx_uuid%22%3A%22RX-bf7429a3-2465-4da8-a3b6-9ba6ee642cb8-005%22%7D')",2,7,"{'sync.1rx.io', '.1rx.io'}",{'webmd'}
+"('_s', 'QwonR1nB%2F7GaTt1iFJnlZ4sTL6TBv6Ukmv4bGc7D2KfbDvsVUzMQxzthcCrhrlmJ')",2,1,{'.app.link'},{'myfitnesspal'}
+"('_s', 'QwonR1nB%2F7GaTt1iFJnlZ4sTL6TBv6Ukmv4bGc7D2KfbDvsVUzMQxzthcCrhrlmJ')",3,6,"{'.app.link', 'app.link'}",{'edx'}
+"('_ssum', 'eyIxIjoxNTg4MzgyOTExMTY4LCIzIjoxNTg4MzgyOTExMTY4LCI1IjoxNTg4MzgyOTA5NTk1LCI3IjoxNTg4MzgyOTA5NTk1fQ')",1,10,"{'pixel-sync.sitescout.com', '.sitescout.com', 'pixel-a.sitescout.com'}","{'theguardian', 'cnn', 'forbes'}"
+"('_ssum', 'eyIxIjoxNTg4MzgyOTExMTY4LCIzIjoxNTg4MzgyOTExMTY4LCI1IjoxNTg4MzgyOTA5NTk1LCI3IjoxNTg4MzgyOTA5NTk1fQ')",2,5,"{'.sitescout.com', 'pixel-a.sitescout.com'}",{'webmd'}
+"('ab', '0001%3AqohjvNeWNXezxbqLXJ%2FxKk068TV47ric')",1,33,"{'.agkn.com', 'aa.agkn.com', 'd.agkn.com'}","{'forbes', 'cnn', 'nytimes'}"
+"('ab', '0001%3AqohjvNeWNXezxbqLXJ%2FxKk068TV47ric')",2,6,"{'.agkn.com', 'd.agkn.com'}",{'webmd'}
+"('ad-id', 'A-YrlyuU_UCakJ88erIB0FY')",1,114,"{'s.amazon-adsystem.com', 'aax-eu.amazon-adsystem.com', '.amazon-adsystem.com', 'aax-us-east.amazon-adsystem.com', 'c.amazon-adsystem.com'}","{'forbes', 'cnn', 'washingtonpost', 'theguardian', 'nytimes'}"
+"('ad-id', 'A-YrlyuU_UCakJ88erIB0FY')",2,80,"{'s.amazon-adsystem.com', 'aax.amazon-adsystem.com', '.amazon-adsystem.com', 'aax-us-east.amazon-adsystem.com', 'c.amazon-adsystem.com'}","{'myfitnesspal', 'webmd', 'verywellhealth'}"
+"('audience', '3a2e9bf5-8c14-11ea-bfa4-1cea35200101')",1,3,"{'.spotxchange.com', 'sync.search.spotxchange'}",{'cnn'}
+"('audience', '3a2e9bf5-8c14-11ea-bfa4-1cea35200101')",2,5,"{'.spotxchange.com', 'sync.search.spotxchange'}",{'webmd'}
+"('audit', '1|fxUC6hLGyhmFTQy9jr37g6jMsejAmD2HqSGsifYaRM0Us+fz+vGropH7tdXJ4qeyuDVcQwJClFnM2XCK5FZkkZ/vhxglic+b4ICd6Q+AmJsRkfzivITOwdAPlTu0R9RN')",1,1,{'pixel.rubiconproject.com'},{'cnn'}
+"('audit', '1|fxUC6hLGyhmFTQy9jr37g6jMsejAmD2HqSGsifYaRM0Us+fz+vGropH7tdXJ4qeyuDVcQwJClFnM2XCK5FZkkZ/vhxglic+b4ICd6Q+AmJsRkfzivITOwdAPlTu0R9RN')",2,2,{'.rubiconproject.com'},{'verywellhealth'}
+"('auid', '505068612484')",1,6,"{'.acuityplatform.com', 'acuityplatform.com'}",{'theguardian'}
+"('auid', '505068612484')",2,13,"{'.acuityplatform.com', 'u.acuityplatform.com'}",{'medscape'}
+"('avnguid', 'av-428321c8-d780-4059-9197-78d97bfb6ceb')",1,3,"{'.advangelists.com', 'nep.advangelists.com'}",{'cnn'}
+"('avnguid', 'av-428321c8-d780-4059-9197-78d97bfb6ceb')",2,1,{'.advangelists.com'},{'webmd'}
+"('bcookie', '\\v=2&e60455b8-e92d-4273-8846-df2cbf6f77fc\\')",1,5,{'px.ads.linkedin'},{'forbes'}
+"('bcookie', '\\v=2&e60455b8-e92d-4273-8846-df2cbf6f77fc\\')",3,4,{'px.ads.linkedin'},{'edx'}
+"('bito', 'AACXjk69WZkAABBI2-MSgA')",1,3,{'match.prod.bidr'},"{'theguardian', 'forbes'}"
+"('bito', 'AACXjk69WZkAABBI2-MSgA')",2,9,"{'match.prod.bidr', '.bidr.io'}","{'myfitnesspal', 'webmd'}"
+"('bku', '53R99nc1ga8j0Gzb')",1,173,"{'tags.bluekai.com', '.bluekai.com', 'stags.bluekai.com'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('bku', '53R99nc1ga8j0Gzb')",2,9,"{'tags.bluekai.com', '.bluekai.com', 'stags.bluekai.com'}","{'myfitnesspal', 'webmd'}"
+"('brandcdn_uid', '07ea76cc-ba63-4fca-ba61-cc44b480a83f')",1,2,"{'adservices.brandcdn.com', 'ads.brandcdn.com'}",{'cnn'}
+"('brandcdn_uid', '07ea76cc-ba63-4fca-ba61-cc44b480a83f')",2,3,"{'adservices.brandcdn.com', 'ads.brandcdn.com'}",{'myfitnesspal'}
+"('browser_data', 'Ssa0-19hbE1HdHR0bjZMTU13bjclMkYwRG5BOG5OZXFPRXBRTWpzZzlweDREclNXQzIxdVFKOXczb1VSJTJGSVI0RlZHTmEwdFNPSFpRJTJGSlRrN1JENkZHQkVDc040dyUzRCUzRA')",1,3,{'dnacdn.net'},{'cnn'}
+"('browser_data', 'Ssa0-19hbE1HdHR0bjZMTU13bjclMkYwRG5BOG5OZXFPRXBRTWpzZzlweDREclNXQzIxdVFKOXczb1VSJTJGSVI0RlZHTmEwdFNPSFpRJTJGSlRrN1JENkZHQkVDc040dyUzRCUzRA')",2,2,{'.dnacdn.net'},{'verywellhealth'}
+"('bsw_uid', 'bcc046f2-f4a6-48c1-9903-218db1bd8bb5')",1,2,{'rtb.mfadsrvr.com'},"{'theguardian', 'cnn'}"
+"('bsw_uid', 'bcc046f2-f4a6-48c1-9903-218db1bd8bb5')",2,1,{'.mfadsrvr.com'},{'webmd'}
+"('c', '1588382882')",1,10,{'x.bidswitch.net'},"{'theguardian', 'cnn'}"
+"('c', '1588382882')",2,41,"{'.bidswitch.net', 'r.bidswitch.net', 'us-east-sync.bidswitch.net', 'x.bidswitch.net', 'grid-cdn.pdc.bidswitch', 'grid.bidswitch.net'}","{'myfitnesspal', 'webmd', 'medscape', 'verywellhealth'}"
+"('c', '1588382886')",1,2,{'rtb.mfadsrvr.com'},"{'theguardian', 'cnn'}"
+"('c', '1588382886')",2,3,"{'rtb.mfadsrvr.com', '.mfadsrvr.com'}",{'webmd'}
+"('c', '1588382983')",1,2,{'t.myvisualiq.net'},{'forbes'}
+"('c', '1588382983')",2,3,"{'.myvisualiq.net', 't.myvisualiq.net'}",{'webmd'}
+"('c', '1588383197')",1,1,{'sofia.trustx.org'},{'cnn'}
+"('c', '1588383197')",2,2,{'sofia.trustx.org'},{'medscape'}
+"('cicouid', 'CM_d816b84c-50ab-4a67-8368-d81b5c6f7f37-tuct5a65222')",1,1,{'match.zorosrv.com'},{'cnn'}
+"('cicouid', 'CM_d816b84c-50ab-4a67-8368-d81b5c6f7f37-tuct5a65222')",2,1,{'.zorosrv.com'},{'webmd'}
+"('cu', '3b4bf74d-8c14-11ea-9934-27c93114df9a|1588382911029')",1,6,"{'sync.ipredictive.com', '.ipredictive.com'}","{'theguardian', 'forbes'}"
+"('cu', '3b4bf74d-8c14-11ea-9934-27c93114df9a|1588382911029')",2,4,"{'sync.ipredictive.com', '.ipredictive.com'}",{'webmd'}
+"('d', 'EJwBIAGrIIEO-TCJiTCuu4EL7iA')",1,1,{'cms.quantserve.com'},{'theguardian'}
+"('d', 'EJwBIAGrIIEO-TCJiTCuu4EL7iA')",2,2,{'.quantserve.com'},{'verywellhealth'}
+"('data-a', '835792501234290343~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-a', '835792501234290343~~1')",2,360,"{'cs.media.net', 'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cslogger.media.net', 'hbx.media.net', '.media.net'}","{'webmd', 'medscape'}"
+"('data-amb', '9011845017516733525~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-amb', '9011845017516733525~~1')",2,172,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-b', '2db65e5f-88eb-441b-9cba-2b1a14aee53d~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-b', '2db65e5f-88eb-441b-9cba-2b1a14aee53d~~1')",2,172,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-bs', 'bcc046f2-f4a6-48c1-9903-218db1bd8bb5~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-bs', 'bcc046f2-f4a6-48c1-9903-218db1bd8bb5~~1')",2,167,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-bt', '2db65e5f-88eb-441b-9cba-2b1a14aee53d~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-bt', '2db65e5f-88eb-441b-9cba-2b1a14aee53d~~1')",2,124,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-co', 'AAAGRo51uttmLAMhZeErAAAAAAA~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-co', 'AAAGRo51uttmLAMhZeErAAAAAAA~~1')",2,357,"{'cs.media.net', 'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cslogger.media.net', 'hbx.media.net', '.media.net'}","{'webmd', 'medscape'}"
+"('data-di', 'di_880d688f27444c1180b75~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-di', 'di_880d688f27444c1180b75~~1')",2,79,"{'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-dmx', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDA1LCJ1c3IiOiJxZ1llc2dZYk1XSkxXbTVUU1ZKUWVsTlFPVE5WUldGVGRqZGlNRUpEUjJrdyJ9.kIJB6Zy7K-qJseIpNlwwgeOVYAjhO1xaOBd3ktYhtbEjgmSzBaRYEiN8F8jb5qAIrdTduGK9p7uTV0Ukx12Jnw~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-dmx', 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOjEwMDA1LCJ1c3IiOiJxZ1llc2dZYk1XSkxXbTVUU1ZKUWVsTlFPVE5WUldGVGRqZGlNRUpEUjJrdyJ9.kIJB6Zy7K-qJseIpNlwwgeOVYAjhO1xaOBd3ktYhtbEjgmSzBaRYEiN8F8jb5qAIrdTduGK9p7uTV0Ukx12Jnw~~1')",2,167,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-emx', '835792501234290343brt57151588383197624215a6~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-emx', '835792501234290343brt57151588383197624215a6~~1')",2,124,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-mf', 'bafdb8b6-360a-4617-8c24-0ece3e9c4285~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-mf', 'bafdb8b6-360a-4617-8c24-0ece3e9c4285~~1')",2,357,"{'cs.media.net', 'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cslogger.media.net', 'hbx.media.net', '.media.net'}","{'webmd', 'medscape'}"
+"('data-p', 'VDOcP613De8q~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-p', 'VDOcP613De8q~~1')",2,172,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-pb', '2A9A1551-25CB-467B-9D9E-2EBC2988AF46~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-pb', '2A9A1551-25CB-467B-9D9E-2EBC2988AF46~~1')",2,357,"{'cs.media.net', 'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cslogger.media.net', 'hbx.media.net', '.media.net'}","{'webmd', 'medscape'}"
+"('data-r', 'K9OY5R70-6-TCG~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-r', 'K9OY5R70-6-TCG~~1')",2,290,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cslogger.media.net', 'hbx.media.net', '.media.net'}","{'webmd', 'medscape'}"
+"('data-rbh', 'Pi08vXDFZBSRsSCHLx3z~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-rbh', 'Pi08vXDFZBSRsSCHLx3z~~1')",2,79,"{'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-rk', '6041450312274357107~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-rk', '6041450312274357107~~1')",2,172,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-sh', '7e6b3c83-e8d9-413a-b7a6-d0cab9ed8ba7~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-sh', '7e6b3c83-e8d9-413a-b7a6-d0cab9ed8ba7~~1')",2,172,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-sov', '5f3c6f434ba43226d50ce97b~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-sov', '5f3c6f434ba43226d50ce97b~~1')",2,170,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-sy', '9D50AF85158F4EBAA4764799907C0019~~3')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-sy', '9D50AF85158F4EBAA4764799907C0019~~3')",2,336,"{'cdneast2-xch.media.net', 'lgncal.media.net', 'contextual.media.net', 'hblg.media.net', 'cslogger.media.net', 'hbx.media.net', '.media.net'}","{'webmd', 'medscape'}"
+"('data-tx', '28779436-1292-453d-ad4d-75c0c90dc128~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-tx', '28779436-1292-453d-ad4d-75c0c90dc128~~1')",2,169,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('data-xu', '8fd9v3ZV1JuGXe5~~1')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('data-xu', '8fd9v3ZV1JuGXe5~~1')",2,172,"{'cslogger.media.net', 'contextual.media.net', '.media.net', 'cdneast2-xch.media.net'}",{'medscape'}
+"('demdex', '36551071651606209352351350566654624168')",1,40,"{'morganstanley.demdex.net', 'turner2.demdex.net', '.demdex.net', 'dpm.demdex.net'}","{'theguardian', 'cnn', 'forbes'}"
+"('demdex', '36551071651606209352351350566654624168')",2,35,"{'webmd.demdex.net', '.demdex.net', 'dpm.demdex.net'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('demdex', '36551071651606209352351350566654624168')",3,9,"{'.demdex.net', 'dpm.demdex.net', 'thecollegeboard.demdex.net'}",{'colledgeboard'}
+"('dextp', '285689-1-1588382885308')",2,10,"{'webmd.demdex.net', '.demdex.net', 'dpm.demdex.net'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('dextp', '285689-1-1588382885308')",3,3,"{'dpm.demdex.net', 'thecollegeboard.demdex.net'}",{'colledgeboard'}
+"('dextp', '285689-1-1588382885308|1083-1-1588383596594|1085-1-1588383596889|1086-1-1588383597094|1087-1-1588383597610|1088-1-1588383597929|19913-1-1588383598070')",1,3,"{'turner2.demdex.net', 'dpm.demdex.net'}",{'cnn'}
+"('dextp', '285689-1-1588382885308|1083-1-1588383596594|1085-1-1588383596889|1086-1-1588383597094|1087-1-1588383597610|1088-1-1588383597929|19913-1-1588383598070')",3,2,{'.demdex.net'},{'colledgeboard'}
+"('dpm', '36551071651606209352351350566654624168')",1,27,"{'.dpm.demdex', 'dpm.demdex.net'}","{'theguardian', 'cnn', 'forbes'}"
+"('dpm', '36551071651606209352351350566654624168')",2,11,"{'.dpm.demdex', 'dpm.demdex.net'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('dpm', '36551071651606209352351350566654624168')",3,4,"{'.dpm.demdex', 'dpm.demdex.net'}",{'colledgeboard'}
+"('dyn_u', '382_5eacccbabbba3')",1,3,"{'.dyntrk.com', 'gu.dyntrk.com'}",{'cnn'}
+"('dyn_u', '382_5eacccbabbba3')",2,4,"{'.dyntrk.com', 'gu.dyntrk.com'}","{'myfitnesspal', 'webmd'}"
+"('euds', 'H4sIAAAAAAAAAOOSMXR2dA129c9J9C0J8PV3daz09rN0c_Uvs8zVdQUAgeiaaR4AAAA')",1,3,{'p.rfihub.com'},"{'theguardian', 'forbes'}"
+"('euds', 'H4sIAAAAAAAAAOOSMXR2dA129c9J9C0J8PV3daz09rN0c_Uvs8zVdQUAgeiaaR4AAAA')",2,3,"{'.rfihub.com', 'p.rfihub.com'}","{'webmd', 'medscape'}"
+"('ev_sync_ax', '20200502')",1,19,"{'cm.everesttech.net', 'sync-tm.everesttech.net'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('ev_sync_ax', '20200502')",3,14,"{'pixel.everesttech.net', 'cm.everesttech.net', '.everesttech.net'}",{'colledgeboard'}
+"('ev_sync_dd', '20200502')",1,21,"{'cm.everesttech.net', '.everesttech.net', 'sync-tm.everesttech.net'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('ev_sync_dd', '20200502')",3,19,"{'pixel.everesttech.net', 'cm.everesttech.net', '.everesttech.net'}",{'colledgeboard'}
+"('everest_g_v2', 'g_surferid~XqzMpwAAAFCXNlvC')",1,19,"{'cm.everesttech.net', 'sync-tm.everesttech.net'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('everest_g_v2', 'g_surferid~XqzMpwAAAFCXNlvC')",2,12,"{'rtb-lb-event-iad-1b-tm.everesttech.net', 'displayf-tm.everesttech.net', 'sync-tm.everesttech.net', 'statsf-tm.everesttech.net', '.everesttech.net'}","{'webmd', 'verywellhealth'}"
+"('everest_g_v2', 'g_surferid~XqzMpwAAAFCXNlvC')",3,23,"{'pixel.everesttech.net', 'cm.everesttech.net', '.everesttech.net'}",{'colledgeboard'}
+"('everest_session_v2', 'XqzPbgAAAMmrH-0U')",1,19,"{'cm.everesttech.net', 'sync-tm.everesttech.net'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('everest_session_v2', 'XqzPbgAAAMmrH-0U')",3,9,"{'pixel.everesttech.net', 'cm.everesttech.net', '.everesttech.net'}",{'colledgeboard'}
+"('extendtv_user_id', '8ee221a3-86fb-4b65-9a36-0b8e85ebbd74')",1,8,"{'.extend.tv', 'sync.extend.tv'}","{'theguardian', 'forbes', 'nytimes'}"
+"('extendtv_user_id', '8ee221a3-86fb-4b65-9a36-0b8e85ebbd74')",2,1,{'.extend.tv'},{'webmd'}
+"('fr', '0G2JC9M3Js8GY7i8C..BerMyd..F6s.1.0.BerMyd.')",1,35,{'.facebook.com'},"{'theguardian', 'cnn', 'forbes'}"
+"('fr', '0G2JC9M3Js8GY7i8C..BerMyd..F6s.1.0.BerMyd.')",2,22,{'.facebook.com'},"{'myfitnesspal', 'webmd', 'medscape'}"
+"('fr', '0G2JC9M3Js8GY7i8C..BerMyd..F6s.1.0.BerMyd.')",3,37,{'.facebook.com'},"{'colledgeboard', 'harvard', 'jhu', 'edx'}"
+"('i', 'f39047ea-5be1-439c-a519-05e55ffb8579|1588382907')",1,45,"{'us-u.openx.net', '.openx.net', 'washingtonpost-d.openx.net'}","{'forbes', 'cnn', 'washingtonpost', 'theguardian', 'nytimes'}"
+"('i', 'f39047ea-5be1-439c-a519-05e55ffb8579|1588382907')",2,39,"{'us-u.openx.net', '.openx.net', 'underarmour-d.openx.net', 'rtb.openx.net', 'eu-u.openx.net'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('ibkukinet', '314365897=-8586132239838131530&314365897=-8586132239838131530')",1,1,{'ib.mookie1.com'},{'forbes'}
+"('ibkukinet', '314365897=-8586132239838131530&314365897=-8586132239838131530')",2,2,{'.ib.mookie1'},{'webmd'}
+"('ibkukiuno', 's=d79d34b2-3108-42bc-b1ee-80696e5c33cb&h=&v=0&l=-8586132239838131530&op=&hl=0&vlu=0&tcs=1&dcc=-8586132239892680811')",1,1,{'ib.mookie1.com'},{'forbes'}
+"('ibkukiuno', 's=d79d34b2-3108-42bc-b1ee-80696e5c33cb&h=&v=0&l=-8586132239838131530&op=&hl=0&vlu=0&tcs=1&dcc=-8586132239892680811')",2,2,{'.ib.mookie1'},{'webmd'}
+"('icu', 'ChgIis9MEAoYAiACKAIwsJuz9QU4AkACSAIQsJuz9QUYAQ..')",1,8,"{'acdn.adnxs.com', 'ib.adnxs.com', 'secure.adnxs.com'}",{'cnn'}
+"('icu', 'ChgIis9MEAoYAiACKAIwsJuz9QU4AkACSAIQsJuz9QUYAQ..')",2,11,"{'ib.adnxs.com', 'secure.adnxs.com', '.adnxs.com'}","{'myfitnesspal', 'medscape', 'verywellhealth'}"
+"('id', '10623569308515263802')",1,4,"{'ib.mookie1.com', 'odr.mookie1.com', '.mookie1.com'}",{'forbes'}
+"('id', '10623569308515263802')",2,12,"{'odr.mookie1.com', '.mookie1.com'}","{'myfitnesspal', 'webmd'}"
+"('intentIQ', 'GRvnLRJMAg')",1,3,"{'.intentiq.com', 'sync.intentiq.com'}",{'theguardian'}
+"('intentIQ', 'GRvnLRJMAg')",2,6,"{'sync1.intentiq.com', '.intentiq.com'}",{'webmd'}
+"('intentIQCDate', '1588382969910')",1,1,{'sync.intentiq.com'},{'theguardian'}
+"('intentIQCDate', '1588382969910')",2,3,"{'sync1.intentiq.com', '.intentiq.com'}",{'webmd'}
+"('khaos', 'K9OY5R70-6-TCG')",1,47,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'cnn', 'washingtonpost'}"
+"('khaos', 'K9OY5R70-6-TCG')",2,144,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'ads.rubiconproject.com', 'optimized-by.rubiconproject.com', 'pixel-us-east.rubiconproject.com', 'prebid-server.rubiconproject.com', 'pixel.rubiconproject.com', 'secure-assets.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'mayoclinic', 'webmd', 'myfitnesspal', 'verywellhealth'}"
+"('li_sugr', '088bf77f-149d-4812-9770-d89ff0daba0e')",1,15,"{'.linkedin.com', 'px.ads.linkedin'}",{'forbes'}
+"('li_sugr', '088bf77f-149d-4812-9770-d89ff0daba0e')",3,17,"{'.linkedin.com', 'px.ads.linkedin'}",{'edx'}
+"('lidc', '\\b=VGST07:g=1732:u=1:i=1588383462:t=1588469862:s=AQGFL61z72x2P50OEGtJncu3WVe67OxD\\')",1,5,{'px.ads.linkedin'},{'forbes'}
+"('lidc', '\\b=VGST07:g=1732:u=1:i=1588383462:t=1588469862:s=AQGFL61z72x2P50OEGtJncu3WVe67OxD\\')",3,6,"{'.linkedin.com', 'px.ads.linkedin'}",{'edx'}
+"('ljt_reader', '5f3c6f434ba43226d50ce97b')",1,6,"{'ce.lijit.com', '.lijit.com', 'ap.lijit.com'}","{'forbes', 'nytimes'}"
+"('ljt_reader', '5f3c6f434ba43226d50ce97b')",2,4,"{'.lijit.com', 'ap.lijit.com'}",{'medscape'}
+"('mc', '5eacccb9-0aa5b-407ca-fe7c5')",1,29,"{'pixel.quantserve.com', 'cms.quantserve.com', 'secure.quantserve.com'}","{'theguardian', 'forbes'}"
+"('mc', '5eacccb9-0aa5b-407ca-fe7c5')",2,8,"{'.quantserve.com', 'cms.quantserve.com', 'pixel.quantserve.com'}","{'webmd', 'verywellhealth'}"
+"('mdata', '1|10623569308515263802|1588382984902')",1,4,"{'ib.mookie1.com', 'odr.mookie1.com', '.mookie1.com'}",{'forbes'}
+"('mdata', '1|10623569308515263802|1588382984902')",2,12,"{'odr.mookie1.com', '.mookie1.com'}","{'myfitnesspal', 'webmd'}"
+"('mt_mop', '4:1588382906|9:1587777392')",1,14,"{'pixel.mathtag.com', 'sync.mathtag.com', 'tags.mathtag.com'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('mt_mop', '4:1588382906|9:1587777392')",2,6,"{'pixel.mathtag.com', '.mathtag.com', 'sync.mathtag.com', 'tags.mathtag.com'}","{'mayoclinic', 'verywellhealth'}"
+"('mxpim', 'R1B332_C9A044D1_101518A26.1.5EACCE49000000005EACCCBF00000000000000000000000000000000000000000000000000000000000000005EACCCC0')",1,1,{'aep.mxptint.net'},{'nytimes'}
+"('mxpim', 'R1B332_C9A044D1_101518A26.1.5EACCE49000000005EACCCBF00000000000000000000000000000000000000000000000000000000000000005EACCCC0')",2,2,{'.mxptint.net'},{'verywellhealth'}
+"('na_id', '2020050201280288148552920544')",1,9,"{'r.dlx.addthis', '.addthis.com'}","{'forbes', 'cnn'}"
+"('na_id', '2020050201280288148552920544')",2,6,"{'x.dlx.addthis', '.addthis.com'}",{'webmd'}
+"('na_sr', '20200502')",1,3,{'r.dlx.addthis'},"{'forbes', 'cnn'}"
+"('na_sr', '20200502')",2,1,{'.dlx.addthis'},{'webmd'}
+"('ouid', '5eaccca20001bf6f2a91eeefc77e1a408b4b5d87d5d218720bfb')",1,9,"{'r.dlx.addthis', '.addthis.com'}","{'forbes', 'cnn'}"
+"('ouid', '5eaccca20001bf6f2a91eeefc77e1a408b4b5d87d5d218720bfb')",2,6,"{'x.dlx.addthis', '.addthis.com'}",{'webmd'}
+"('ov', 'bc10688b6fa5dbb6cda4dda2422666a5')",1,4,"{'ib.mookie1.com', 'odr.mookie1.com', '.mookie1.com'}",{'forbes'}
+"('ov', 'bc10688b6fa5dbb6cda4dda2422666a5')",2,12,"{'odr.mookie1.com', '.mookie1.com'}","{'myfitnesspal', 'webmd'}"
+"('pb_rtb_ev', '3-102k|2N.0.AAAHqXj7DqBOYANLdIghAAAAAAA|3oy.0|4is.0.CAESELBn4lN9ua_4QCCjJWUDTZA')",1,3,{'bh.contextweb.com'},"{'theguardian', 'cnn'}"
+"('pb_rtb_ev', '3-102k|2N.0.AAAHqXj7DqBOYANLdIghAAAAAAA|3oy.0|4is.0.CAESELBn4lN9ua_4QCCjJWUDTZA')",2,22,"{'bh.contextweb.com', '.contextweb.com'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('pd', 'v2|1588382908.3.73.154|iKbwuYgaeShEkWf8kegy.g6vLfYn8mKvJrkgKejg2.hMs7vihAnElwnovDcsoq.t1vommrZvstCtpsvv5vE')",1,16,"{'us-u.openx.net', 'washingtonpost-d.openx.net'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('pd', 'v2|1588382908.3.73.154|iKbwuYgaeShEkWf8kegy.g6vLfYn8mKvJrkgKejg2.hMs7vihAnElwnovDcsoq.t1vommrZvstCtpsvv5vE')",2,8,"{'us-u.openx.net', '.openx.net', 'underarmour-d.openx.net'}","{'myfitnesspal', 'medscape'}"
+"('personalization_id', '\\v1_s+5KFIdkAH741QOsKIqxNQ==\\')",1,21,"{'platform.twitter.com', 'analytics.twitter.com', 'syndication.twitter.com'}","{'forbes', 'cnn', 'nytimes'}"
+"('personalization_id', '\\v1_s+5KFIdkAH741QOsKIqxNQ==\\')",2,2,{'analytics.twitter.com'},{'webmd'}
+"('personalization_id', '\\v1_s+5KFIdkAH741QOsKIqxNQ==\\')",3,5,{'analytics.twitter.com'},{'jhu'}
+"('pux', '1185%3D90577%261512%3D90577%262046%3D90577%262082%3D90577%262132%3D90577%262231%3D90577%262238%3D90577%262249%3D90577%262307%3D90577%262313%3D90577%262395%3D90577%262494%3D90577%262528%3D90577%262590%3D90577%262596%3D90577%262650%3D90577%262676%3D90577%262820%3D90577%262861%3D90577%262931%3D90577%262974%3D90577%263632%3D90577%263684%3D90577%263778%3D90577%263822%3D90577%264032%3D90577%264114%3D90577%264804%3D90577%265120%3D90577%265454%3D90577%265466%3D90577%265478%3D90577%265498%3D90577%26goog%3D90577%26idl%3D90577%26brx%3D90577%26w55c%3D90577%261523ext%3D90577%26bk%3D90577%26aam%3D90577%26')",1,9,{'eus.rubiconproject.com'},{'cnn'}
+"('pux', '1185%3D90577%261512%3D90577%262046%3D90577%262082%3D90577%262132%3D90577%262231%3D90577%262238%3D90577%262249%3D90577%262307%3D90577%262313%3D90577%262395%3D90577%262494%3D90577%262528%3D90577%262590%3D90577%262596%3D90577%262650%3D90577%262676%3D90577%262820%3D90577%262861%3D90577%262931%3D90577%262974%3D90577%263632%3D90577%263684%3D90577%263778%3D90577%263822%3D90577%264032%3D90577%264114%3D90577%264804%3D90577%265120%3D90577%265454%3D90577%265466%3D90577%265478%3D90577%265498%3D90577%26goog%3D90577%26idl%3D90577%26brx%3D90577%26w55c%3D90577%261523ext%3D90577%26bk%3D90577%26aam%3D90577%26')",2,3,{'eus.rubiconproject.com'},{'myfitnesspal'}
+"('pxrc', 'CJ2Zs/UFEgUI6AcQABIFCOhHEAoSBgi66gEQIRIGCO3rARAA')",1,2,"{'api.rlcdn.com', 'idsync.rlcdn.com'}",{'cnn'}
+"('pxrc', 'CJ2Zs/UFEgUI6AcQABIFCOhHEAoSBgi66gEQIRIGCO3rARAA')",2,7,"{'api.rlcdn.com', 'id.rlcdn.com', 'idsync.rlcdn.com', '.rlcdn.com'}","{'webmd', 'verywellhealth'}"
+"('reddaid', 'Q2ZLZG4MSWVZVOYB')",2,7,"{'.reddit.com', 'alb.reddit.com'}",{'webmd'}
+"('reddaid', 'Q2ZLZG4MSWVZVOYB')",3,3,"{'.reddit.com', 'alb.reddit.com'}",{'edx'}
+"('rlas3', 'kYs/z34d79w4MfZszQp5I5DTJGY15ttgcnsou3nZDUo=')",1,2,"{'api.rlcdn.com', 'idsync.rlcdn.com'}",{'cnn'}
+"('rlas3', 'kYs/z34d79w4MfZszQp5I5DTJGY15ttgcnsou3nZDUo=')",2,3,"{'api.rlcdn.com', '.rlcdn.com'}","{'webmd', 'verywellhealth'}"
+"('rud', 'H4sIAAAAAAAAAOMSNjMwMTQxNTA2NDIyNzE2NTc0MBfiM9TVdQqqiPTyCQ1JzkuW4jU0tbAwtjCyNLAwNDEHAFiLX-40AAAA')",1,14,"{'.rfihub.com', 'p.rfihub.com'}","{'theguardian', 'forbes', 'nytimes'}"
+"('rud', 'H4sIAAAAAAAAAOMSNjMwMTQxNTA2NDIyNzE2NTc0MBfiM9TVdQqqiPTyCQ1JzkuW4jU0tbAwtjCyNLAwNDEHAFiLX-40AAAA')",2,7,"{'.rfihub.com', 'p.rfihub.com'}","{'webmd', 'medscape'}"
+"('ruds', 'H4sIAAAAAAAAAOMSNjMwMTQxNTA2NDIyNzE2NTc0MBfiM9TVdQqqiPTyCQ1JzksGAHiUDYYlAAAA')",1,4,{'p.rfihub.com'},"{'theguardian', 'forbes'}"
+"('ruds', 'H4sIAAAAAAAAAOMSNjMwMTQxNTA2NDIyNzE2NTc0MBfiM9TVdQqqiPTyCQ1JzksGAHiUDYYlAAAA')",2,3,"{'.rfihub.com', 'p.rfihub.com'}","{'webmd', 'medscape'}"
+"('sc', '13%3A81817')",1,2,{'mid.rkdms.com'},"{'cnn', 'washingtonpost'}"
+"('sc', '13%3A81817')",2,2,"{'mid.rkdms.com', '.rkdms.com'}","{'webmd', 'verywellhealth'}"
+"('ses10', '252106^2&265746^2')",1,8,"{'fastlane.rubiconproject.com', 'pixel.rubiconproject.com'}",{'cnn'}
+"('ses10', '252106^2&265746^2')",2,2,{'.rubiconproject.com'},{'verywellhealth'}
+"('ses15', '66536^2&265746^1')",1,31,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com'}","{'cnn', 'washingtonpost'}"
+"('ses15', '66536^2&265746^1')",2,16,"{'fastlane.rubiconproject.com', '.rubiconproject.com', 'pixel.rubiconproject.com'}",{'verywellhealth'}
+"('sessionid', 'h-ca7dc096bf65cfd6ed8235cbe44b7db1_t-1588382897')",1,8,"{'mid.rkdms.com', '.mid.rkdms'}","{'cnn', 'washingtonpost'}"
+"('sessionid', 'h-ca7dc096bf65cfd6ed8235cbe44b7db1_t-1588382897')",2,3,"{'mid.rkdms.com', '.rkdms.com', '.mid.rkdms'}","{'webmd', 'verywellhealth'}"
+"('si', 'Q6416693041528151532P')",1,8,"{'px.owneriq.net', '.owneriq.net'}","{'theguardian', 'cnn', 'nytimes'}"
+"('si', 'Q6416693041528151532P')",2,8,"{'px.owneriq.net', '.owneriq.net'}","{'myfitnesspal', 'webmd'}"
+"('smd', 'H4sIAAAAAAAAAOPiNTS1sDC2MLI0sDA0sQAARunsxw8AAAA')",1,4,{'p.rfihub.com'},"{'theguardian', 'forbes'}"
+"('smd', 'H4sIAAAAAAAAAOPiNTS1sDC2MLI0sDA0sQAARunsxw8AAAA')",2,3,"{'.rfihub.com', 'p.rfihub.com'}","{'webmd', 'medscape'}"
+"('sp', '6bf80afb-6200-4171-aa7a-bda96b3cb7ed')",1,3,"{'.tvpixel.com', 'p.tvpixel.com'}",{'forbes'}
+"('sp', '6bf80afb-6200-4171-aa7a-bda96b3cb7ed')",2,1,{'.tvpixel.com'},{'webmd'}
+"('ssi', '87b04640-90f1-4152-8935-f4453c992d31#1588382897496')",1,10,"{'pixel-sync.sitescout.com', '.sitescout.com', 'pixel-a.sitescout.com'}","{'theguardian', 'cnn', 'forbes'}"
+"('ssi', '87b04640-90f1-4152-8935-f4453c992d31#1588382897496')",2,18,"{'pixel-sync.sitescout.com', '.sitescout.com', 'pixel-a.sitescout.com'}",{'webmd'}
+"('stx_user_id', '7e6b3c83-e8d9-413a-b7a6-d0cab9ed8ba7')",1,17,"{'b.sharethrough.com', 'match.sharethrough.com', 'native.sharethrough.com', '.sharethrough.com', 'btlr.sharethrough.com'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('stx_user_id', '7e6b3c83-e8d9-413a-b7a6-d0cab9ed8ba7')",2,5,"{'.sharethrough.com', 'native.sharethrough.com'}",{'medscape'}
+"('suid', '21DFCF19E2F149798F2595A0BE0A39B3')",1,2,{'um.simpli.fi'},{'cnn'}
+"('suid', '21DFCF19E2F149798F2595A0BE0A39B3')",2,4,"{'um.simpli.fi', '.simpli.fi'}",{'webmd'}
+"('suid_legacy', '21DFCF19E2F149798F2595A0BE0A39B3')",1,2,{'um.simpli.fi'},{'cnn'}
+"('suid_legacy', '21DFCF19E2F149798F2595A0BE0A39B3')",2,4,"{'um.simpli.fi', '.simpli.fi'}",{'webmd'}
+"('t_gid', 'd816b84c-50ab-4a67-8368-d81b5c6f7f37-tuct5a65222')",1,7,"{'match.taboola.com', '.taboola.com', 'trc.taboola.com'}","{'forbes', 'cnn'}"
+"('t_gid', 'd816b84c-50ab-4a67-8368-d81b5c6f7f37-tuct5a65222')",2,8,"{'match.taboola.com', '.taboola.com', 'cdn.taboola.com', 'trc.taboola.com'}","{'myfitnesspal', 'webmd'}"
+"('tluid', '5122374196075671873')",1,98,"{'dmpsync.3lift.com', 'tlx.3lift.com', '.3lift.com', 'eb2.3lift.com'}","{'theguardian', 'forbes', 'nytimes'}"
+"('tluid', '5122374196075671873')",2,4,"{'.3lift.com', 'eb2.3lift.com'}",{'webmd'}
+"('ts', '1588382912')",1,3,"{'us.creativecdn.com', 'creativecdn.com'}","{'theguardian', 'cnn'}"
+"('ts', '1588382912')",2,3,"{'.creativecdn.com', 'creativecdn.com', 'ash.creativecdn.com'}","{'webmd', 'medscape'}"
+"('tuuid', '28779436-1292-453d-ad4d-75c0c90dc128')",1,1,{'sofia.trustx.org'},{'cnn'}
+"('tuuid', '28779436-1292-453d-ad4d-75c0c90dc128')",2,4,{'sofia.trustx.org'},{'medscape'}
+"('tuuid', 'ba0dc834-9322-4b34-978e-b84684dbc005')",1,1,{'match.360yield.com'},{'theguardian'}
+"('tuuid', 'ba0dc834-9322-4b34-978e-b84684dbc005')",2,2,"{'ad.360yield.com', '.360yield.com'}",{'webmd'}
+"('tuuid', 'bafdb8b6-360a-4617-8c24-0ece3e9c4285')",1,2,{'rtb.mfadsrvr.com'},"{'theguardian', 'cnn'}"
+"('tuuid', 'bafdb8b6-360a-4617-8c24-0ece3e9c4285')",2,3,"{'rtb.mfadsrvr.com', '.mfadsrvr.com'}",{'webmd'}
+"('tuuid', 'bcc046f2-f4a6-48c1-9903-218db1bd8bb5')",1,10,{'x.bidswitch.net'},"{'theguardian', 'cnn'}"
+"('tuuid', 'bcc046f2-f4a6-48c1-9903-218db1bd8bb5')",2,44,"{'.bidswitch.net', 'r.bidswitch.net', 'us-east-sync.bidswitch.net', 'x.bidswitch.net', 'grid-cdn.pdc.bidswitch', 'grid.bidswitch.net'}","{'myfitnesspal', 'webmd', 'medscape', 'verywellhealth'}"
+"('tuuid', 'ea3eb3d5-57da-4a7d-9adf-552c2ea31b92')",1,2,{'t.myvisualiq.net'},{'forbes'}
+"('tuuid', 'ea3eb3d5-57da-4a7d-9adf-552c2ea31b92')",2,3,"{'.myvisualiq.net', 't.myvisualiq.net'}",{'webmd'}
+"('tuuid_lu', '1588382883')",1,10,{'x.bidswitch.net'},"{'theguardian', 'cnn'}"
+"('tuuid_lu', '1588382883')",2,40,"{'.bidswitch.net', 'r.bidswitch.net', 'us-east-sync.bidswitch.net', 'x.bidswitch.net', 'grid-cdn.pdc.bidswitch', 'grid.bidswitch.net'}","{'myfitnesspal', 'webmd', 'medscape', 'verywellhealth'}"
+"('tuuid_lu', '1588382886')",1,2,{'rtb.mfadsrvr.com'},"{'theguardian', 'cnn'}"
+"('tuuid_lu', '1588382886')",2,3,"{'rtb.mfadsrvr.com', '.mfadsrvr.com'}",{'webmd'}
+"('tuuid_lu', '1588382909')",1,1,{'match.360yield.com'},{'theguardian'}
+"('tuuid_lu', '1588382909')",2,2,"{'ad.360yield.com', '.360yield.com'}",{'webmd'}
+"('tuuid_lu', '1588382983')",1,2,{'t.myvisualiq.net'},{'forbes'}
+"('tuuid_lu', '1588382983')",2,3,"{'.myvisualiq.net', 't.myvisualiq.net'}",{'webmd'}
+"('tuuid_lu', '1588383198')",1,1,{'sofia.trustx.org'},{'cnn'}
+"('tuuid_lu', '1588383198')",2,2,{'sofia.trustx.org'},{'medscape'}
+"('u', 'C|0GAgAAAAAJj-JiAAAAAABAgAsAQfohgIAAC0BB-gYAgABCkAAAAAAAQAHAAAAAAFrU0j__x4AAAAAAFl0hwAAAAAP-gClAAAAAAey7FcAAAAAG5nxbwA')",1,3,"{'aa.agkn.com', 'd.agkn.com'}",{'cnn'}
+"('u', 'C|0GAgAAAAAJj-JiAAAAAABAgAsAQfohgIAAC0BB-gYAgABCkAAAAAAAQAHAAAAAAFrU0j__x4AAAAAAFl0hwAAAAAP-gClAAAAAAey7FcAAAAAG5nxbwA')",2,2,{'.agkn.com'},{'webmd'}
+"('u', 'Pi08vXDFZBSRsSCHLx3z')",1,3,"{'us.creativecdn.com', 'creativecdn.com'}","{'theguardian', 'cnn'}"
+"('u', 'Pi08vXDFZBSRsSCHLx3z')",2,3,"{'.creativecdn.com', 'creativecdn.com', 'ash.creativecdn.com'}","{'webmd', 'medscape'}"
+"('ud', '""eJxrXxzq6XKLQcHCOCUlNTktJcXEzMg0LcUy0cTE1MDAzMQ41cjAIM0geXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe942QAAwWsrQw%253D%253D""')",1,16,{'.exelator.com'},"{'forbes', 'cnn'}"
+"('ud', '""eJxrXxzq6XKLQcHCOCUlNTktJcXEzMg0LcUy0cTE1MDAzMQ41cjAIM0geXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe942QAAwWsrQw%253D%253D""')",2,4,{'.exelator.com'},{'webmd'}
+"('ud', '\\eJxrXxzq6XKLQcHCOCUlNTktJcXEzMg0LcUy0cTE1MDAzMQ41cjAIM0geXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe942QAAwWsrQw%253D%253D\\')",1,16,"{'loadm.exelator.com', 'cdn.exelator.com', 'loadus.exelator.com', 'load77.exelator.com', 'mydmp.exelator.com'}","{'forbes', 'cnn'}"
+"('ud', '\\eJxrXxzq6XKLQcHCOCUlNTktJcXEzMg0LcUy0cTE1MDAzMQ41cjAIM0geXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzullmUmpZfsQIsFuYatMjcaEl%252BUWb6otDgxUUpaQyLSopPBe942QAAwWsrQw%253D%253D\\')",2,1,{'loadm.exelator.com'},{'webmd'}
+"('uid', '5eaccca2688e007d')",1,9,"{'r.dlx.addthis', '.addthis.com'}","{'forbes', 'cnn'}"
+"('uid', '5eaccca2688e007d')",2,6,"{'x.dlx.addthis', '.addthis.com'}",{'webmd'}
+"('uid', '8706360217388024070')",1,56,"{'.adform.net', 'c1.adform.net'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('uid', '8706360217388024070')",2,35,"{'.adform.net', 'c1.adform.net'}","{'myfitnesspal', 'webmd', 'verywellhealth'}"
+"('uid', '9011845017516733525')",1,12,"{'.turn.com', 'd.turn.com', 'ad.turn.com', 'r.turn.com'}","{'theguardian', 'cnn', 'forbes'}"
+"('uid', '9011845017516733525')",2,31,"{'.turn.com', 'd.turn.com', 'ad.turn.com', 'r.turn.com'}","{'webmd', 'medscape', 'verywellhealth'}"
+"('univ_id', '537072971|b304d3f5-a06c-4fb6-be25-3ee29ee2e85e|1588382910194386')",1,25,"{'us-u.openx.net', 'washingtonpost-d.openx.net'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('univ_id', '537072971|b304d3f5-a06c-4fb6-be25-3ee29ee2e85e|1588382910194386')",2,19,"{'us-u.openx.net', '.openx.net', 'underarmour-d.openx.net', 'rtb.openx.net', 'eu-u.openx.net'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('uuid', 'dad15eac-cca2-4b00-8641-ade433ebfe1f')",1,14,"{'pixel.mathtag.com', 'sync.mathtag.com', 'tags.mathtag.com'}","{'forbes', 'theguardian', 'cnn', 'nytimes'}"
+"('uuid', 'dad15eac-cca2-4b00-8641-ade433ebfe1f')",2,15,"{'pixel.mathtag.com', '.mathtag.com', 'sync.mathtag.com', 'tags.mathtag.com'}","{'mayoclinic', 'webmd', 'verywellhealth'}"
+"('uuid2', '835792501234290343')",1,147,"{'crcdn01.adnxs.com', 'cdn.adnxs.com', 'secure.adnxs.com', 'acdn.adnxs.com', 'nym1-ib.adnxs.com', 'ib.adnxs.com', 'sharethrough.adnxs.com', '.adnxs.com'}","{'nytimes', 'forbes', 'cnn', 'theguardian', 'washingtonpost'}"
+"('uuid2', '835792501234290343')",2,48,"{'ib.adnxs.com', 'sharethrough.adnxs.com', 'secure.adnxs.com', '.adnxs.com'}","{'myfitnesspal', 'webmd', 'medscape', 'verywellhealth'}"
+"('vis10', '225890^1&252106^2&265746^2')",1,8,"{'fastlane.rubiconproject.com', 'pixel.rubiconproject.com'}",{'cnn'}
+"('vis10', '225890^1&252106^2&265746^2')",2,2,{'.rubiconproject.com'},{'verywellhealth'}
+"('vis15', '66536^2&119514^4&225890^1&265746^5&268826^4')",1,5,"{'fastlane.rubiconproject.com', 'pixel.rubiconproject.com'}",{'cnn'}
+"('vis15', '66536^2&119514^4&225890^1&265746^5&268826^4')",2,2,{'.rubiconproject.com'},{'verywellhealth'}
+"('vis2', '208958^1')",1,5,"{'fastlane.rubiconproject.com', 'pixel.rubiconproject.com'}",{'cnn'}
+"('vis2', '208958^1')",2,51,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'ads.rubiconproject.com', 'optimized-by.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'myfitnesspal', 'verywellhealth'}"
+"('vis9', '208958^1')",1,37,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com'}","{'cnn', 'washingtonpost'}"
+"('vis9', '208958^1')",2,51,"{'eus.rubiconproject.com', 'fastlane.rubiconproject.com', 'ads.rubiconproject.com', 'optimized-by.rubiconproject.com', 'pixel.rubiconproject.com', 'token.rubiconproject.com', 'beacon-us-iad3.rubiconproject.com', '.rubiconproject.com'}","{'myfitnesspal', 'verywellhealth'}"
+"('visitor-id', '2313844756589770000V10')",1,516,"{'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cvision.media.net', 'hbxlp.media.net', 'cslogger.media.net', 'hbx.media.net', 'lg3.media.net'}","{'theguardian', 'forbes', 'nytimes'}"
+"('visitor-id', '2313844756589770000V10')",2,398,"{'cs.media.net', 'cdneast2-xch.media.net', 'contextual.media.net', 'lgncal.media.net', 'hblg.media.net', 'cslogger.media.net', 'hbx.media.net', '.media.net'}","{'webmd', 'medscape'}"
+"('vst', 'u_0cd49332-09cd-4896-b534-3b50f9b48c6b')",1,2,{'rtb.gumgum.com'},"{'theguardian', 'cnn'}"
+"('vst', 'u_0cd49332-09cd-4896-b534-3b50f9b48c6b')",2,2,"{'.gumgum.com', 'rtb.gumgum.com'}","{'webmd', 'verywellhealth'}"
+"('wfivefivec', '8fd9v3ZV1JuGXe5')",1,12,"{'pm.w55c.net', '.w55c.net'}","{'theguardian', 'cnn', 'forbes'}"
+"('wfivefivec', '8fd9v3ZV1JuGXe5')",2,17,"{'pm.w55c.net', 'cti.w55c.net', '.w55c.net'}","{'myfitnesspal', 'webmd', 'medscape'}"
+"('zuid', 'D1APjZS59dN8p9SKt3WB')",1,18,"{'.zemanta.com', 'b1sync.zemanta.com'}","{'theguardian', 'cnn', 'forbes'}"
+"('zuid', 'D1APjZS59dN8p9SKt3WB')",2,1,{'.zemanta.com'},{'webmd'}

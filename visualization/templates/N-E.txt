@@ -1,0 +1,30 @@
+// level 2 N-E
+        [ 'cnn', 'jhu',     0 ],
+        [ 'cnn', 'mit',     0 ],
+        [ 'cnn', 'edx',     0 ],
+        [ 'cnn', 'harvard',         0 ], 
+        [ 'cnn', 'collegeboard',   0 ],
+
+        [ 'nytimes', 'jhu',        0 ],
+        [ 'nytimes', 'mit',   0 ], 
+        [ 'nytimes', 'edx', 0 ],
+        [ 'nytimes', 'harvard',     0 ], 
+        [ 'nytimes', 'collegeboard', 0 ],
+        
+        [ 'theguardian', 'jhu',        0 ],
+        [ 'theguardian', 'mit',   0 ],
+        [ 'theguardian', 'edx', 0 ],
+        [ 'theguardian', 'harvard',     0 ], 
+        [ 'theguardian', 'collegeboard', 0 ],
+        
+        [ 'washingtonpost', 'jhu',         0 ],
+        [ 'washingtonpost', 'mit',  0 ],
+        [ 'washingtonpost', 'edx',  0 ],
+        [ 'washingtonpost', 'harvard',      0 ], 
+        [ 'washingtonpost', 'collegeboard', 0 ],
+    
+        [ 'forbes', 'jhu',  0 ],       
+        [ 'forbes', 'mit',  0 ],       
+        [ 'forbes', 'edx',  0 ],      
+        [ 'forbes', 'harvard',      0 ],      
+        [ 'forbes', 'collegeboard', 0 ]  

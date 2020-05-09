@@ -1,0 +1,30 @@
+        // level 1 E-H
+        [ 'jhu', 'webmd',            0 ],
+        [ 'jhu', 'mayoclinic',       0 ],
+        [ 'jhu', 'myfitnesspal',     0 ],
+        [ 'jhu', 'medscape',         0 ], 
+        [ 'jhu', 'verywellhealth',   0 ],
+
+        [ 'mit', 'webmd',         0 ],
+        [ 'mit', 'mayoclinic',    0 ], 
+        [ 'mit', 'myfitnesspal',  0 ],
+        [ 'mit', 'medscape',      0 ], 
+        [ 'mit', 'verywellhealth', 0 ],
+        
+        [ 'edx', 'webmd',       0 ],
+        [ 'edx', 'mayoclinic',  0 ],
+        [ 'edx', 'myfitnesspal',0 ],
+        [ 'edx', 'medscape',    0 ], 
+        [ 'edx', 'verywellhealth', 0 ],
+        
+        [ 'harvard', 'webmd',        0 ],
+        [ 'harvard', 'mayoclinic',   0 ],
+        [ 'harvard', 'myfitnesspal', 0 ],
+        [ 'harvard', 'medscape',     0 ], 
+        [ 'harvard', 'verywellhealth', 0 ],
+    
+        [ 'collegeboard', 'webmd',         0 ],       
+        [ 'collegeboard', 'mayoclinic',    0 ],       
+        [ 'collegeboard', 'myfitnesspal',  0 ],      
+        [ 'collegeboard', 'medscape',      0 ],      
+        [ 'collegeboard', 'verywellhealth',0 ],
