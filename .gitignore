@@ -2,3 +2,5 @@
 .DS_Store?
 *.sqlite
 *.zip
+*.csv
+.DS_Store
