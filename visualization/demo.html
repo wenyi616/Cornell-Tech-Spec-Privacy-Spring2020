@@ -39,7 +39,7 @@
         /* position:static; */
         background-color: #FF781F; /*#FF781F;  #557f2d;  */
     }
-    .lengend{
+    .legend{
         text-indent: 4px;
         font-size: 12px;
         padding-bottom: 10%;
@@ -64,11 +64,11 @@
     <div id="sankey_1"></div>
     <div class="container">
         <div class="brown"></div>
-        <div class="lengend">News -> </div>
+        <div class="legend">News -> </div>
         <div class="green"></div>
-        <div class="lengend"> Health -> </div>
+        <div class="legend"> Health -> </div>
         <div class="organge"></div>
-        <div class="lengend"> Education</div>
+        <div class="legend"> Education</div>
     </div>
     <!-- <div class="title">N - H - E</div> -->
     
@@ -76,11 +76,11 @@
     <div id="sankey_2"></div>
     <div class="container">
         <div class="green"></div>
-        <div class="lengend"> Health -> </div>
+        <div class="legend"> Health -> </div>
         <div class="brown"></div>
-        <div class="lengend">News -> </div>
+        <div class="legend">News -> </div>
         <div class="organge"></div>
-        <div class="lengend"> Education</div>
+        <div class="legend"> Education</div>
     </div>
     <!-- <div class="title">H - N - E</div> -->
 
@@ -89,11 +89,11 @@
     <div id="sankey_3"></div>
     <div class="container">
         <div class="organge"></div>
-        <div class="lengend"> Education -> </div>
+        <div class="legend"> Education -> </div>
         <div class="brown"></div>
-        <div class="lengend">News -> </div>
+        <div class="legend">News -> </div>
         <div class="green"></div>
-        <div class="lengend"> Health</div>
+        <div class="legend"> Health</div>
     </div>
     <!-- <div class="title">E - N - H</div> -->
 
@@ -102,11 +102,11 @@
     <div id="sankey_4"></div>
     <div class="container">
         <div class="organge"></div>
-        <div class="lengend"> Education -> </div>
+        <div class="legend"> Education -> </div>
         <div class="green"></div>
-        <div class="lengend"> Health -> </div>
+        <div class="legend"> Health -> </div>
         <div class="brown"></div>
-        <div class="lengend">News </div>
+        <div class="legend">News </div>
     </div>
     <!-- <div class="title">E - H - N</div> -->
 
@@ -115,11 +115,11 @@
     <div id="sankey_5"></div>
     <div class="container">
         <div class="brown"></div>
-        <div class="lengend">News -> </div>
+        <div class="legend">News -> </div>
         <div class="organge"></div>
-        <div class="lengend"> Education -> </div>
+        <div class="legend"> Education -> </div>
         <div class="green"></div>
-        <div class="lengend"> Health</div>
+        <div class="legend"> Health</div>
     </div>
     <!-- <p style="padding-bottom: 10%;">N - E - H</p> -->
 
@@ -128,11 +128,11 @@
     <div id="sankey_6"></div>
     <div class="container">
         <div class="green"></div>
-        <div class="lengend"> Health -> </div>
+        <div class="legend"> Health -> </div>
         <div class="organge"></div>
-        <div class="lengend"> Education -> </div>
+        <div class="legend"> Education -> </div>
         <div class="brown"></div>
-        <div class="lengend">News</div>
+        <div class="legend">News</div>
     </div>
     <!-- <p style="padding-bottom: 10%;">H - E - N</p> -->
 </div>
@@ -300,6 +300,7 @@
         [ 'verywellhealth', 'forbes', 11 ],
 
         // level 2 N-E
+        [ '', ' ',         0 ],
         [ 'cnn', 'jhu', 0 ],  
         [ 'cnn', 'mit', 0 ],
         [ 'cnn', 'edx', 0 ],
@@ -338,6 +339,8 @@
         var colors = [
         '#557f2d', '#7f6d5f', '#7f6d5f', '#7f6d5f', '#7f6d5f', '#7f6d5f',
         '#557f2d', '#557f2d', '#557f2d', '#557f2d',
+        '#557f2d','#557f2d',
+        // add two node colors for blank ones
         '#FF781F','#FF781F','#FF781F','#FF781F','#FF781F']
         
 
@@ -382,6 +385,7 @@
         data.addRows([
 
         // level 1 E-N
+        [ '', ' ',         0 ],
         [ 'jhu', 'cnn',         0 ],
         [ 'jhu', 'nytimes',     0 ],
         [ 'jhu', 'theguardian', 0 ],
@@ -415,8 +419,15 @@
         // level 2 N-H
         [ 'cnn', 'webmd',            26 ],
         [ 'cnn', 'mayoclinic',       0 ],
+        [ 'cnn', '   ',   0 ],
+
         [ 'cnn', 'myfitnesspal',     0 ],
+        [ 'cnn', '    ',   0 ],
+
         [ 'cnn', 'medscape',         0 ], 
+
+        [ 'cnn', '     ',   0 ],
+
         [ 'cnn', 'verywellhealth',   0 ],
 
         [ 'nytimes', 'webmd',        17 ],
@@ -450,12 +461,15 @@
         [ 'collegeboard', 'webmd', 4 ]       
 
 
-
         ]);
 
         var colors = [
+        '#557f2d','#557f2d',
+        // add two node colors for blank ones
         '#FF781F','#7f6d5f', '#7f6d5f', '#7f6d5f', '#7f6d5f', '#7f6d5f',
         '#FF781F','#FF781F','#FF781F','#FF781F',
+        '#557f2d','#557f2d', '#557f2d',
+        // add three more colors
         '#557f2d', '#557f2d', '#557f2d', '#557f2d','#557f2d']
 
         // Set chart options
@@ -499,12 +513,14 @@
         data.addRows([
 
         // level 1 E-H
+        [ '', ' ',         0 ],
         [ 'jhu', 'webmd',            1 ],
         [ 'jhu', 'mayoclinic',       0 ],
         [ 'jhu', 'myfitnesspal',     0 ],
         [ 'jhu', 'medscape',         0 ], 
         [ 'jhu', 'verywellhealth',   0 ],
 
+        [ '  ', ' ',         0 ],
         [ 'mit', 'webmd',         0 ],
         [ 'mit', 'mayoclinic',    0 ], 
         [ 'mit', 'myfitnesspal',  0 ],
@@ -567,7 +583,10 @@
         ]);
 
         var colors = [
+        // add two empyty nodes
+        '#FF781F', '#FF781F',
         '#FF781F','#557f2d', '#557f2d', '#557f2d', '#557f2d','#557f2d',
+        '#FF781F',
         '#FF781F','#FF781F','#FF781F','#FF781F',
         '#7f6d5f', '#7f6d5f', '#7f6d5f', '#7f6d5f','#7f6d5f']
 
