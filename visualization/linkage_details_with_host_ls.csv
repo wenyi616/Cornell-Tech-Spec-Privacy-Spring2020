@@ -1,0 +1,232 @@
+exp,from,to,by
+1,cnn,mayoclinic,{'rubiconproject'}
+1,cnn,medscape,{'rubiconproject'}
+1,cnn,myfitnesspal,{'rubiconproject'}
+1,cnn,verywellhealth,{'rubiconproject'}
+1,cnn,webmd,{'rubiconproject'}
+1,forbes,mayoclinic,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch', 'rubiconproject'}"
+1,forbes,medscape,"{'deepintent', 'rubiconproject'}"
+1,forbes,myfitnesspal,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'bing', 'scorecardresearch', 'adform', 'yahoo', 'contextweb', 'myvisualiq', 'adnxs', 'casalemedia', 'rubiconproject', 'bluekai', 'bidr', 'taboola', 'amazon-adsystem'}"
+1,forbes,verywellhealth,{'rubiconproject'}
+1,forbes,webmd,"{'dnacdn', 'turn.com', 'zemanta', 'yahoo', 'media.net', 'bidswitch', 'exelator', 'adsrvr', 'pubmatic', 'twitter', 'agkn', 'amazon-adsystem', 'extend.tv', 'ib-ibi', 'atdmt', 'bttrack', 'krxd', 'owneriq', 'districtm', 'adform', 'adnxs', 'rlcdn', 'everesttech', 'adsymptotic', 'spotxchange', 'quantserve', 'openx', 'simpli', 'scorecardresearch', '3lift', 'mookie1', 'bidr', 'sitescout', 'adentifi', 'srv', 'doubleclick', 'sharethrough', 'mxptint', 'mathtag', 'advertising', 'tapad', 'w55c', 'crwdcntrl', 'demdex', 'facebook', 'contextweb', 'casalemedia', 'rubiconproject', 'bluekai', 'taboola', '1rx', 'ipredictive'}"
+1,medscape,colledgeboard,"{'doubleclick', 'demdex', 'facebook', 'yahoo', 'nr-data', 'everesttech'}"
+1,medscape,edx,"{'adsymptotic', 'doubleclick', 'nr-data', 'facebook'}"
+1,medscape,harvard,"{'doubleclick', 'nr-data', 'facebook'}"
+1,medscape,jhu,"{'doubleclick', 'facebook'}"
+1,medscape,mit,{'doubleclick'}
+1,myfitnesspal,colledgeboard,"{'yahoo', 'doubleclick', 'everesttech'}"
+1,myfitnesspal,edx,{'doubleclick'}
+1,myfitnesspal,harvard,{'doubleclick'}
+1,myfitnesspal,jhu,{'doubleclick'}
+1,myfitnesspal,mit,{'doubleclick'}
+1,nytimes,mayoclinic,{'rubiconproject'}
+1,nytimes,medscape,"{'deepintent', 'rubiconproject'}"
+1,nytimes,myfitnesspal,{'rubiconproject'}
+1,nytimes,verywellhealth,{'rubiconproject'}
+1,nytimes,webmd,{'rubiconproject'}
+1,theguardian,medscape,{'deepintent'}
+1,verywellhealth,colledgeboard,"{'doubleclick', 'nr-data'}"
+1,verywellhealth,edx,"{'doubleclick', 'nr-data'}"
+1,verywellhealth,harvard,"{'doubleclick', 'nr-data'}"
+1,verywellhealth,jhu,{'doubleclick'}
+1,verywellhealth,mit,{'doubleclick'}
+1,washingtonpost,mayoclinic,"{'doubleclick', 'scorecardresearch', 'nr-data', 'rubiconproject'}"
+1,washingtonpost,medscape,{'rubiconproject'}
+1,washingtonpost,myfitnesspal,"{'doubleclick', 'sharethrough', 'openx', 'scorecardresearch', 'adnxs', 'casalemedia', 'rubiconproject', 'amazon-adsystem'}"
+1,washingtonpost,verywellhealth,{'rubiconproject'}
+1,washingtonpost,webmd,"{'doubleclick', 'sharethrough', 'openx', 'krxd', 'districtm', 'scorecardresearch', 'yahoo', 'sitescout', 'adnxs', 'bidswitch', 'casalemedia', 'rubiconproject', 'rkdms', 'adsrvr', 'everesttech', 'srv', 'amazon-adsystem'}"
+2,cnn,colledgeboard,{'everesttech'}
+2,forbes,colledgeboard,"{'doubleclick', 'advertising', 'demdex', 'facebook', 'yahoo', 'everesttech'}"
+2,forbes,edx,"{'adsymptotic', 'doubleclick', 'facebook', 'linkedin'}"
+2,forbes,harvard,"{'doubleclick', 'facebook'}"
+2,forbes,jhu,"{'doubleclick', 'facebook'}"
+2,forbes,mit,{'doubleclick'}
+2,mayoclinic,cnn,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch', 'rubiconproject'}"
+2,mayoclinic,forbes,"{'doubleclick', 'mathtag', 'scorecardresearch', 'rubiconproject'}"
+2,mayoclinic,nytimes,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch'}"
+2,mayoclinic,theguardian,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch'}"
+2,mayoclinic,washingtonpost,"{'doubleclick', 'nr-data', 'rubiconproject'}"
+2,medscape,cnn,"{'doubleclick', 'sharethrough', 'openx', 'demdex', 'facebook', 'creativecdn', 'adnxs', 'bidswitch', 'bttrack'}"
+2,medscape,forbes,"{'doubleclick', 'sharethrough', 'turn.com', 'openx', 'w55c', 'facebook', 'media.net', 'adnxs', 'bidswitch', 'rfihub'}"
+2,medscape,nytimes,"{'doubleclick', 'media.net', 'openx'}"
+2,medscape,theguardian,"{'turn.com', 'sharethrough', 'doubleclick', 'deepintent', 'w55c', 'demdex', 'facebook', 'creativecdn', 'contextweb', 'media.net', 'adnxs', 'bidswitch', 'acuityplatform', 'bttrack', 'rfihub'}"
+2,medscape,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'adnxs', 'nr-data'}"
+2,myfitnesspal,cnn,"{'spotxchange', 'quantserve', 'sharethrough', 'doubleclick', 'openx', 'zemanta', 'bing', 'scorecardresearch', 'facebook', 'adnxs', 'bidswitch', 'casalemedia', 'rubiconproject', 'bluekai', 'exelator', 'pubmatic', 'amazon-adsystem'}"
+2,myfitnesspal,forbes,"{'zemanta', 'myvisualiq', 'yahoo', 'bidswitch', 'exelator', 'rfihub', 'pubmatic', 'amazon-adsystem', 'owneriq', 'adform', 'adnxs', 'dotomi', 'quantserve', 'openx', 'iasds01', 'scorecardresearch', 'bidr', 'sitescout', 'doubleclick', 'sharethrough', 'advertising', 'tapad', 'w55c', 'facebook', 'casalemedia', 'rubiconproject', 'bluekai', 'taboola', '1rx'}"
+2,myfitnesspal,nytimes,"{'doubleclick', 'openx', 'bing', 'smartadserver', 'adform', 'scorecardresearch', 'bluekai', 'amazon-adsystem'}"
+2,myfitnesspal,theguardian,"{'zemanta', 'yahoo', 'bidswitch', 'pubmatic', 'rfihub', 'amazon-adsystem', 'owneriq', 'bing', 'adform', 'adnxs', 'dotomi', 'quantserve', 'appier', 'scorecardresearch', 'tribalfusion', 'bidr', 'sitescout', 'advangelists', 'doubleclick', 'sharethrough', 'advertising', 'tapad', 'w55c', 'facebook', 'contextweb', 'bluekai', 'casalemedia', 'taboola', '1rx'}"
+2,myfitnesspal,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'yahoo', 'adnxs', 'casalemedia', 'rubiconproject', 'amazon-adsystem'}"
+2,nytimes,colledgeboard,{'everesttech'}
+2,theguardian,colledgeboard,{'everesttech'}
+2,verywellhealth,cnn,"{'dnacdn', 'doubleclick', 'scorecardresearch', 'rlcdn', 'casalemedia', 'rubiconproject', 'rkdms', 'bidswitch', 'adsrvr', 'srv', 'amazon-adsystem'}"
+2,verywellhealth,forbes,"{'doubleclick', 'advertising', 'scorecardresearch', 'yahoo', 'bidswitch', 'bidr', 'rubiconproject', 'casalemedia', 'adsrvr', 'srv', 'amazon-adsystem'}"
+2,verywellhealth,nytimes,"{'amazon-adsystem', 'doubleclick', 'crwdcntrl', 'scorecardresearch'}"
+2,verywellhealth,theguardian,"{'doubleclick', 'advertising', 'crwdcntrl', 'scorecardresearch', 'yahoo', 'bidswitch', 'casalemedia', 'bidr', 'adsrvr', 'srv', 'amazon-adsystem'}"
+2,verywellhealth,washingtonpost,"{'doubleclick', 'advertising', 'yahoo', 'casalemedia', 'rubiconproject', 'rkdms', 'adsrvr', 'srv', 'amazon-adsystem'}"
+2,webmd,cnn,"{'zemanta', 'bidswitch', 'twitter', 'adsrvr', 'pubmatic', 'exelator', 'amazon-adsystem', 'agkn', 'krxd', 'adnxs', 'rlcdn', 'everesttech', 'spotxchange', 'quantserve', 'openx', 'scorecardresearch', 'mfadsrvr', 'rkdms', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'demdex', 'facebook', 'casalemedia', 'rubiconproject', 'bluekai'}"
+2,webmd,forbes,"{'addthis', 'turn.com', 'zemanta', 'yahoo', 'media.net', 'bidswitch', 'twitter', 'adsrvr', 'pubmatic', 'exelator', 'agkn', 'amazon-adsystem', 'ib-ibi', 'atdmt', 'krxd', 'owneriq', 'adform', 'adnxs', 'adsymptotic', 'quantserve', 'openx', 'scorecardresearch', 'bidr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'tapad', 'w55c', 'facebook', 'casalemedia', 'rubiconproject', 'bluekai', 'taboola', '1rx'}"
+2,webmd,nytimes,"{'doubleclick', 'openx', 'mathtag', 'crwdcntrl', 'smartadserver', 'adform', 'scorecardresearch', '3lift', 'media.net', 'yieldmo', 'bluekai', 'twitter', 'everesttech', 'amazon-adsystem'}"
+2,webmd,theguardian,"{'turn.com', 'zemanta', 'yahoo', 'media.net', 'bidswitch', 'pubmatic', 'adsrvr', 'amazon-adsystem', 'krxd', 'owneriq', 'adform', 'adnxs', 'everesttech', 'zorosrv', 'adsymptotic', 'quantserve', 'simpli', 'gumgum', 'mfadsrvr', 'scorecardresearch', '3lift', 'bidr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mxptint', 'mathtag', 'advertising', 'tapad', 'w55c', 'crwdcntrl', 'demdex', 'facebook', 'contextweb', 'bluekai', 'extend.tv', 'casalemedia', 'taboola', '1rx', 'ipredictive'}"
+2,webmd,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'krxd', 'yahoo', 'adnxs', 'casalemedia', 'rubiconproject', 'rkdms', 'adsrvr', 'srv', 'amazon-adsystem'}"
+3,cnn,webmd,"{'turn.com', 'zemanta', 'yahoo', 'bidswitch', 'twitter', 'adsrvr', 'exelator', 'pubmatic', 'amazon-adsystem', 'agkn', 'adform', 'adnxs', 'quantserve', 'scorecardresearch', 'mfadsrvr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'demdex', 'facebook', 'contextweb', 'bluekai', 'taboola', '1rx'}"
+3,colledgeboard,cnn,"{'demdex', 'atdmt', 'everesttech', 'bing'}"
+3,colledgeboard,forbes,"{'atdmt', 'everesttech', 'bing'}"
+3,colledgeboard,nytimes,"{'everesttech', 'bing'}"
+3,colledgeboard,theguardian,{'everesttech'}
+3,colledgeboard,washingtonpost,{'nr-data'}
+3,colledgeboard,webmd,"{'yahoo', 'doubleclick', 'demdex', 'facebook'}"
+3,edx,cnn,"{'adsymptotic', 'bing'}"
+3,edx,forbes,"{'adsymptotic', 'bing', 'linkedin'}"
+3,edx,nytimes,{'bing'}
+3,edx,theguardian,{'adsymptotic'}
+3,edx,washingtonpost,{'nr-data'}
+3,edx,webmd,{'doubleclick'}
+3,forbes,webmd,"{'dnacdn', 'turn.com', 'zemanta', 'yahoo', 'media.net', 'bidswitch', 'twitter', 'exelator', 'adsrvr', 'amazon-adsystem', 'agkn', 'ib-ibi', 'adform', 'adnxs', 'rlcdn', 'scorecardresearch', 'mfadsrvr', 'mookie1', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'demdex', 'facebook', 'contextweb', 'bluekai', 'taboola', '1rx'}"
+3,harvard,washingtonpost,{'nr-data'}
+3,harvard,webmd,{'doubleclick'}
+3,jhu,webmd,{'twitter'}
+3,nytimes,medscape,{'deepintent'}
+3,nytimes,webmd,"{'doubleclick', 'quantserve', 'sharethrough', 'mathtag', 'scorecardresearch', 'yahoo', 'mfadsrvr', 'contextweb', 'media.net', 'adform', 'adnxs', 'bluekai', 'bidswitch', 'twitter', 'adsrvr', 'srv', 'amazon-adsystem'}"
+3,theguardian,medscape,{'deepintent'}
+3,theguardian,webmd,"{'turn.com', 'zemanta', 'yahoo', 'media.net', 'bidswitch', 'exelator', 'adsrvr', 'pubmatic', 'amazon-adsystem', 'adform', 'adnxs', 'scorecardresearch', 'mfadsrvr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'demdex', 'facebook', 'contextweb', 'bluekai', '1rx'}"
+3,washingtonpost,webmd,"{'doubleclick', 'sharethrough', 'advertising', 'scorecardresearch', 'yahoo', 'mfadsrvr', 'adnxs', 'bidswitch', 'rkdms', 'adsrvr', 'srv', 'amazon-adsystem'}"
+4,colledgeboard,forbes,{'atdmt'}
+4,colledgeboard,mayoclinic,"{'doubleclick', 'bing'}"
+4,colledgeboard,medscape,"{'yahoo', 'doubleclick', 'demdex', 'facebook'}"
+4,colledgeboard,myfitnesspal,"{'yahoo', 'doubleclick', 'facebook'}"
+4,colledgeboard,verywellhealth,{'doubleclick'}
+4,colledgeboard,webmd,"{'doubleclick', 'demdex', 'facebook', 'yahoo', 'everesttech'}"
+4,edx,forbes,{'linkedin'}
+4,edx,mayoclinic,"{'bing', 'doubleclick', 'nr-data'}"
+4,edx,medscape,"{'doubleclick', 'nr-data'}"
+4,edx,myfitnesspal,{'doubleclick'}
+4,edx,verywellhealth,{'doubleclick'}
+4,edx,webmd,"{'adsymptotic', 'doubleclick'}"
+4,harvard,mayoclinic,"{'doubleclick', 'nr-data'}"
+4,harvard,medscape,"{'doubleclick', 'nr-data'}"
+4,harvard,myfitnesspal,{'doubleclick'}
+4,harvard,verywellhealth,{'doubleclick'}
+4,harvard,webmd,{'doubleclick'}
+4,jhu,webmd,{'twitter'}
+4,mayoclinic,cnn,"{'doubleclick', 'sharethrough', 'mathtag', 'bing', 'scorecardresearch', 'adnxs', 'rubiconproject'}"
+4,mayoclinic,forbes,"{'doubleclick', 'sharethrough', 'mathtag', 'scorecardresearch', 'adnxs', 'pubmatic'}"
+4,mayoclinic,nytimes,"{'doubleclick', 'sharethrough', 'bing', 'scorecardresearch', 'adnxs'}"
+4,mayoclinic,theguardian,"{'doubleclick', 'sharethrough', 'mathtag', 'scorecardresearch', 'adnxs', 'rubiconproject', 'pubmatic'}"
+4,mayoclinic,washingtonpost,"{'doubleclick', 'sharethrough', 'adnxs', 'nr-data', 'rubiconproject'}"
+4,medscape,cnn,"{'doubleclick', 'sharethrough', 'turn.com', 'advertising', 'w55c', 'demdex', 'facebook', 'yahoo', 'creativecdn', 'adnxs', 'bidswitch', 'bttrack'}"
+4,medscape,forbes,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'w55c', 'demdex', 'facebook', 'yahoo', 'contextweb', 'media.net', 'adnxs', 'bidswitch', 'acuityplatform', 'rfihub'}"
+4,medscape,nytimes,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'yahoo', 'media.net', 'adnxs'}"
+4,medscape,theguardian,"{'doubleclick', 'sharethrough', 'openx', 'deepintent', 'advertising', 'w55c', 'demdex', 'facebook', 'yahoo', 'creativecdn', 'contextweb', 'media.net', 'adnxs', 'bidswitch', 'acuityplatform', 'bttrack', 'rfihub'}"
+4,medscape,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'yahoo', 'adnxs', 'nr-data'}"
+4,myfitnesspal,cnn,"{'doubleclick', 'sharethrough', 'advertising', 'w55c', 'zemanta', 'adform', 'yahoo', 'scorecardresearch', 'facebook', 'adnxs', 'bidswitch', 'casalemedia', 'rubiconproject', 'bluekai', 'adsrvr', 'srv', 'amazon-adsystem'}"
+4,myfitnesspal,forbes,"{'zemanta', 'yahoo', 'bidswitch', 'rfihub', 'adsrvr', 'amazon-adsystem', 'adform', 'adnxs', 'dotomi', 'openx', 'scorecardresearch', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'advertising', 'tapad', 'w55c', 'facebook', 'contextweb', 'casalemedia', 'bluekai', 'taboola'}"
+4,myfitnesspal,nytimes,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'scorecardresearch', 'yahoo', 'adnxs', 'bluekai', 'amazon-adsystem'}"
+4,myfitnesspal,theguardian,"{'yahoo', 'bidswitch', 'rfihub', 'adsrvr', 'amazon-adsystem', 'adform', 'adnxs', 'dotomi', 'openx', 'scorecardresearch', 'tribalfusion', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'advertising', 'tapad', 'w55c', 'facebook', 'contextweb', 'casalemedia', 'rubiconproject', 'bluekai', 'taboola'}"
+4,myfitnesspal,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'yahoo', 'adnxs', 'casalemedia', 'rubiconproject', 'adsrvr', 'srv', 'amazon-adsystem'}"
+4,verywellhealth,cnn,"{'dnacdn', 'doubleclick', 'scorecardresearch', 'rlcdn', 'casalemedia', 'rubiconproject', 'rkdms', 'bidswitch', 'adsrvr', 'srv', 'amazon-adsystem'}"
+4,verywellhealth,forbes,"{'doubleclick', 'scorecardresearch', 'bidswitch', 'casalemedia', 'adsrvr', 'srv', 'amazon-adsystem'}"
+4,verywellhealth,nytimes,"{'doubleclick', 'amazon-adsystem', 'scorecardresearch'}"
+4,verywellhealth,theguardian,"{'doubleclick', 'crwdcntrl', 'scorecardresearch', 'bidswitch', 'casalemedia', 'rubiconproject', 'adsrvr', 'srv', 'amazon-adsystem'}"
+4,verywellhealth,washingtonpost,"{'doubleclick', 'casalemedia', 'rubiconproject', 'rkdms', 'adsrvr', 'srv', 'amazon-adsystem'}"
+4,webmd,cnn,"{'turn.com', 'zemanta', 'yahoo', 'creativecdn', 'bidswitch', 'twitter', 'adsrvr', 'exelator', 'amazon-adsystem', 'agkn', 'krxd', 'owneriq', 'adform', 'adnxs', 'rlcdn', 'everesttech', 'quantserve', 'simpli', 'scorecardresearch', 'mfadsrvr', 'rkdms', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'w55c', 'demdex', 'facebook', 'casalemedia', 'rubiconproject', 'bluekai'}"
+4,webmd,forbes,"{'addthis', 'zemanta', 'myvisualiq', 'yahoo', 'media.net', 'bidswitch', 'exelator', 'adsrvr', 'rfihub', 'pubmatic', 'agkn', 'amazon-adsystem', 'ib-ibi', 'krxd', 'adform', 'adnxs', 'adsymptotic', 'quantserve', 'openx', 'gumgum', 'scorecardresearch', '3lift', 'bidr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'tapad', 'w55c', 'demdex', 'facebook', 'contextweb', 'casalemedia', 'bluekai', 'taboola', '1rx'}"
+4,webmd,nytimes,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'scorecardresearch', 'yahoo', 'media.net', 'adnxs', 'bluekai', 'twitter', 'everesttech', 'amazon-adsystem'}"
+4,webmd,theguardian,"{'yahoo', 'creativecdn', 'media.net', 'bidswitch', 'exelator', 'pubmatic', 'adsrvr', 'rfihub', 'extend.tv', 'amazon-adsystem', 'krxd', 'owneriq', 'adform', 'adnxs', 'everesttech', 'zorosrv', 'adsymptotic', 'quantserve', 'gumgum', 'scorecardresearch', '3lift', 'bidr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mxptint', 'mathtag', 'advertising', 'tapad', 'w55c', 'demdex', 'facebook', 'contextweb', 'yieldmo', 'bluekai', 'rubiconproject', 'casalemedia', 'taboola', '1rx', 'ipredictive'}"
+4,webmd,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'krxd', 'yahoo', 'adnxs', 'casalemedia', 'rubiconproject', 'rkdms', 'adsrvr', 'srv', 'amazon-adsystem'}"
+5,cnn,myfitnesspal,{'rubiconproject'}
+5,cnn,verywellhealth,{'rubiconproject'}
+5,colledgeboard,mayoclinic,"{'bing', 'doubleclick', 'nr-data'}"
+5,colledgeboard,medscape,"{'doubleclick', 'nr-data', 'demdex', 'facebook'}"
+5,colledgeboard,myfitnesspal,"{'doubleclick', 'advertising', 'demdex', 'facebook', 'yahoo'}"
+5,colledgeboard,verywellhealth,{'doubleclick'}
+5,colledgeboard,webmd,"{'doubleclick', 'atdmt', 'advertising', 'demdex', 'facebook', 'yahoo', 'everesttech'}"
+5,edx,mayoclinic,"{'bing', 'doubleclick', 'nr-data'}"
+5,edx,medscape,"{'doubleclick', 'nr-data'}"
+5,edx,myfitnesspal,{'doubleclick'}
+5,edx,verywellhealth,{'doubleclick'}
+5,edx,webmd,"{'adsymptotic', 'doubleclick'}"
+5,forbes,colledgeboard,{'facebook'}
+5,forbes,edx,"{'facebook', 'linkedin'}"
+5,forbes,harvard,{'facebook'}
+5,forbes,jhu,{'facebook'}
+5,forbes,mayoclinic,"{'doubleclick', 'sharethrough', 'mathtag', 'bing', 'scorecardresearch', 'adnxs', 'rubiconproject', 'pubmatic'}"
+5,forbes,medscape,"{'doubleclick', 'turn.com', 'sharethrough', 'openx', 'demdex', 'media.net', 'adnxs'}"
+5,forbes,myfitnesspal,"{'turn.com', 'smartadserver', 'yahoo', 'bidswitch', 'adsrvr', 'amazon-adsystem', 'owneriq', 'adnxs', 'openx', 'scorecardresearch', 'mfadsrvr', 'bidr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'advertising', 'demdex', 'contextweb', 'casalemedia', 'rubiconproject', 'bttrack', 'taboola'}"
+5,forbes,verywellhealth,"{'doubleclick', 'crwdcntrl', 'scorecardresearch', 'mfadsrvr', 'bidswitch', 'casalemedia', 'rubiconproject', 'adsrvr', 'srv', 'amazon-adsystem'}"
+5,forbes,webmd,"{'dnacdn', 'turn.com', 'zemanta', 'yahoo', 'media.net', 'bidswitch', 'exelator', 'adsrvr', 'pubmatic', 'rfihub', 'agkn', 'amazon-adsystem', 'twitter', 'ib-ibi', 'atdmt', 'krxd', 'districtm', 'adnxs', 'rlcdn', 'everesttech', 'adsymptotic', 'spotxchange', 'quantserve', 'openx', 'simpli', 'scorecardresearch', 'mfadsrvr', '3lift', 'mookie1', 'bidr', 'sitescout', 'adentifi', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'tapad', 'w55c', 'crwdcntrl', 'demdex', 'contextweb', 'yieldmo', 'bluekai', 'rubiconproject', 'casalemedia', 'taboola', '1rx', 'ipredictive'}"
+5,harvard,mayoclinic,"{'doubleclick', 'nr-data'}"
+5,harvard,medscape,"{'doubleclick', 'nr-data'}"
+5,harvard,myfitnesspal,{'doubleclick'}
+5,harvard,verywellhealth,{'doubleclick'}
+5,harvard,webmd,{'doubleclick'}
+5,jhu,mayoclinic,{'doubleclick'}
+5,jhu,medscape,{'doubleclick'}
+5,jhu,myfitnesspal,{'doubleclick'}
+5,jhu,verywellhealth,{'doubleclick'}
+5,jhu,webmd,"{'doubleclick', 'twitter'}"
+5,mit,mayoclinic,{'doubleclick'}
+5,mit,medscape,{'doubleclick'}
+5,mit,myfitnesspal,{'doubleclick'}
+5,mit,verywellhealth,{'doubleclick'}
+5,mit,webmd,{'doubleclick'}
+5,nytimes,myfitnesspal,{'rubiconproject'}
+5,nytimes,verywellhealth,{'rubiconproject'}
+5,theguardian,myfitnesspal,{'rubiconproject'}
+5,theguardian,verywellhealth,{'rubiconproject'}
+5,washingtonpost,myfitnesspal,{'rubiconproject'}
+5,washingtonpost,verywellhealth,{'rubiconproject'}
+6,colledgeboard,cnn,"{'everesttech', 'demdex'}"
+6,colledgeboard,forbes,{'everesttech'}
+6,colledgeboard,nytimes,{'everesttech'}
+6,colledgeboard,theguardian,{'everesttech'}
+6,edx,forbes,{'linkedin'}
+6,mayoclinic,cnn,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch', 'nr-data', 'rubiconproject'}"
+6,mayoclinic,colledgeboard,"{'doubleclick', 'nr-data', 'bing'}"
+6,mayoclinic,edx,"{'doubleclick', 'nr-data', 'bing'}"
+6,mayoclinic,forbes,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch'}"
+6,mayoclinic,harvard,"{'doubleclick', 'nr-data'}"
+6,mayoclinic,jhu,{'doubleclick'}
+6,mayoclinic,mit,{'doubleclick'}
+6,mayoclinic,nytimes,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch'}"
+6,mayoclinic,theguardian,"{'doubleclick', 'mathtag', 'bing', 'scorecardresearch'}"
+6,mayoclinic,washingtonpost,"{'scorecardresearch', 'doubleclick', 'nr-data', 'rubiconproject'}"
+6,medscape,cnn,"{'doubleclick', 'sharethrough', 'turn.com', 'openx', 'advertising', 'w55c', 'demdex', 'facebook', 'yahoo', 'creativecdn', 'contextweb', 'adnxs', 'bidswitch', 'nr-data', 'bttrack'}"
+6,medscape,colledgeboard,"{'doubleclick', 'advertising', 'demdex', 'facebook', 'yahoo', 'nr-data'}"
+6,medscape,edx,"{'doubleclick', 'nr-data', 'facebook'}"
+6,medscape,forbes,"{'doubleclick', 'sharethrough', 'turn.com', 'openx', 'advertising', 'deepintent', 'w55c', 'demdex', 'facebook', 'yahoo', 'media.net', 'adnxs', 'rfihub'}"
+6,medscape,harvard,"{'doubleclick', 'nr-data', 'facebook'}"
+6,medscape,jhu,"{'doubleclick', 'facebook'}"
+6,medscape,mit,{'doubleclick'}
+6,medscape,nytimes,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'yahoo', 'media.net', 'adnxs', 'rfihub'}"
+6,medscape,theguardian,"{'turn.com', 'sharethrough', 'doubleclick', 'openx', 'deepintent', 'advertising', 'w55c', 'demdex', 'facebook', 'yahoo', 'creativecdn', 'contextweb', 'media.net', 'adnxs', 'bidswitch', 'acuityplatform', 'bttrack', 'rfihub'}"
+6,medscape,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'districtm', 'yahoo', 'adnxs', 'nr-data'}"
+6,myfitnesspal,cnn,"{'yahoo', 'bidswitch', 'adsrvr', 'amazon-adsystem', 'owneriq', 'bing', 'adform', 'adnxs', 'appier', 'openx', 'scorecardresearch', 'srv', 'doubleclick', 'sharethrough', 'advertising', 'tapad', 'w55c', 'demdex', 'facebook', 'contextweb', 'casalemedia', 'rubiconproject', 'bluekai', 'taboola'}"
+6,myfitnesspal,colledgeboard,"{'doubleclick', 'advertising', 'bing', 'demdex', 'yahoo', 'facebook'}"
+6,myfitnesspal,edx,"{'doubleclick', 'bing', 'facebook'}"
+6,myfitnesspal,forbes,"{'yahoo', 'adsrvr', 'amazon-adsystem', 'bing', 'adform', 'adnxs', 'dotomi', 'openx', 'scorecardresearch', 'mookie1', 'bidr', 'srv', 'doubleclick', 'sharethrough', 'advertising', 'tapad', 'w55c', 'demdex', 'facebook', 'bluekai', 'taboola'}"
+6,myfitnesspal,harvard,"{'doubleclick', 'facebook'}"
+6,myfitnesspal,jhu,"{'doubleclick', 'facebook'}"
+6,myfitnesspal,mit,{'doubleclick'}
+6,myfitnesspal,nytimes,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'owneriq', 'bing', 'adform', 'scorecardresearch', 'yahoo', 'adnxs', 'casalemedia', 'bluekai', 'amazon-adsystem'}"
+6,myfitnesspal,theguardian,"{'yahoo', 'bidswitch', 'adsrvr', 'amazon-adsystem', 'owneriq', 'bing', 'adform', 'adnxs', 'dotomi', 'openx', 'scorecardresearch', 'bidr', 'srv', 'doubleclick', 'sharethrough', 'advertising', 'tapad', 'w55c', 'demdex', 'facebook', 'contextweb', 'bluekai', 'casalemedia'}"
+6,myfitnesspal,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'adform', 'yahoo', 'scorecardresearch', 'adnxs', 'casalemedia', 'rubiconproject', 'adsrvr', 'srv', 'amazon-adsystem'}"
+6,verywellhealth,cnn,"{'dnacdn', 'turn.com', 'yahoo', 'bidswitch', 'nr-data', 'adsrvr', 'pubmatic', 'amazon-adsystem', 'adform', 'adnxs', 'rlcdn', 'everesttech', 'iasds01', 'scorecardresearch', 'gumgum', 'tribalfusion', 'rkdms', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'casalemedia', 'rubiconproject'}"
+6,verywellhealth,colledgeboard,"{'doubleclick', 'advertising', 'yahoo', 'nr-data', 'everesttech'}"
+6,verywellhealth,edx,"{'doubleclick', 'nr-data'}"
+6,verywellhealth,forbes,"{'turn.com', 'sharethrough', 'doubleclick', 'quantserve', 'advertising', 'mathtag', 'crwdcntrl', 'iasds01', 'adform', 'yahoo', 'scorecardresearch', 'amazon-adsystem', 'adnxs', 'bluekai', 'adsrvr', 'everesttech', 'srv', 'dotomi'}"
+6,verywellhealth,harvard,"{'doubleclick', 'nr-data'}"
+6,verywellhealth,jhu,{'doubleclick'}
+6,verywellhealth,mit,{'doubleclick'}
+6,verywellhealth,nytimes,"{'mxptint', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'iasds01', 'adform', 'scorecardresearch', 'yahoo', 'adnxs', 'casalemedia', 'everesttech', 'amazon-adsystem'}"
+6,verywellhealth,theguardian,"{'turn.com', 'yahoo', 'bidswitch', 'pubmatic', 'adsrvr', 'amazon-adsystem', 'adform', 'adnxs', 'everesttech', 'dotomi', 'quantserve', 'gumgum', 'scorecardresearch', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'crwdcntrl', 'casalemedia', 'bluekai'}"
+6,verywellhealth,washingtonpost,"{'doubleclick', 'sharethrough', 'advertising', 'adform', 'yahoo', 'scorecardresearch', 'rkdms', 'adnxs', 'nr-data', 'rubiconproject', 'casalemedia', 'adsrvr', 'srv', 'amazon-adsystem'}"
+6,webmd,cnn,"{'addthis', 'turn.com', 'zemanta', 'yahoo', 'creativecdn', 'bidswitch', 'twitter', 'pubmatic', 'adsrvr', 'exelator', 'amazon-adsystem', 'agkn', 'krxd', 'owneriq', 'adform', 'adnxs', 'rlcdn', 'zorosrv', 'everesttech', 'adsymptotic', 'spotxchange', 'openx', 'simpli', 'scorecardresearch', 'mfadsrvr', 'gumgum', 'rkdms', 'sitescout', 'advangelists', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'tapad', 'w55c', 'demdex', 'facebook', 'contextweb', 'casalemedia', 'rubiconproject', 'bluekai', 'taboola'}"
+6,webmd,colledgeboard,"{'doubleclick', 'advertising', 'demdex', 'facebook', 'yahoo', 'everesttech'}"
+6,webmd,edx,"{'adsymptotic', 'doubleclick', 'facebook'}"
+6,webmd,forbes,"{'addthis', 'turn.com', 'zemanta', 'myvisualiq', 'yahoo', 'media.net', 'twitter', 'adsrvr', 'rfihub', 'exelator', 'agkn', 'amazon-adsystem', 'ib-ibi', 'atdmt', 'krxd', 'adform', 'adnxs', 'everesttech', 'adsymptotic', 'quantserve', 'openx', 'scorecardresearch', '3lift', 'mookie1', 'bidr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'tapad', 'w55c', 'crwdcntrl', 'demdex', 'facebook', 'bluekai', 'extend.tv', 'taboola', '1rx', 'ipredictive'}"
+6,webmd,harvard,"{'doubleclick', 'facebook'}"
+6,webmd,jhu,"{'doubleclick', 'twitter', 'facebook'}"
+6,webmd,mit,{'doubleclick'}
+6,webmd,nytimes,"{'yahoo', 'media.net', 'twitter', 'rfihub', 'amazon-adsystem', 'agkn', 'owneriq', 'adform', 'adnxs', 'everesttech', 'openx', 'scorecardresearch', '3lift', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'casalemedia', 'extend.tv', 'bluekai', '1rx'}"
+6,webmd,theguardian,"{'turn.com', 'zemanta', 'yahoo', 'creativecdn', 'media.net', 'bidswitch', 'adsrvr', 'pubmatic', 'rfihub', 'amazon-adsystem', 'krxd', 'owneriq', 'adform', 'adnxs', 'everesttech', 'adsymptotic', 'quantserve', 'openx', 'gumgum', 'mfadsrvr', 'scorecardresearch', '3lift', 'bidr', 'sitescout', 'srv', 'doubleclick', 'sharethrough', 'mathtag', 'advertising', 'tapad', 'w55c', 'crwdcntrl', 'demdex', 'facebook', 'contextweb', 'bluekai', 'extend.tv', 'casalemedia', '1rx', 'ipredictive'}"
+6,webmd,washingtonpost,"{'doubleclick', 'sharethrough', 'openx', 'advertising', 'krxd', 'districtm', 'adform', 'yahoo', 'scorecardresearch', 'adnxs', 'casalemedia', 'rubiconproject', 'rkdms', 'adsrvr', 'srv', 'amazon-adsystem'}"
