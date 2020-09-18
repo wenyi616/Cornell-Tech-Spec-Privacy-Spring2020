@@ -10,7 +10,7 @@ import sys
 import os
 import ast
 
-exp_num = sys.argv[1]
+exp_num = int(sys.argv[1])
 # exp_num = 2
 unique_huge = pd.read_csv("./hugecookies/hugecookies-{}.csv".format(exp_num))
 
@@ -62,14 +62,15 @@ for key, value in Counter.items():
 indtd = highlight[highlight['namevalue'].isin(ltd)].index
 highlight.drop(indtd, inplace=True)
 
-# highlight.to_csv("./visualization/sankey-helper-{}.csv".format(exp_num), index=False)
+highlight.to_csv("./visualization/sankey-helper-{}.csv".format(exp_num), index=False)
+print("Save to sankey-helper-{}.csv".format(exp_num))
 
 keywords = "deepintent;yahoo;advertising;ib-ibi;mookie1;atdmt;casalemedia;exelator;bttrack;doubleclick;contextweb;nr-data;pubmatic;bing;adsrvr;tapad;adsymptotic;scorecardresearch;crwdcntrl;districtm;krxd;1rx;agkn;amazon-adsystem;adentifi;adnxs;spotxchange;rubiconproject;bidr;bluekai;dnacdn;bidswitch;myvisualiq;ipredictive;quantserve;media.net;demdex;everesttech;extend.tv;facebook;openx;mathtag;mxptint;twitter;rlcdn;rkdms;owneriq;sitescout;sharethrough;simpli;taboola;3lift;myvisualiq;turn.com;adform;w55c;deepintent;yahoo;advertising;ib-ibi;mookie1;atdmt;casalemedia;exelator;bttrack;doubleclick;contextweb;nr-data;pubmatic;bing;adsrvr;tapad;adsymptotic;scorecardresearch;crwdcntrl;districtm;krxd;1rx;agkn;amazon-adsystem;adentifi;adnxs;spotxchange;rubiconproject;bidr;bluekai;dnacdn;bidswitch;myvisualiq;ipredictive;quantserve;media.net;demdex;everesttech;extend.tv;facebook;openx;mathtag;mxptint;twitter;rlcdn;rkdms;owneriq;sitescout;sharethrough;simpli;taboola;3lift;myvisualiq;turn.com;adform;w55c;zemanta"
 keywords = keywords.split(";")
-nv_ls = hightlight.namevalue.tolist()
-origin_hosts = hightlight.byhost.tolist()
-origin_web = hightlight.byvname.tolist()
-contexts_ls = hightlight.context_id.tolist()
+nv_ls = highlight.namevalue.tolist()
+origin_hosts = highlight.byhost.tolist()
+origin_web = highlight.byvname.tolist()
+contexts_ls = highlight.context_id.tolist()
 
 dict_ls = collections.defaultdict(set)
 
@@ -89,4 +90,15 @@ for i in range(1, len(nv_ls)):
                 for out_web in out_webs:
                     dict_ls[in_web].add((out_web, domain))
 
-# dict_ls['forbes']
+count_dict = collections.defaultdict(int)
+for in_node, nodes_set in dict_ls.items():
+    for out_node, host in nodes_set:
+        count_dict[(in_node, out_node)] += 1
+
+inbounds = [inbound for inbound, _ in count_dict.keys()]
+outbounds = [outbound for _, outbound in count_dict.keys()]
+weight = list(count_dict.values())
+
+count_df = pd.DataFrame({'inbound': inbounds, 'outbound': outbounds, 'weight': weight})
+count_df.to_csv('visualization/inout_weight_{}.csv'.format(exp_num), index=False)
+print("Save weight calculation csv into inout_weight_{}.csv".format(exp_num))

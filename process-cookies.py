@@ -95,8 +95,6 @@ if __name__ == '__main__':
     # cookies (set/change httpresponce, js)
     bigcookies = []
 
-    # experiment_num = 2
-    # web_nums = 3
     for i in range(1, int(web_nums) + 1):
         cookies = pd.read_csv("./tables/{}-{}-ThirdCookies.csv".format(experiment_num, i))
         jscookiesc = extract_from_jscookies(cookies)

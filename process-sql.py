@@ -25,9 +25,14 @@ def findIdx(df, colname, keyword):
         if web.rfind(keyword) != -1:
             return i
 
+if len(sys.argv) < 2:
+    sys.exit("Invalid argument")
 
-for exp_number in range(1, int(sys.argv[1]) + 1):
-    exp_path = "./raw-data/5-1-exp"+str(exp_number)+"/crawl-data.sqlite"
+start = 1 if len(sys.argv) == 2 else int(sys.argv[1])
+end = int(sys.argv[1]) if len(sys.argv) == 2 else int(sys.argv[2])
+
+for exp_number in range(start, end + 1):
+    exp_path = "./raw-data/exp-"+str(exp_number)+"/crawl-data.sqlite"
     
     if not os.path.exists(exp_path):
         continue
