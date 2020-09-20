@@ -3,7 +3,8 @@ This project aims at comparatively studying privacy violation in cross-context o
 privacy measurement framework](https://github.com/mozilla/OpenWPM) to collect web tracking data and wrote our own scripts to analyze the activities of web tracking.
 ## Context
 The contexts we are interested in are news, healthcare, and education.
-We index these contexts 1, 2, and 3 correspondingly. 
+We index these contexts 1, 2, and 3 correspondingly.
+The experiment data we used for analysis can be downloaded via [Google shared file](https://drive.google.com/drive/folders/1AmLu394ViSKfFFUMoHp6C4Fq65pdsK3j?usp=sharing).
 ## Step 1: Scrape data using OpenWPM scripts
 Stay on each websites for 5 seconds.
 
