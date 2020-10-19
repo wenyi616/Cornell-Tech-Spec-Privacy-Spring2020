@@ -1,0 +1,71 @@
+---
+title: "Fine"
+author: "Rain"
+date: "10/15/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r}
+library(readxl)
+buget_hr_fine_complaints <- read_excel("./buget-hr-fine-complaints.xlsx")
+View(buget_hr_fine_complaints)
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+lm <- lm(buget_hr_fine_complaints$`Budget (Euros)` ~ buget_hr_fine_complaints$`Total Fines`)
+```
+
+```{r}
+summary(lm)
+```
+```{r}
+test_res <- cor.test(buget_hr_fine_complaints$`Budget (Euros)`, buget_hr_fine_complaints$`Total Fines`)
+test_res
+```
+
+```{r}
+test_res$p.value 
+test_res$estimate
+```
+
+```{r}
+budget <- cor.test(buget_hr_fine_complaints$`Budget (Euros)`, buget_hr_fine_complaints$`Total Fines`)
+expert <- cor.test(buget_hr_fine_complaints$`# of Technical Experts`, buget_hr_fine_complaints$`Total Fines`)
+staff <- cor.test(buget_hr_fine_complaints$`HR (number)`, buget_hr_fine_complaints$`Total Fines`)
+complaints <- cor.test(buget_hr_fine_complaints$`Total Complaints`, buget_hr_fine_complaints$`Total Fines`)
+```
+```{r}
+corr <- c(budget$estimate, expert$estimate, staff$estimate, complaints$estimate)
+p_values <- c(budget$p.value , expert$p.value , staff$p.value , complaints$p.value)
+```
+
+```{r}
+expert
+```
+
+```{r}
+corr <- c(round(budget$estimate, 5), round(expert$estimate,5), round(staff$estimate,5), round(complaints$estimate, 5))
+p_values <- c(round(budget$p.value,5) , round(expert$p.value,5) , round(staff$p.value,5) , round(complaints$p.value,5))
+```
+
+
+```{r}
+x <- data.frame("Variable" = c("Budget", "Experts", "HR", "Complaints"), "Correlation" = corr, "P-value" = p_values)
+x
+```
+
+```{r}
+install.packages("stargazer")
+```
+```{r}
+write.table(x, "Correlation.txt", append = FALSE, sep = " ", dec = ".",
+            row.names = FALSE, col.names = TRUE)
+```
+
